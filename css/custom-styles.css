@@ -1,0 +1,296 @@
+/*----------------------------------------------------------------------
+>>> TABLA DE CONTENIDO
+------------------------------------------------------------------------
+
+1.0 Estilos Base
+2.0 Forms
+3.0 Header
+  3.1 Navigation
+	3.2 Links
+  3.3 Menus
+4.0 Paginas
+  4.1 Pagina de inicio
+5.0 Media Queries
+  8.1 Desktop
+  8.2 Tablet
+  8.3 Movil
+------------------------------------------------------------------------*/
+
+/*----------------------------------------------------------------------
+        1.0 ESTILOS BASE
+------------------------------------------------------------------------*/
+:root {
+  /* Tamaños font */
+  --body-size:16px;
+  --frm-title-:24px;
+
+  /* Colores */
+  --custom-primary:#007BFF;
+
+  --custom-success:#19BA19;
+  --custom-warning:#E9C442;
+  --custom-danger:#F03800;
+  --custom-info:#4189E8;
+
+  --frm-labeltext:#374659;
+  --frm-field-text:#868D96;
+  --menu-txt-no-activo:#C7C7C7;
+  --menu-txt-activo:#888E94;
+}
+
+
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #f8f8f8;
+}
+
+.full-height {
+  min-height: 100vh;
+}
+
+hr {
+  border-top:1px solid;
+  opacity: 1;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
+/*-- TEXTO --*/
+
+.fs-12 {
+  font-size: 12px;
+}
+
+.fs-16 {
+  font-size: 16px;
+}
+.fs-14{
+  font-size: 14px;
+}
+
+.font-weight-500 {
+  font-weight: 500;
+}
+
+.font-weight-600 {
+  font-weight: 600;
+}
+
+.text-primary {
+  color: green;
+}
+
+.text-white {
+  color: white;
+}
+.text-light {
+  color:#99A0A8 !important;
+}
+.text-light-gray {
+  color: #888e94;
+}
+
+.text-dark-gray {
+  color: #374659;
+}
+
+.text-center {
+  text-align: center;
+}
+
+
+
+/*-- COLORES --*/
+.bg-gray {
+  background: #f5f7fa !important;
+}
+
+.bg-darken {
+  background: rgb(0 0 0 / 20%);
+}
+
+.bg-yellow {
+  background-color: #fff9e6;
+}
+
+.bg-black-gray {
+  background-color: #374659;
+}
+
+.gray-text-color {
+  color: #e2e5e9;
+}
+
+.yellow-border {
+  border: 2px solid #f0c200;
+}
+
+.gray-border {
+  border: 2px solid #cdd6e1;
+}
+
+.light-border-right {
+  border-right: 2px solid #e2e5e9;
+}
+
+.separator {
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #e2e5e9;
+}
+.yellow-separator {
+  background-color: #e9c442;
+}
+
+.custom-bg-primary {
+  background:var(--custom-primary) !important;
+}
+
+
+/*-- UTILIDADES --*/
+.br-20 {
+  border-radius: 20px;
+}
+
+.br-10 {
+  border-radius: 10px;
+}
+
+.br-12 {
+  border-radius: 12px;
+}
+
+.bt-12 {
+  border-radius: 12px 12px 0px 0px;
+}
+
+.br-8 {
+  border-radius: 8px;
+}
+
+.border-right {
+  border-right: 1px solid #657488;
+}
+
+  /* MARGINS */
+.mt-80 {
+  margin-top: 80px;
+}
+
+.mr-24 {
+  margin-right: 24px;
+}
+.mb-32 {
+  margin-bottom: 32px;
+}
+.mb-40 {
+  margin-bottom: 40px;
+}
+
+
+  /* PADDINGS */
+.px-80 {
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.pl-80 {
+  padding-left: 80px;
+}
+
+.pr-80 {
+  padding-right: 80px;
+}
+
+/**TITULOS SECCIONES**/
+
+/*----------------------------------------------------------------------
+        2.0 FORMS
+------------------------------------------------------------------------*/
+.form-card {
+  background:#fff;
+  border: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color)!important;
+
+}
+
+.form-label {
+  color:var(--frm-labeltext);
+}
+
+.divider {
+  color:#E2E5E9;
+}
+
+
+/*----------------------------------------------------------------------
+        3.0 HEADER & NAVEGACION
+------------------------------------------------------------------------*/
+ /* MENU DE PAGINACION */
+
+
+
+
+
+/*----------------------------------------------------------------------
+        4.0 PÁGINAS
+------------------------------------------------------------------------*/
+ /* PAGINA PREAPROBACION - CALCULO */
+
+
+
+/*----------------------------------------------------------------------
+        5.0 ESTILOS CSS RESPONSIVE
+------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+/*=============================================
+ESCRITORIO (XL revisamos en 1366px en adelante)
+=============================================*/
+
+@media (min-width: 1200px) {
+}
+
+/*=============================================
+TABLET HORIZONTAL (LG revisamos en 1024px)
+=============================================*/
+
+@media (max-width: 1199px) and (min-width: 992px) {
+}
+
+/*=============================================
+TABLET VERTICAL (MD revisamos en 768px)
+=============================================*/
+
+@media (max-width: 991px) and (min-width: 768px) {
+}
+
+/*=============================================
+MÓVIL HORIZONTAL (SM revisamos en 576px)
+=============================================*/
+
+@media (max-width: 767px) and (min-width: 576px) {
+
+
+}
+/*=============================================
+MOVIL VERTICAL (revisamos en 575px)
+=============================================*/
+
+@media (max-width: 575px) {
+
+
+}
