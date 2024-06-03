@@ -8,7 +8,7 @@ function customPageHeader(){?>
 
 include_once('templates/header.php'); ?>
 
-<div class="container">
+<div class="container vh-100">
   <div class="row py-4">
     <h1>Helvetia - Servicio Técnico</h1>
   </div>

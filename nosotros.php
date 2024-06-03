@@ -1,6 +1,7 @@
 <?php
 
 $PageTitle="Helvetia - Nosotros";
+$page="nosotros";
 
 function customPageHeader(){?>
   <!--Arbitrary HTML Tags-->
@@ -8,7 +9,7 @@ function customPageHeader(){?>
 
 include_once('templates/header.php'); ?>
 
-<div class="container">
+<div class="container vh-100">
   <div class="row py-4">
     <h1>Helvetia - Nosotros</h1>
   </div>

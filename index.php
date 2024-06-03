@@ -1,6 +1,7 @@
 <?php
 
-$PageTitle="Helvetia - Homepage";
+$PageTitle="Helvetia - Principal";
+$page="principal";
 
 function customPageHeader(){?>
   <!--Arbitrary HTML Tags-->
@@ -8,7 +9,11 @@ function customPageHeader(){?>
 
 include_once('templates/header.php'); ?>
 
-<h1>Helvetia - Homepage</h1>
+<div class="container vh-100">
+  <div class="row py-4">
+    <h1>Helvetia - Principal</h>
+  </div>
+</div>
 
 <?php
 include_once('templates/footer.php');

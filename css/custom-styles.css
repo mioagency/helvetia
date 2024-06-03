@@ -19,13 +19,14 @@
 /*----------------------------------------------------------------------
         1.0 ESTILOS BASE
 ------------------------------------------------------------------------*/
+
 :root {
   /* Tamaños font */
   --body-size:16px;
   --frm-title-:24px;
 
   /* Colores */
-  --custom-primary:#007BFF;
+  --custom-primary:#3D8FA0;
 
   --custom-success:#19BA19;
   --custom-warning:#E9C442;
@@ -36,6 +37,11 @@
   --frm-field-text:#868D96;
   --menu-txt-no-activo:#C7C7C7;
   --menu-txt-activo:#888E94;
+  --bs-body-bg: #FFFFFF;
+
+  --bs-primary: #3D8FA0;
+
+  --bs-navbar-active-color: $primary;
 }
 
 
@@ -43,7 +49,6 @@
 body {
   padding: 0;
   margin: 0;
-  background-color: #f8f8f8;
 }
 
 .full-height {
@@ -62,6 +67,10 @@ a {
 
 
 /*-- TEXTO --*/
+
+.fs-10 {
+  font-size: 10px;
+}
 
 .fs-12 {
   font-size: 12px;
@@ -196,6 +205,9 @@ a {
 
 
   /* PADDINGS */
+.p-025{
+  padding: 0.25rem;
+}
 .px-80 {
   padding-left: 80px;
   padding-right: 80px;

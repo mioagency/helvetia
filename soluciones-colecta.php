@@ -1,7 +1,7 @@
 <?php
 
-$PageTitle="Helvetia - Contáctenos";
-$page = "contactenos";
+$PageTitle="Soluciones - Colecta";
+$page="colecta";
 
 function customPageHeader(){?>
   <!--Arbitrary HTML Tags-->
@@ -11,7 +11,7 @@ include_once('templates/header.php'); ?>
 
 <div class="container vh-100">
   <div class="row py-4">
-    <h1>Helvetia - Contáctenos</h1>
+    <h1>Soluciones - Colecta</h>
   </div>
 </div>
 
