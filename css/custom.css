@@ -11869,7 +11869,8 @@ textarea.form-control-lg {
 
 /* Colors */
 .mio-bg-gradient {
-  background: transparent radial-gradient(closest-side at 50% -3%, #B6FFF6 0%, rgba(182, 255, 246, 0.8509803922) 6%, rgba(182, 255, 246, 0.6549019608) 16%, rgba(182, 255, 246, 0.4784313725) 26%, rgba(182, 255, 246, 0.3294117647) 37%, rgba(182, 255, 246, 0.2117647059) 47%, rgba(182, 255, 246, 0.1176470588) 59%, rgba(182, 255, 246, 0.0509803922) 71%, rgba(182, 255, 246, 0.0117647059) 84%, rgba(182, 255, 246, 0) 100%) 0% 0% no-repeat padding-box;
+  background: rgb(182, 255, 246);
+  background: radial-gradient(ellipse at 50% 100%, rgba(182, 255, 246, 0.7) 0%, rgb(255, 255, 255) 47%);
 }
 
 /*# sourceMappingURL=custom.css.map */

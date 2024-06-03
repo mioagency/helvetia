@@ -1,4 +1,4 @@
-<footer id="footer" class="container">
+<footer id="footer" class="container pt-5">
   <div class="row">
     <div class="col-12 col-md-4 col-sm-12 col-xs-12 pe-5 mb-3">
       <img src="<?php $SERVER_URI ?>images/logo.png" alt="Helvetia Logo">
