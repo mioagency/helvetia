@@ -11858,8 +11858,18 @@ textarea.form-control-lg {
   background: url("../images/header-bg.png") no-repeat center center/cover;
 }
 
+/* Utilities */
 .p-025 {
   padding: 0.25rem;
+}
+
+.min-height-200 {
+  min-height: 200px;
+}
+
+/* Colors */
+.mio-bg-gradient {
+  background: transparent radial-gradient(closest-side at 50% -3%, #B6FFF6 0%, rgba(182, 255, 246, 0.8509803922) 6%, rgba(182, 255, 246, 0.6549019608) 16%, rgba(182, 255, 246, 0.4784313725) 26%, rgba(182, 255, 246, 0.3294117647) 37%, rgba(182, 255, 246, 0.2117647059) 47%, rgba(182, 255, 246, 0.1176470588) 59%, rgba(182, 255, 246, 0.0509803922) 71%, rgba(182, 255, 246, 0.0117647059) 84%, rgba(182, 255, 246, 0) 100%) 0% 0% no-repeat padding-box;
 }
 
 /*# sourceMappingURL=custom.css.map */

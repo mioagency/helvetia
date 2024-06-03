@@ -24,8 +24,18 @@ $h6-font-size: $font-size-base * 1.25;
 .header-bg-img{
   background: url("../images/header-bg.png") no-repeat center center / cover;
 }
+
+/* Utilities */
 .p-025 {
   padding: 0.25rem;
+}
+.min-height-200{
+  min-height: 200px;
+}
+
+/* Colors */
+.mio-bg-gradient{
+  background: transparent radial-gradient(closest-side at 50% -3%, #B6FFF6 0%, #B6FFF6D9 6%, #B6FFF6A7 16%, #B6FFF67A 26%, #B6FFF654 37%, #B6FFF636 47%, #B6FFF61E 59%, #B6FFF60D 71%, #B6FFF603 84%, #B6FFF600 100%) 0% 0% no-repeat padding-box;
 }
 
 @import "../css/custom-styles.css";
