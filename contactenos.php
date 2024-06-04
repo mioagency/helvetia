@@ -54,24 +54,24 @@ include_once ('templates/header.php'); ?>
           <li class="list-inline-item fs-10">
             <a href="#">
               <span class="fa-stack fa-2x">
-                <i class="fa-solid fa-circle fa-stack-2x"></i>
-                <i class="fa-brands fa-facebook-f fa-stack-1x fa-inverse"></i>
+                <i class="fa-solid fa-circle fa-stack-2x text-info"></i>
+                <i class="fa-brands fa-facebook-f fa-stack-1x fa-inverse alt-primary"></i>
               </span>
             </a>
           </li>
           <li class="list-inline-item fs-10">
             <a href="#">
               <span class="fa-stack fa-2x">
-                <i class="fa-solid fa-circle fa-stack-2x"></i>
-                <i class="fa-brands fa-linkedin-in fa-stack-1x fa-inverse"></i>
+                <i class="fa-solid fa-circle fa-stack-2x text-info"></i>
+                <i class="fa-brands fa-linkedin-in fa-stack-1x fa-inverse alt-primary"></i>
               </span>
             </a>
           </li>
           <li class="list-inline-item fs-10">
             <a href="#">
               <span class="fa-stack fa-2x">
-                <i class="fa-solid fa-circle fa-stack-2x"></i>
-                <i class="fa-brands fa-x-twitter fa-stack-1x fa-inverse"></i>
+                <i class="fa-solid fa-circle fa-stack-2x text-info"></i>
+                <i class="fa-brands fa-x-twitter fa-stack-1x fa-inverse alt-primary"></i>
               </span>
             </a>
           </li>
