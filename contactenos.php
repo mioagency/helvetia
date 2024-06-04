@@ -114,9 +114,7 @@ include_once ('templates/header.php'); ?>
   </div>
 </div>
 <div class="container-fluid p-0">
-<div class="row">
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3785.800508704122!2d-65.97720312571585!3d18.40192827278932!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c0366c2094c5d7f%3A0x91f34c832be6c3bf!2sHelvetia%20Del%20Caribe!5e0!3m2!1ses-419!2sar!4v1717456688237!5m2!1ses-419!2sar" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-</div>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3785.800508704122!2d-65.97720312571585!3d18.40192827278932!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c0366c2094c5d7f%3A0x91f34c832be6c3bf!2sHelvetia%20Del%20Caribe!5e0!3m2!1ses-419!2sar!4v1717456688237!5m2!1ses-419!2sar" width="100%" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
 <?php
 include_once ('templates/footer.php');
