@@ -16,29 +16,35 @@ include_once ('templates/header.php'); ?>
   </div>
 </div>
 
-<div class="container-fluid mio-bg-gradient mt-5 py-5">
-  <div class="container pb-5 w-75">
-    <div class="row gap-3 d-flex">
-      <div class="col d-flex flex-column align-items-center gap-2 border rounded-3 p-4">
-        <i class="fa-solid fa-location-dot fs-3 text-primary"></i>
-        <h2 class="fs-6 text-primary mio-bg-gradient">Dirección</h2>
-        <p class="text-center">Via 11 Esq. Via Viviana, Centro Comercial Villa Fontana II, Carolina, PR 00983</p>
+<div class="container-fluid mio-bg-gradient mt-2 mt-md-5 pt-4 pb-3 py-md-5">
+  <div class="container px-3">
+    <div class="row g-3">
+      <div class="col-12 col-md-4">
+        <div class="d-flex flex-column align-items-center gap-2 border rounded-3 p-4 h-100">
+          <i class="fa-solid fa-location-dot fs-3 text-primary"></i>
+          <h2 class="fs-6 text-primary mio-bg-gradient">Dirección</h2>
+          <p class="text-center">Via 11 Esq. Via Viviana, Centro Comercial Villa Fontana II, Carolina, PR 00983</p>
+        </div>
       </div>
-      <div class="col d-flex flex-column align-items-center gap-2 border rounded-3 p-4">
-        <i class="fa-solid fa-phone fs-3 text-primary"></i>
-        <h2 class="fs-6 text-primary mio-bg-gradient">Teléfono</h2>
-        <p class="text-center">(787)-750-3300</p>
+      <div class="col-12 col-md-4">
+        <div class="d-flex flex-column align-items-center gap-2 border rounded-3 p-4 h-100">
+          <i class="fa-solid fa-phone fs-3 text-primary"></i>
+          <h2 class="fs-6 text-primary mio-bg-gradient">Teléfono</h2>
+          <p class="text-center">(787)-750-3300</p>
+        </div>
       </div>
-      <div class="col d-flex flex-column align-items-center gap-2 border rounded-3 p-4">
-        <i class="fa-solid fa-envelope fs-3 text-primary"></i>
-        <h2 class="fs-6 text-primary mio-bg-gradient">Correo</h2>
-        <p class="text-center">info@helvetia-pr.com</p>
+      <div class="col-12 col-md-4">
+        <div class="d-flex flex-column align-items-center gap-2 border rounded-3 p-4 h-100">
+          <i class="fa-solid fa-envelope fs-3 text-primary"></i>
+          <h2 class="fs-6 text-primary mio-bg-gradient">Correo</h2>
+          <p class="text-center">info@helvetia-pr.com</p>
+        </div>
       </div>
     </div>
   </div>
-  <div class="container w-75">
-    <div class="row d-flex gap-4 py-5">
-      <div class="col d-flex flex-column gap-2">
+  <div class="container px-4">
+    <div class="row g-4 py-4 mt-md-3 py-md-5">
+      <div class="col-12 col-md-6 d-flex flex-column gap-2 pe-5">
         <h2 class="text-primary fw-bold fs-3">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
           eirmod tempor</h2>
         <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
@@ -71,7 +77,7 @@ include_once ('templates/header.php'); ?>
           </li>
         </ul>
       </div>
-      <div class="col p-5 border rounded-3 bg-white">
+      <div class="col-12 col-md-6 p-5  border rounded-3 bg-white">
         <form>
           <div class="mb-3">
             <label for="inputName" class="form-label">Nombre*</label>
