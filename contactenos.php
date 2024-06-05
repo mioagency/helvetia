@@ -81,15 +81,15 @@ include_once ('templates/header.php'); ?>
         <form>
           <div class="mb-3">
             <label for="inputName" class="form-label">Nombre*</label>
-            <input type="text" class="form-control" id="inputName" aria-describedby="nameHelp">
+            <input type="text" class="form-control" id="inputName" aria-describedby="nameHelp" placeholder="Ingresa tu nombre">
           </div>
           <div class="mb-3">
             <label for="inputTel" class="form-label">Teléfono*</label>
-            <input type="tel" class="form-control" id="inputTel" aria-describedby="telHelp">
+            <input type="tel" class="form-control" id="inputTel" aria-describedby="telHelp" placeholder="Ingresa tu número de teléfono">
           </div>
           <div class="mb-3">
             <label for="inputEmail" class="form-label">Email address</label>
-            <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp">
+            <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Ingresa tu correo electrónico">
           </div>
           <div class="mb-3">
             <label for="selectService">Servicio:</label>
@@ -105,7 +105,7 @@ include_once ('templates/header.php'); ?>
           </div>
           <div class="mb-3">
             <label for="vormControlTextarea1" class="form-label">Mensaje</label>
-            <textarea class="form-control" id="vormControlTextarea1" rows="3"></textarea>
+            <textarea class="form-control" id="vormControlTextarea1" rows="3" placeholder="Escríbenos tu mensaje"></textarea>
           </div>
           <button type="submit" class="btn w-100 btn-primary text-white">Enviar Mensaje</button>
         </form>
