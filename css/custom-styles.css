@@ -303,6 +303,8 @@ MOVIL VERTICAL (revisamos en 575px)
 =============================================*/
 
 @media (max-width: 575px) {
-
+.xs-mw-100{
+  max-width: 100% !important;
+}
 
 }

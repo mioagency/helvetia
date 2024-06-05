@@ -11883,6 +11883,10 @@ body {
   min-height: 200px;
 }
 
+.md-mw-75 {
+  max-width: 75%;
+}
+
 /* Colors */
 .mio-bg-gradient {
   background: rgb(182, 255, 246);

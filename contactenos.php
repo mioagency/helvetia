@@ -16,27 +16,27 @@ include_once ('templates/header.php'); ?>
   </div>
 </div>
 
-<div class="container-fluid mio-bg-gradient mt-2 mt-md-5 pt-4 pb-3 py-md-5">
+<div class="container-fluid mio-bg-gradient mt-2 mt-md-5 pt-4 pb-3 md-mw-75 xs-mw-100">
   <div class="container px-3">
     <div class="row g-3">
       <div class="col-12 col-md-4">
         <div class="d-flex flex-column align-items-center gap-2 border rounded-3 p-4 h-100">
           <i class="fa-solid fa-location-dot fs-3 text-primary"></i>
-          <h2 class="fs-6 text-primary mio-bg-gradient">Dirección</h2>
+          <h2 class="fs-6 text-primary">Dirección</h2>
           <p class="text-center">Via 11 Esq. Via Viviana, Centro Comercial Villa Fontana II, Carolina, PR 00983</p>
         </div>
       </div>
       <div class="col-12 col-md-4">
         <div class="d-flex flex-column align-items-center gap-2 border rounded-3 p-4 h-100">
           <i class="fa-solid fa-phone fs-3 text-primary"></i>
-          <h2 class="fs-6 text-primary mio-bg-gradient">Teléfono</h2>
+          <h2 class="fs-6 text-primary">Teléfono</h2>
           <p class="text-center">(787)-750-3300</p>
         </div>
       </div>
       <div class="col-12 col-md-4">
         <div class="d-flex flex-column align-items-center gap-2 border rounded-3 p-4 h-100">
           <i class="fa-solid fa-envelope fs-3 text-primary"></i>
-          <h2 class="fs-6 text-primary mio-bg-gradient">Correo</h2>
+          <h2 class="fs-6 text-primary">Correo</h2>
           <p class="text-center">info@helvetia-pr.com</p>
         </div>
       </div>
