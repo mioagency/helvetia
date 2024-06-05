@@ -11,7 +11,7 @@ $activePage = basename($_SERVER['PHP_SELF'], ".php");
   <!-- Additional tags here -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="<?php $SERVER_URI ?>css/bootstrap/bootstrap.min.css" rel="stylesheet">
+  <!--<link href="<?php $SERVER_URI ?>css/bootstrap/bootstrap.min.css" rel="stylesheet">-->
   <link href="<?php $SERVER_URI ?>css/fontawesome/css/fontawesome.min.css" rel="stylesheet" />
   <link href="<?php $SERVER_URI ?>css/fontawesome/css/all.min.css" rel="stylesheet" />
   <link href="<?php $SERVER_URI ?>css/custom.css" rel="stylesheet">
