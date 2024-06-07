@@ -11875,6 +11875,10 @@ body {
 }
 
 /* Utilities */
+.fs-14 {
+  font-size: 0.875rem;
+}
+
 .p-025 {
   padding: 0.25rem;
 }
@@ -11894,7 +11898,7 @@ body {
 }
 
 /* Botones */
-.btn:hover {
+.btn:hover:not(.btn-link) {
   background: #105A73;
   color: white;
 }
