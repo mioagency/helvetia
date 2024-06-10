@@ -51,6 +51,11 @@ body{ color: #4C4C4C; }
   background: radial-gradient(ellipse at 50% 100%, rgba(182,255,246,.7) 0%, rgba(255,255,255,1) 47%);
 }
 
+/* Carousels */
+.carousel-indicators{
+  bottom: -60px;
+}
+
 /* Botones */
 .btn:hover:not(.btn-link){
   background: $tertiary;
@@ -59,8 +64,6 @@ body{ color: #4C4C4C; }
 
 /* Páginas */
 /* Homepage */
-
-
 .icon-text-box{
   * {transition: all ease-in-out .2s;}
   .icon-wrapper{
