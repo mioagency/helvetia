@@ -11959,4 +11959,8 @@ body {
   color: #3D8FA0;
 }
 
+.pr-bg {
+  background: url("../images/pr-bg.webp") no-repeat center center/cover;
+}
+
 /*# sourceMappingURL=custom.css.map */

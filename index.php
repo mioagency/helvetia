@@ -269,6 +269,17 @@ include_once ('templates/header.php'); ?>
     </button>
   </div>
 </div>
+<div class="container-fluid py-5 pr-bg">
+  <div class="container">
+    <div class="row py-5">
+      <div class="col-6">
+        <h2 class="text-white">Una empresa puertoriqueña</h2>
+        <p class="text-white mt-3">Helvetia del Caribe es una empresa que desarrolla e implementa soluciones informáticas, fundada en 1986 cuando se incorpora bajo las leyes del Estado Libre Asociado de Puerto Rico. Helvetia del Caribe tiene soluciones para el comercio, la industria, y para el desarrollo de aplicaciones. Helvetia del Caribe es una empresa netamente puertorriqueña. Nuestras oficinas están localizadas en Carolina, Puerto Rico y ocupan un espacio de aproximadamente 12,000 pies cuadrados.</p>
+        <button class="btn btn-primary text-white mt-3">Conoce más sobre nosotros</button>
+      </div>
+    </div>
+  </div>
+</div>
 <?php
 include_once ('templates/footer.php');
 ?>
