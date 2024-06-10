@@ -11928,26 +11928,29 @@ body {
 .icon-text-box .ventas-y-automatizacion {
   background: url("../images/ventas-y-automatizacion.svg") no-repeat center center/60px;
 }
+.icon-text-box h3, .icon-text-box .h3 {
+  color: black;
+}
 
-.icon-text-box:hover .sistemas-bancarios {
+.icon-text-box:hover .sistemas-bancarios, .active .icon-text-box .sistemas-bancarios {
   background: url("../images/sistemas-bancarios-hover.svg") no-repeat center center/60px;
 }
-.icon-text-box:hover .analisis-de-datos {
+.icon-text-box:hover .analisis-de-datos, .active .icon-text-box .analisis-de-datos {
   background: url("../images/analisis-de-datos-hover.svg") no-repeat center center/60px;
 }
-.icon-text-box:hover .comunicacion-y-notificaciones {
+.icon-text-box:hover .comunicacion-y-notificaciones, .active .icon-text-box .comunicacion-y-notificaciones {
   background: url("../images/comunicacion-y-notificaciones-hover.svg") no-repeat center center/60px;
 }
-.icon-text-box:hover .operaciones-en-linea {
+.icon-text-box:hover .operaciones-en-linea, .active .icon-text-box .operaciones-en-linea {
   background: url("../images/operaciones-en-linea-hover.svg") no-repeat center center/60px;
 }
-.icon-text-box:hover .ventas-y-automatizacion {
+.icon-text-box:hover .ventas-y-automatizacion, .active .icon-text-box .ventas-y-automatizacion {
   background: url("../images/ventas-y-automatizacion-hover.svg") no-repeat center center/60px;
 }
-.icon-text-box:hover .icon-wrapper {
+.icon-text-box:hover .icon-wrapper, .active .icon-text-box .icon-wrapper {
   background-color: #3D8FA0;
 }
-.icon-text-box:hover h3, .icon-text-box:hover .h3 {
+.icon-text-box:hover h3, .icon-text-box:hover .h3, .active .icon-text-box h3, .active .icon-text-box .h3 {
   color: #3D8FA0;
 }
 

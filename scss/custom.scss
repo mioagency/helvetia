@@ -73,9 +73,12 @@ body{ color: #4C4C4C; }
   .comunicacion-y-notificaciones{background: url("../images/comunicacion-y-notificaciones.svg") no-repeat center center / 60px;}
   .operaciones-en-linea{background: url("../images/operaciones-en-linea.svg") no-repeat center center / 60px;}
   .ventas-y-automatizacion{background: url("../images/ventas-y-automatizacion.svg") no-repeat center center / 60px;}
+  h3{
+    color: black;
+  }
 }
 
-.icon-text-box:hover{
+.icon-text-box:hover, .active .icon-text-box{
   .sistemas-bancarios{background: url("../images/sistemas-bancarios-hover.svg") no-repeat center center / 60px;}
   .analisis-de-datos{background: url("../images/analisis-de-datos-hover.svg") no-repeat center center / 60px;}
   .comunicacion-y-notificaciones{background: url("../images/comunicacion-y-notificaciones-hover.svg") no-repeat center center / 60px;}
