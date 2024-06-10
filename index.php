@@ -77,7 +77,7 @@ include_once ('templates/header.php'); ?>
       </button>
     </li>
   </ul>
-  <div class="tab-content mio-bg-gradient" id="myTabContent">
+  <div class="tab-content mio-bg-gradient pb-5" id="myTabContent">
     <!-- Contenido Tab Sistemas Bancarios -->
     <div class="tab-pane fade show active" id="sb-tab-pane" role="tabpanel" aria-labelledby="sb-tab" tabindex="0">
       <div class="row py-4 mt-5">
@@ -193,7 +193,7 @@ include_once ('templates/header.php'); ?>
   </div>
 </div>
 <!-- Sección - Proveemos los mejores beneficios -->
-<div class="container pt-4">
+<div class="container-fluid pt-4 bg-gray">
   <div class="row text-center py-5">
     <h2 class="text-primary fw-bold">Proveemos los mejores beneficios</h2>
   </div>
