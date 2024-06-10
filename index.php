@@ -93,7 +93,7 @@ include_once ('templates/header.php'); ?>
               <img src="<?php $SERVER_URI ?>images/ncus-web.svg" alt="">
             </div>
             <div class="col-10">
-              <h4 class="text-primary fs-5 fw-bold">NCUS WEB</h4>
+              <h4 class="text-primary fs-6 fw-bold">NCUS WEB</h4>
               <p>NCUS Web es un sistema especialmente diseñado para la automatización de cooperativas de ahorro y crédito.</p>
               <a href="<?php $SERVER_URI ?>soluciones-nucs-web.php"><button type="button" class="btn btn-link text-decoration-none ps-0 pt-0 fw-bold fs-14">
                 Conoce más <i class="fa-solid fa-arrow-right-long"></i>
@@ -106,7 +106,7 @@ include_once ('templates/header.php'); ?>
               <img src="<?php $SERVER_URI ?>images/eloans.svg" alt="">
             </div>
             <div class="col-10">
-              <h4 class="text-primary fs-5 fw-bold">eLoans</h4>
+              <h4 class="text-primary fs-6 fw-bold">eLoans</h4>
               <p>El módulo eLoans tiene una característica nueva y conveniente que permite a los socios solicitar préstamos en cualquier momento.</p>
               <a href="javascript:void(0)"><button type="button" class="btn btn-link text-decoration-none ps-0 pt-0 fw-bold fs-14">
                 Conoce más <i class="fa-solid fa-arrow-right-long"></i>
@@ -119,7 +119,7 @@ include_once ('templates/header.php'); ?>
               <img src="<?php $SERVER_URI ?>images/shared-branch.svg" alt="">
             </div>
             <div class="col-10">
-              <h4 class="text-primary fs-5 fw-bold">Shared Branch</h4>
+              <h4 class="text-primary fs-6 fw-bold">Shared Branch</h4>
               <p>Shares Branch empodera a sus socios con una multitud de opciones para administrar sus finanzas.</p>
               <a href="javascript:void(0)"><button type="button" class="btn btn-link text-decoration-none ps-0 pt-0 fw-bold fs-14">
                 Conoce más <i class="fa-solid fa-arrow-right-long"></i>
@@ -132,7 +132,7 @@ include_once ('templates/header.php'); ?>
               <img src="<?php $SERVER_URI ?>images/originacion-y-ach.svg" alt="">
             </div>
             <div class="col-10">
-              <h4 class="text-primary fs-5 fw-bold">Originación y ACH</h4>
+              <h4 class="text-primary fs-6 fw-bold">Originación y ACH</h4>
               <p>Facilita el movimeinto de dinero entre cooperativas de ahorro y crédito o hacia otras instituciones financieras.</p>
               <a href="javascript:void(0)"><button type="button" class="btn btn-link text-decoration-none ps-0 pt-0 fw-bold fs-14">
                 Conoce más <i class="fa-solid fa-arrow-right-long"></i>
@@ -145,7 +145,7 @@ include_once ('templates/header.php'); ?>
               <img src="<?php $SERVER_URI ?>images/dashboards.svg" alt="">
             </div>
             <div class="col-10">
-              <h4 class="text-primary fs-5 fw-bold">Dashboards</h4>
+              <h4 class="text-primary fs-6 fw-bold">Dashboards</h4>
               <p>Analizar el estado de su cooperativa de ahorro y crédito a través de medios visuales puede resultar una herramienta valiosa para obtener información detallada y valiosa.</p>
               <a href="javascript:void(0)"><button type="button" class="btn btn-link text-decoration-none ps-0 pt-0 fw-bold fs-14">
                 Conoce más <i class="fa-solid fa-arrow-right-long"></i>
@@ -193,9 +193,33 @@ include_once ('templates/header.php'); ?>
   </div>
 </div>
 <!-- Sección - Proveemos los mejores beneficios -->
-<div class="container-fluid pt-4 bg-gray">
-  <div class="row text-center py-5">
-    <h2 class="text-primary fw-bold">Proveemos los mejores beneficios</h2>
+<div class="container-fluid pt-4 pb-5 bg-gray">
+  <div class="container">
+    <div class="row text-center py-5">
+      <h2 class="text-primary fw-bold">Proveemos los mejores beneficios</h2>
+    </div>
+    <div class="row gap-4">
+      <div class="col p-4 bg-white rounded-3">
+        <img class="mb-3" src="<?php $SERVER_URI ?>images/experiencia.svg" alt="">
+        <h3 class="fs-6 text-primary text-bold">Experiencia</h3>
+        <p>Tenemos una amplia experiencia en el mercado. 33 años sirviendo de manera exclusiva al mercado de ahorro y crédito.</p>
+      </div>
+      <div class="col p-4 bg-white rounded-3">
+        <img class="mb-3" src="<?php $SERVER_URI ?>images/cero-desventajas.svg" alt="">
+        <h3 class="fs-6 text-primary text-bold">Cero Desventajas</h3>
+        <p>Único proveedor para las cooperativas con un centro de llamadas de servicio al cliente en Puerto Rico.</p>
+      </div>
+      <div class="col p-4 bg-white rounded-3">
+        <img class="mb-3" src="<?php $SERVER_URI ?>images/unico-proveedor.svg" alt="">
+        <h3 class="fs-6 text-primary text-bold">Único Proveedor</h3>
+        <p>Única institución de servicios que se ha mantenido desarrollando y educando al personal.</p>
+      </div>
+      <div class="col p-4 bg-white rounded-3">
+        <img class="mb-3" src="<?php $SERVER_URI ?>images/mantenimiento.svg" alt="">
+        <h3 class="fs-6 text-primary text-bold">Mantenimiento</h3>
+        <p>Hacer mejoras al sistema a través de conexión remota para agilizar los procesos de los clientes.</p>
+      </div>
+    </div>
   </div>
 </div>
 <?php
