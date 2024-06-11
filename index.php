@@ -15,7 +15,7 @@ include_once ('templates/header.php'); ?>
   <div class="row py-4">
     <div class="col col-md-8 offset-md-2">
       <h1>Desarrollamos e implementamos soluciones informáticas para el sector financiero</h1>
-      <h2 class="fs-5 fw-normal pt-4">Innovamos en soluciones y servicios para las cooperativas líderes en Puerto Rico
+      <h2 class="fs-5 fw-normal pt-4 light-grey">Innovamos en soluciones y servicios para las cooperativas líderes en Puerto Rico
       </h2>
       <button class="btn btn-info mx-auto mt-4 text-tertiary">Conoce nuestras soluciones</button>
     </div>
@@ -30,40 +30,40 @@ include_once ('templates/header.php'); ?>
         sus oficinas, así como soporte remoto desde nuestro centro de servicio.</p>
     </div>
   </div>
-  <ul class="nav nav-tabs d-flex justify-content-center mio-bg-gradient gap-4" id="nuestrasSoluciones" role="tablist">
+  <ul class="nav nav-tabs d-flex flex-row justify-content-center mio-bg-gradient gap-0 gap-md-4 border-0" id="nuestrasSoluciones" role="tablist">
     <!-- Tab Sistemas Bancarios -->
-    <li class="nav-item" role="presentation">
+    <li class="nav-item me-0 me-md-5 w-20" role="presentation">
       <button class="nav-link active border border-0 bg-transparent" id="sb-tab" data-bs-toggle="tab" data-bs-target="#sb-tab-pane" type="button" role="tab" aria-controls="sb-tab-pane" aria-selected="true">
         <div class="icon-text-box d-flex flex-column gap-2">
           <div class="icon-wrapper p-2 mx-auto my-auto sistemas-bancarios"></div>
-          <h3 class="fs-6 fw-500">Sistemas<br> Bancarios</h3>
+          <h3 class="fs-6 fw-500 d-none d-md-block">Sistemas<br> Bancarios</h3>
         </div>
       </button>
     </li>
     <!-- Tab Analisis de Datos -->
-    <li class="nav-item" role="presentation">
+    <li class="nav-item me-0 me-md-5" role="presentation">
       <button class="nav-link border border-0 bg-transparent" id="ad-tab" data-bs-toggle="tab" data-bs-target="#ad-tab-pane" type="button" role="tab" aria-controls="ad-tab-pane" aria-selected="false">
         <div class="icon-text-box d-flex flex-column gap-2">
           <div class="icon-wrapper p-2 mx-auto my-auto analisis-de-datos"></div>
-          <h3 class="fs-6 fw-500">Análisis<br> de datos</h3>
+          <h3 class="fs-6 fw-500 d-none d-md-block">Análisis<br> de datos</h3>
         </div>
       </button>
     </li>
     <!-- Tab Comunicación y Notificaciones -->
-    <li class="nav-item" role="presentation">
+    <li class="nav-item me-0 me-md-5" role="presentation">
       <button class="nav-link border border-0 bg-transparent" id="cn-tab" data-bs-toggle="tab" data-bs-target="#cn-tab-pane" type="button" role="tab" aria-controls="cn-tab-pane" aria-selected="false">
         <div class="icon-text-box d-flex flex-column gap-2">
           <div class="icon-wrapper p-2 mx-auto my-auto comunicacion-y-notificaciones"></div>
-          <h3 class="fs-6 fw-500">Comunicación y<br> Notificaciones</h3>
+          <h3 class="fs-6 fw-500 d-none d-md-block">Comunicación y<br> Notificaciones</h3>
         </div>
       </button>
     </li>
     <!-- Tab Operaciones en línea -->
-    <li class="nav-item" role="presentation">
+    <li class="nav-item me-0 me-md-5" role="presentation">
       <button class="nav-link border border-0 bg-transparent" id="ol-tab" data-bs-toggle="tab" data-bs-target="#ol-tab-pane" type="button" role="tab" aria-controls="ol-tab-pane" aria-selected="false">
         <div class="icon-text-box d-flex flex-column gap-2">
           <div class="icon-wrapper p-2 mx-auto my-auto operaciones-en-linea"></div>
-          <h3 class="fs-6 fw-500">Operaciones<br> en línea</h3>
+          <h3 class="fs-6 fw-500 d-none d-md-block">Operaciones<br> en línea</h3>
         </div>
       </button>
     </li>
@@ -72,7 +72,7 @@ include_once ('templates/header.php'); ?>
       <button class="nav-link border border-0 bg-transparent" id="va-tab" data-bs-toggle="tab" data-bs-target="#va-tab-pane" type="button" role="tab" aria-controls="va-tab-pane" aria-selected="false">
         <div class="icon-text-box d-flex flex-column gap-2">
           <div class="icon-wrapper p-2 mx-auto my-auto ventas-y-automatizacion"></div>
-          <h3 class="fs-6 fw-500">Ventas y<br> automatización</h3>
+          <h3 class="fs-6 fw-500 d-none d-md-block">Ventas y<br> automatización</h3>
         </div>
       </button>
     </li>
@@ -86,7 +86,7 @@ include_once ('templates/header.php'); ?>
         </div>
       </div>
       <div class="row">
-        <div class="col-4">
+        <div class="col-12 col-md-4 pe-5">
           <!-- NCUS WEB -->
           <div class="row">
             <div class="col-2">
@@ -153,7 +153,7 @@ include_once ('templates/header.php'); ?>
             </div>
           </div>
         </div>
-        <div class="col-8">
+        <div class="col-12 col-md-8">
           <img class="img-fluid" src="<?php $SERVER_URI ?>images/dashboard.png" alt="Dashboard">
         </div>
       </div>
@@ -192,86 +192,15 @@ include_once ('templates/header.php'); ?>
     </div>
   </div>
 </div>
-<!-- Sección - Proveemos los mejores beneficios -->
-<div class="container-fluid pt-4 pb-5 bg-gray">
-  <div class="container pb-5">
-    <div class="row text-center py-5">
-      <h2 class="text-primary fw-bold">Proveemos los mejores beneficios</h2>
-    </div>
-    <div class="row gap-4">
-      <div class="col p-4 bg-white rounded-3">
-        <img class="mb-3" src="<?php $SERVER_URI ?>images/experiencia.svg" alt="">
-        <h3 class="fs-6 text-primary text-bold">Experiencia</h3>
-        <p>Tenemos una amplia experiencia en el mercado. 33 años sirviendo de manera exclusiva al mercado de ahorro y crédito.</p>
-      </div>
-      <div class="col p-4 bg-white rounded-3">
-        <img class="mb-3" src="<?php $SERVER_URI ?>images/cero-desventajas.svg" alt="">
-        <h3 class="fs-6 text-primary text-bold">Cero Desventajas</h3>
-        <p>Único proveedor para las cooperativas con un centro de llamadas de servicio al cliente en Puerto Rico.</p>
-      </div>
-      <div class="col p-4 bg-white rounded-3">
-        <img class="mb-3" src="<?php $SERVER_URI ?>images/unico-proveedor.svg" alt="">
-        <h3 class="fs-6 text-primary text-bold">Único Proveedor</h3>
-        <p>Única institución de servicios que se ha mantenido desarrollando y educando al personal.</p>
-      </div>
-      <div class="col p-4 bg-white rounded-3">
-        <img class="mb-3" src="<?php $SERVER_URI ?>images/mantenimiento.svg" alt="">
-        <h3 class="fs-6 text-primary text-bold">Mantenimiento</h3>
-        <p>Hacer mejoras al sistema a través de conexión remota para agilizar los procesos de los clientes.</p>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="container pt-4 pb-5 mb-5">
-  <div class="row text-center py-5">
-    <h2 class="text-primary fw-bold">APIS</h2>
-    <div class="col col-md-7 mx-auto">
-      <p class="pt-2">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et</p>
-    </div>
-  </div>
-  <div id="apiCarousel" class="carousel slide" data-bs-theme="dark">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <div class="row gap-3">
-          <div class="col"><img src="<?php $SERVER_URI ?>images/img-placeholder.svg" alt="..."></div>
-          <div class="col"><img src="<?php $SERVER_URI ?>images/img-placeholder.svg" alt="..."></div>
-          <div class="col"><img src="<?php $SERVER_URI ?>images/img-placeholder.svg" alt="..."></div>
-          <div class="col"><img src="<?php $SERVER_URI ?>images/img-placeholder.svg" alt="..."></div>
-          <div class="col"><img src="<?php $SERVER_URI ?>images/img-placeholder.svg" alt="..."></div>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <div class="row gap-3">
-          <div class="col"><img src="<?php $SERVER_URI ?>images/img-placeholder.svg" alt="..."></div>
-          <div class="col"><img src="<?php $SERVER_URI ?>images/img-placeholder.svg" alt="..."></div>
-          <div class="col"><img src="<?php $SERVER_URI ?>images/img-placeholder.svg" alt="..."></div>
-          <div class="col"><img src="<?php $SERVER_URI ?>images/img-placeholder.svg" alt="..."></div>
-          <div class="col"><img src="<?php $SERVER_URI ?>images/img-placeholder.svg" alt="..."></div>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <div class="row gap-3">
-          <div class="col"><img src="<?php $SERVER_URI ?>images/img-placeholder.svg" alt="..."></div>
-          <div class="col"><img src="<?php $SERVER_URI ?>images/img-placeholder.svg" alt="..."></div>
-          <div class="col"><img src="<?php $SERVER_URI ?>images/img-placeholder.svg" alt="..."></div>
-          <div class="col"><img src="<?php $SERVER_URI ?>images/img-placeholder.svg" alt="..."></div>
-          <div class="col"><img src="<?php $SERVER_URI ?>images/img-placeholder.svg" alt="..."></div>
-        </div>
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#apiCarousel" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon text-primary" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#apiCarousel" data-bs-slide="next">
-      <span class="carousel-control-next-icon text-primary" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
-</div>
+
+<!-- Template Beneficios -->
+<?php include_once ('templates/beneficios.php'); ?>
+
+<!-- Template APIs -->
+<?php include_once ('templates/apis.php'); ?>
 <div class="container-fluid py-5 pr-bg">
   <div class="container">
-    <div class="row py-5">
+    <div class="row py-5 mt-5 mb-5">
       <div class="col-6">
         <h2 class="text-white">Una empresa puertoriqueña</h2>
         <p class="text-white mt-3">Helvetia del Caribe es una empresa que desarrolla e implementa soluciones informáticas, fundada en 1986 cuando se incorpora bajo las leyes del Estado Libre Asociado de Puerto Rico. Helvetia del Caribe tiene soluciones para el comercio, la industria, y para el desarrollo de aplicaciones. Helvetia del Caribe es una empresa netamente puertorriqueña. Nuestras oficinas están localizadas en Carolina, Puerto Rico y ocupan un espacio de aproximadamente 12,000 pies cuadrados.</p>
