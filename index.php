@@ -92,7 +92,7 @@ include_once ('templates/header.php'); ?>
             <div class="col-2">
               <img src="<?php $SERVER_URI ?>images/ncus-web.svg" alt="">
             </div>
-            <div class="col-10">
+            <div class="col-10 ps-4">
               <h4 class="text-primary fs-6 fw-bold">NCUS WEB</h4>
               <p>NCUS Web es un sistema especialmente diseñado para la automatización de cooperativas de ahorro y crédito.</p>
               <a href="<?php $SERVER_URI ?>soluciones-nucs-web.php"><button type="button" class="btn btn-link text-decoration-none ps-0 pt-0 fw-bold fs-14">
@@ -105,7 +105,7 @@ include_once ('templates/header.php'); ?>
             <div class="col-2">
               <img src="<?php $SERVER_URI ?>images/eloans.svg" alt="">
             </div>
-            <div class="col-10">
+            <div class="col-10 ps-4">
               <h4 class="text-primary fs-6 fw-bold">eLoans</h4>
               <p>El módulo eLoans tiene una característica nueva y conveniente que permite a los socios solicitar préstamos en cualquier momento.</p>
               <a href="javascript:void(0)"><button type="button" class="btn btn-link text-decoration-none ps-0 pt-0 fw-bold fs-14">
@@ -118,7 +118,7 @@ include_once ('templates/header.php'); ?>
             <div class="col-2">
               <img src="<?php $SERVER_URI ?>images/shared-branch.svg" alt="">
             </div>
-            <div class="col-10">
+            <div class="col-10 ps-4">
               <h4 class="text-primary fs-6 fw-bold">Shared Branch</h4>
               <p>Shares Branch empodera a sus socios con una multitud de opciones para administrar sus finanzas.</p>
               <a href="javascript:void(0)"><button type="button" class="btn btn-link text-decoration-none ps-0 pt-0 fw-bold fs-14">
@@ -131,7 +131,7 @@ include_once ('templates/header.php'); ?>
             <div class="col-2">
               <img src="<?php $SERVER_URI ?>images/originacion-y-ach.svg" alt="">
             </div>
-            <div class="col-10">
+            <div class="col-10 ps-4">
               <h4 class="text-primary fs-6 fw-bold">Originación y ACH</h4>
               <p>Facilita el movimeinto de dinero entre cooperativas de ahorro y crédito o hacia otras instituciones financieras.</p>
               <a href="javascript:void(0)"><button type="button" class="btn btn-link text-decoration-none ps-0 pt-0 fw-bold fs-14">
@@ -144,7 +144,7 @@ include_once ('templates/header.php'); ?>
             <div class="col-2">
               <img src="<?php $SERVER_URI ?>images/dashboards.svg" alt="">
             </div>
-            <div class="col-10">
+            <div class="col-10 ps-4">
               <h4 class="text-primary fs-6 fw-bold">Dashboards</h4>
               <p>Analizar el estado de su cooperativa de ahorro y crédito a través de medios visuales puede resultar una herramienta valiosa para obtener información detallada y valiosa.</p>
               <a href="javascript:void(0)"><button type="button" class="btn btn-link text-decoration-none ps-0 pt-0 fw-bold fs-14">
@@ -155,6 +155,7 @@ include_once ('templates/header.php'); ?>
         </div>
         <div class="col-12 col-md-8">
           <img class="img-fluid" src="<?php $SERVER_URI ?>images/dashboard.png" alt="Dashboard">
+          <button class="btn btn-primary text-white mt-5 ms-5">Conoce nuestras soluciones</button>
         </div>
       </div>
     </div>
@@ -198,6 +199,7 @@ include_once ('templates/header.php'); ?>
 
 <!-- Template APIs -->
 <?php include_once ('templates/apis.php'); ?>
+
 <div class="container-fluid py-5 pr-bg">
   <div class="container">
     <div class="row py-5 mt-5 mb-5">
