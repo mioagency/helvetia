@@ -306,9 +306,4 @@ MOVIL VERTICAL (revisamos en 575px)
   .xs-mw-100{
     max-width: 100% !important;
   }
-  .icon-text-box .icon-wrapper{
-    max-width: 45px;
-    background-size: 80% !important;
-    max-height: 60px;
-  }
 }

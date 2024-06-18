@@ -56,49 +56,6 @@ body{ color: #4C4C4C; }
   background: radial-gradient(ellipse at 50% 100%, rgba(182,255,246,.7) 0%, rgba(255,255,255,1) 47%);
 }
 
-/* Carousels */
-/*
-.carousel-indicators{
-  bottom: -60px;
-}
-
-@media (max-width: 767px) {
-  .carousel-inner .carousel-item > div {
-    display: none;
-  }
-  .carousel-inner .carousel-item > div:first-child {
-    display: block;
-  }
-}
-
-.carousel-inner .carousel-item.active,
-.carousel-inner .carousel-item-next,
-.carousel-inner .carousel-item-prev {
-  display: flex;
-}
-
-/* medium and up screens */
-/*
-@media (min-width: 768px) {
-
-  .carousel-inner .carousel-item-end.active,
-  .carousel-inner .carousel-item-next {
-    transform: translateX(25%);
-  }
-
-  .carousel-inner .carousel-item-start.active, 
-  .carousel-inner .carousel-item-prev {
-    transform: translateX(-25%);
-  }
-}
-
-.carousel-inner .carousel-item-end,
-.carousel-inner .carousel-item-start { 
-  transform: translateX(0);
-}
-*/
-
-
 
 // Carousel
 .carousel-inner {
@@ -189,5 +146,42 @@ body{ color: #4C4C4C; }
 .pr-bg{
   background: url("../images/pr-bg.webp") no-repeat center center / cover;
 }
+
+// Responsive Tabs
+
+.responsive-tabs {
+  padding: 1rem;
+}
+
+.responsive-tabs .nav-tabs {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .responsive-tabs .nav-tabs {
+      display: flex;
+  }
+
+  .responsive-tabs .card {
+      border: none;
+  }
+
+  .responsive-tabs .card .card-header {
+      display: none;
+  }
+
+  .responsive-tabs .card .collapse {
+      display: block;
+  }
+}
+
+@media (max-width: 767px) {
+  .responsive-tabs .tab-pane {
+      display: block !important;
+      opacity: 1;
+  }
+}
+
+// END Responsive Tabs
 
 @import "../css/custom-styles.css";
