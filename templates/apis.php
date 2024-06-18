@@ -10,22 +10,22 @@
         <div class="carousel-item active">
             <div class="img-wrapper"><img src="<?php $SERVER_URI ?>images/img-placeholder.svg" class="d-block w-100" alt="..."> </div>
         </div>
-        <div class="carousel-item ">
+        <div class="carousel-item">
             <div class="img-wrapper"><img src="<?php $SERVER_URI ?>images/img-placeholder.svg" class="d-block w-100" alt="..."> </div>
         </div>
-        <div class="carousel-item ">
+        <div class="carousel-item">
             <div class="img-wrapper"><img src="<?php $SERVER_URI ?>images/img-placeholder.svg" class="d-block w-100" alt="..."> </div>
         </div>
-        <div class="carousel-item ">
+        <div class="carousel-item">
             <div class="img-wrapper"><img src="<?php $SERVER_URI ?>images/img-placeholder.svg" class="d-block w-100" alt="..."> </div>
         </div>
-        <div class="carousel-item ">
+        <div class="carousel-item">
             <div class="img-wrapper"><img src="<?php $SERVER_URI ?>images/img-placeholder.svg" class="d-block w-100" alt="..."> </div>
         </div>
-        <div class="carousel-item ">
+        <div class="carousel-item">
             <div class="img-wrapper"><img src="<?php $SERVER_URI ?>images/img-placeholder.svg" class="d-block w-100" alt="..."> </div>
         </div>
-        <div class="carousel-item ">
+        <div class="carousel-item">
             <div class="img-wrapper"><img src="<?php $SERVER_URI ?>images/img-placeholder.svg" class="d-block w-100" alt="..."> </div>
         </div>
     </div>
