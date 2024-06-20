@@ -11905,6 +11905,10 @@ body {
   background: radial-gradient(ellipse at 50% 100%, rgba(182, 255, 246, 0.7) 0%, rgb(255, 255, 255) 47%);
 }
 
+.bg-light-primary {
+  background-color: #EEF2F4;
+}
+
 .carousel-inner {
   padding: 1em;
 }
@@ -12039,6 +12043,45 @@ body {
   .responsive-tabs .tab-pane {
     display: block !important;
     opacity: 1;
+  }
+}
+@media (max-width: 570px) {
+  .icon-text-box .icon-wrapper {
+    width: 50px;
+    height: 50px;
+  }
+  .icon-text-box .sistemas-bancarios {
+    background: url("../images/sistemas-bancarios.svg") no-repeat center center/30px;
+  }
+  .icon-text-box .analisis-de-datos {
+    background: url("../images/analisis-de-datos.svg") no-repeat center center/30px;
+  }
+  .icon-text-box .comunicacion-y-notificaciones {
+    background: url("../images/comunicacion-y-notificaciones.svg") no-repeat center center/30px;
+  }
+  .icon-text-box .operaciones-en-linea {
+    background: url("../images/operaciones-en-linea.svg") no-repeat center center/30px;
+  }
+  .icon-text-box .ventas-y-automatizacion {
+    background: url("../images/ventas-y-automatizacion.svg") no-repeat center center/30px;
+  }
+  .icon-text-box:hover .sistemas-bancarios, .active .icon-text-box .sistemas-bancarios {
+    background: url("../images/sistemas-bancarios-hover.svg") no-repeat center center/30px;
+  }
+  .icon-text-box:hover .analisis-de-datos, .active .icon-text-box .analisis-de-datos {
+    background: url("../images/analisis-de-datos-hover.svg") no-repeat center center/30px;
+  }
+  .icon-text-box:hover .comunicacion-y-notificaciones, .active .icon-text-box .comunicacion-y-notificaciones {
+    background: url("../images/comunicacion-y-notificaciones-hover.svg") no-repeat center center/30px;
+  }
+  .icon-text-box:hover .operaciones-en-linea, .active .icon-text-box .operaciones-en-linea {
+    background: url("../images/operaciones-en-linea-hover.svg") no-repeat center center/30px;
+  }
+  .icon-text-box:hover .ventas-y-automatizacion, .active .icon-text-box .ventas-y-automatizacion {
+    background: url("../images/ventas-y-automatizacion-hover.svg") no-repeat center center/30px;
+  }
+  .icon-text-box:hover .icon-wrapper, .active .icon-text-box .icon-wrapper {
+    background-color: #3D8FA0;
   }
 }
 

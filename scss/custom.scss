@@ -39,6 +39,7 @@ $h6-font-size: $font-size-base * 1.25;
 body{ color: #4C4C4C; }
 .light-grey{ color :#BDCCD4 }
 
+
 /* Utilities */
 .fs-14{ font-size: $font-size-base * 0.875; } 
 .p-025 {
@@ -55,7 +56,7 @@ body{ color: #4C4C4C; }
   background: rgb(182,255,246);
   background: radial-gradient(ellipse at 50% 100%, rgba(182,255,246,.7) 0%, rgba(255,255,255,1) 47%);
 }
-
+.bg-light-primary{background-color:#EEF2F4}
 
 // Carousel
 .carousel-inner {
@@ -180,6 +181,31 @@ body{ color: #4C4C4C; }
       display: block !important;
       opacity: 1;
   }
+}
+@media (max-width: 570px) {
+  .icon-text-box{
+    .icon-wrapper{
+      width: 50px;
+      height: 50px;
+    }
+    .sistemas-bancarios{background: url("../images/sistemas-bancarios.svg") no-repeat center center / 30px;}
+    .analisis-de-datos{background: url("../images/analisis-de-datos.svg") no-repeat center center / 30px;}
+    .comunicacion-y-notificaciones{background: url("../images/comunicacion-y-notificaciones.svg") no-repeat center center / 30px;}
+    .operaciones-en-linea{background: url("../images/operaciones-en-linea.svg") no-repeat center center / 30px;}
+    .ventas-y-automatizacion{background: url("../images/ventas-y-automatizacion.svg") no-repeat center center / 30px;}
+  }
+
+  .icon-text-box:hover, .active .icon-text-box{
+    .sistemas-bancarios{background: url("../images/sistemas-bancarios-hover.svg") no-repeat center center / 30px;}
+    .analisis-de-datos{background: url("../images/analisis-de-datos-hover.svg") no-repeat center center / 30px;}
+    .comunicacion-y-notificaciones{background: url("../images/comunicacion-y-notificaciones-hover.svg") no-repeat center center / 30px;}
+    .operaciones-en-linea{background: url("../images/operaciones-en-linea-hover.svg") no-repeat center center / 30px;}
+    .ventas-y-automatizacion{background: url("../images/ventas-y-automatizacion-hover.svg") no-repeat center center / 30px;}
+    .icon-wrapper{
+      background-color: $primary;
+    }
+  }
+
 }
 
 // END Responsive Tabs
