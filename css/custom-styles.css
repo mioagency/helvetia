@@ -64,7 +64,10 @@ a {
   text-decoration: none;
 }
 
-
+.gradient-bg {
+  background: rgb(182, 255, 246);
+  background: radial-gradient(circle at 50% 180%, rgba(182, 255, 246, 1) 0%, rgba(255, 255, 255, 0) 80%);
+}
 
 /*-- TEXTO --*/
 
@@ -212,6 +215,10 @@ a {
   padding-left: 80px;
   padding-right: 80px;
 }
+.py-80 {
+  padding-top:calc(1rem * 5);
+  padding-bottom:calc(1rem * 5);
+}
 
 .pl-80 {
   padding-left: 80px;
@@ -219,6 +226,12 @@ a {
 
 .pr-80 {
   padding-right: 80px;
+}
+.pt-80 {
+  padding-top: 80px;
+}
+.pb-40 {
+  padding-bottom: 40px;
 }
 
 /**TITULOS SECCIONES**/
@@ -253,7 +266,7 @@ a {
 /*----------------------------------------------------------------------
         4.0 PÁGINAS
 ------------------------------------------------------------------------*/
- /* PAGINA PREAPROBACION - CALCULO */
+ 
 
 
 
