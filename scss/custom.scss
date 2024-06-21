@@ -39,6 +39,7 @@ $h6-font-size: $font-size-base * 1.25;
 body{ color: #4C4C4C; }
 .light-grey{ color :#BDCCD4 }
 
+
 /* Utilities */
 .fs-14{ font-size: $font-size-base * 0.875; } 
 .p-025 {
@@ -55,45 +56,52 @@ body{ color: #4C4C4C; }
   background: rgb(182,255,246);
   background: radial-gradient(ellipse at 50% 100%, rgba(182,255,246,.7) 0%, rgba(255,255,255,1) 47%);
 }
+.bg-light-primary{background-color:#EEF2F4}
 
-/* Carousels */
-.carousel-indicators{
-  bottom: -60px;
+// Carousel
+.carousel-inner {
+  padding: 1em;
 }
-
-@media (max-width: 767px) {
-  .carousel-inner .carousel-item > div {
-    display: none;
-  }
-  .carousel-inner .carousel-item > div:first-child {
+.card {
+  margin: 0 0.5em;
+  box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+  border: none;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: #e1e1e1;
+  width: 6vh;
+  height: 6vh;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+@media (min-width: 768px) {
+  .carousel-item {
+    margin-right: 20px;
+    flex: 0 0 18%;
     display: block;
   }
-}
-
-.carousel-inner .carousel-item.active,
-.carousel-inner .carousel-item-next,
-.carousel-inner .carousel-item-prev {
-  display: flex;
-}
-
-/* medium and up screens */
-@media (min-width: 768px) {
-
-  .carousel-inner .carousel-item-end.active,
-  .carousel-inner .carousel-item-next {
-    transform: translateX(25%);
+  .carousel-inner {
+    display: flex;
   }
-
-  .carousel-inner .carousel-item-start.active, 
-  .carousel-inner .carousel-item-prev {
-    transform: translateX(-25%);
+}
+.card .img-wrapper {
+    max-width: 100%;
+    height: 13em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card img {
+    max-height: 100%;
+}
+@media (max-width: 767px) {
+  .card .img-wrapper {
+    height: 17em;
   }
 }
 
-.carousel-inner .carousel-item-end,
-.carousel-inner .carousel-item-start { 
-  transform: translateX(0);
-}
 
 
 
@@ -158,6 +166,68 @@ body{ color: #4C4C4C; }
 .pr-bg{
   background: url("../images/pr-bg.webp") no-repeat center center / cover;
 }
+
+// Responsive Tabs
+
+.responsive-tabs {
+  padding: 1rem;
+}
+
+.responsive-tabs .nav-tabs {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .responsive-tabs .nav-tabs {
+      display: flex;
+  }
+
+  .responsive-tabs .card {
+      border: none;
+  }
+
+  .responsive-tabs .card .card-header {
+      display: none;
+  }
+
+  .responsive-tabs .card .collapse {
+      display: block;
+  }
+}
+
+@media (max-width: 767px) {
+  .responsive-tabs .tab-pane {
+      display: block !important;
+      opacity: 1;
+  }
+}
+@media (max-width: 570px) {
+  .icon-text-box{
+    .icon-wrapper{
+      width: 50px;
+      height: 50px;
+    }
+    .sistemas-bancarios{background: url("../images/sistemas-bancarios.svg") no-repeat center center / 30px;}
+    .analisis-de-datos{background: url("../images/analisis-de-datos.svg") no-repeat center center / 30px;}
+    .comunicacion-y-notificaciones{background: url("../images/comunicacion-y-notificaciones.svg") no-repeat center center / 30px;}
+    .operaciones-en-linea{background: url("../images/operaciones-en-linea.svg") no-repeat center center / 30px;}
+    .ventas-y-automatizacion{background: url("../images/ventas-y-automatizacion.svg") no-repeat center center / 30px;}
+  }
+
+  .icon-text-box:hover, .active .icon-text-box{
+    .sistemas-bancarios{background: url("../images/sistemas-bancarios-hover.svg") no-repeat center center / 30px;}
+    .analisis-de-datos{background: url("../images/analisis-de-datos-hover.svg") no-repeat center center / 30px;}
+    .comunicacion-y-notificaciones{background: url("../images/comunicacion-y-notificaciones-hover.svg") no-repeat center center / 30px;}
+    .operaciones-en-linea{background: url("../images/operaciones-en-linea-hover.svg") no-repeat center center / 30px;}
+    .ventas-y-automatizacion{background: url("../images/ventas-y-automatizacion-hover.svg") no-repeat center center / 30px;}
+    .icon-wrapper{
+      background-color: $primary;
+    }
+  }
+
+}
+
+// END Responsive Tabs
 
 // OnBase
 
