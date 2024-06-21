@@ -11,10 +11,15 @@ $activePage = basename($_SERVER['PHP_SELF'], ".php");
   <!-- Additional tags here -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="./images/favicon.png"/>
   <!--<link href="<?php $SERVER_URI ?>css/bootstrap/bootstrap.min.css" rel="stylesheet">-->
   <link href="<?php $SERVER_URI ?>css/fontawesome/css/fontawesome.min.css" rel="stylesheet" />
   <link href="<?php $SERVER_URI ?>css/fontawesome/css/all.min.css" rel="stylesheet" />
   <link href="<?php $SERVER_URI ?>css/custom.css" rel="stylesheet">
+  <!-- tipografías Roboto -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
   <?php if (function_exists('customPageHeader')) {
     customPageHeader();
   } 

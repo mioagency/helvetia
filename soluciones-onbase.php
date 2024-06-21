@@ -16,11 +16,11 @@ include_once('templates/header.php'); ?>
 </div>
 
 <div class="container-lg">
-  <div class="row py-80 d-flex gradient-bg">
-    <div class="col-4">
+  <div class="row pt-100 pb-64 d-flex mio-bg-gradient">
+    <div class="col-sm-4">
       <H1 class="fs-3 fw-bold text-primary">¿Qué es OnBase®</H1>
     </div>
-    <div class="col-8">
+    <div class="col-sm-8">
       <p>OnBase® es una solución integral para la gestión electrónica de documentos, diseñada para optimizar las operaciones empresariales mediante la creación, organización y control dinámico de documentos. Esta plataforma web combina tecnologías avanzadas como la administración de documentos, flujos de trabajo, y gestión de imágenes, permitiendo a las organizaciones compartir eficientemente información entre empleados, socios comerciales, proveedores y clientes.
       </p>
     </div>
@@ -28,10 +28,9 @@ include_once('templates/header.php'); ?>
 </div>
 
 
-
-<div class="container-md">
+<div class="container-md mw-930 py-100">
   <div class="row">
-    <div class="col-12 pt-80 pb-40">
+    <div class="col-12 pb-40">
       <h1 class="text-center fs-3 fw-bold text-primary">¿Por Qué OnBase®</h1>
     </div>
     <div class="col">
@@ -103,6 +102,7 @@ include_once('templates/header.php'); ?>
     </div>
   </div>
 </div>
+
 
 <!-- Template Beneficios -->
 <?php include_once ('templates/beneficios.php'); ?>

@@ -1,10 +1,10 @@
 <!-- Sección - Proveemos los mejores beneficios -->
-<div class="container-fluid pt-4 pb-5 bg-gray">
+<div class="container-fluid pt-4 pb-5 bg-gray px-0">
   <div class="container pb-5">
     <div class="row text-center py-5">
       <h2 class="text-primary fw-bold">Proveemos los mejores beneficios</h2>
     </div>
-    <div class="row gap-4">
+    <div id="mobile-side-scroll" class="row gap-4">
       <div class="col p-4 bg-white rounded-3">
         <img class="mb-3" src="<?php $SERVER_URI ?>images/experiencia.svg" alt="">
         <h3 class="fs-6 text-primary text-bold">Experiencia</h3>
