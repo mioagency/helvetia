@@ -11882,6 +11882,10 @@ body {
   color: #BDCCD4;
 }
 
+.light-gray-2 {
+  color: #606F84;
+}
+
 /* Utilities */
 .fs-14 {
   font-size: 0.875rem;
@@ -12105,6 +12109,28 @@ body {
 }
 .mw-930 { /* Max width */
   max-width: 930px;
+}
+
+.custom-card .card {
+  background: #EEF2F4;
+  border: solid 1px #BDCCD4;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.062745098);
+}
+
+.mw-1120 {
+  max-width: 1120px;
+}
+
+.gr-bg {
+  background: url("../images/helv-global-radar.webp") no-repeat center center/cover;
+}
+
+.card.gr_card--mw {
+  max-width: 440px;
+}
+
+.checked-list {
+  max-width: 24px;
 }
 
 @media (max-width: 575px) {

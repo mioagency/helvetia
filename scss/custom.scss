@@ -38,7 +38,7 @@ $h6-font-size: $font-size-base * 1.25;
 .alt-text { color: #4C4C4C }
 body{ color: #4C4C4C; }
 .light-grey{ color :#BDCCD4 }
-
+.light-gray-2 {color:#606F84;}
 
 /* Utilities */
 .fs-14{ font-size: $font-size-base * 0.875; } 
@@ -230,10 +230,37 @@ body{ color: #4C4C4C; }
 // END Responsive Tabs
 
 // OnBase
-
 .mw-930 { /* Max width */
   max-width: 930px;
 }
+
+// Global RADAR
+
+.custom-card {
+  .card {
+    background:#EEF2F4;
+    border:solid 1px #BDCCD4;
+    box-shadow: 0px 0px 20px #00000010;
+    ;
+  }
+}
+
+.mw-1120 {
+  max-width: 1120px;
+}
+
+.gr-bg{
+  background: url("../images/helv-global-radar.webp") no-repeat center center / cover;
+}
+
+.card.gr_card--mw {
+  max-width:440px;
+}
+
+.checked-list {
+    max-width:24px;
+}
+
 
 //======================= Funciones ===========================
 
