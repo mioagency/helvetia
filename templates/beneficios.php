@@ -4,7 +4,7 @@
     <div class="row text-center py-5">
       <h2 class="text-primary fw-bold">Proveemos los mejores beneficios</h2>
     </div>
-    <div class="row">
+    <div id="mobile-side-scroll" class="row">
       <div class="col-12 col-md-3">
         <div class="p-4 bg-white rounded-3 h-100">
           <img class="mb-3" src="<?php $SERVER_URI ?>images/experiencia.svg" alt="">

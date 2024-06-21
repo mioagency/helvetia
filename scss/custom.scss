@@ -247,8 +247,8 @@ body{ color: #4C4C4C; }
     padding-left:20px;
     padding-right:20px;
     scroll-snap-type: x mandatory !important;
-    gap: 16px !important;
-    grid-auto-columns: calc(100% - 72px) !important;
+    gap: 0 !important;
+    grid-auto-columns: calc(100% - 32px) !important;
     -ms-overflow-style: none; /* for Internet Explorer, Edge */
     scrollbar-width: none; /* for Firefox */
   }
