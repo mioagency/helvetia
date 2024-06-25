@@ -33,6 +33,10 @@ $h6-font-size: $font-size-base * 1.25;
 .header-home-bg-img{
   background: url("../images/header-home-bg-img.png") no-repeat center center / cover;
 }
+
+.custom-vh-100 {
+  height: calc(100vh - 96px) !important;
+}
 // Custom Colors
 .alt-primary { color: #0090A2 }
 .alt-text { color: #4C4C4C }
@@ -234,15 +238,19 @@ body{ color: #4C4C4C; }
   max-width: 930px;
 }
 
-// Global RADAR
 
+// Global RADAR
 .custom-card {
   .card {
     background:#EEF2F4;
     border:solid 1px #BDCCD4;
     box-shadow: 0px 0px 20px #00000010;
-    ;
   }
+}
+.custom-card_bg {
+  background:url("../images/helv-gr-card-bg.webp") !important;
+  background-position: center !important;
+  background-repeat: no-repeat;
 }
 
 .mw-1120 {
@@ -261,6 +269,29 @@ body{ color: #4C4C4C; }
     max-width:24px;
 }
 
+@media (max-width: 570px) {
+  .card {
+    .card__soporte p.fs-6 {
+      font-size: 16px !important;
+    }
+  }
+
+  .custom-card {
+    .card {
+      margin-bottom: 8px;
+    }
+
+    .card img {
+      max-width: 16px;
+    }
+  }
+
+}
+
+// Sentinel
+.sentinel-row-bg {
+  background: url("../images/hel-sentinel-bg.jpg") no-repeat center center / cover;
+}
 
 //======================= Funciones ===========================
 

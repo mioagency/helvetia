@@ -33,16 +33,16 @@ include_once('templates/header.php'); ?>
 <div class="container-fluid py-100 gr-bg">
   <div class="container">
     <div class="row text-center">
-      <div class="col-8 mx-auto">
+      <div class="col col-md-8 mx-auto">
         <h2 class="text-white">¿Qué Hacemos?</h2>
         <p class="text-white mt-3">Helvetia del Caribe es una empresa que desarrolla e implementa soluciones informáticas, fundada en 1986 cuando se incorpora bajo las leyes del Estado Libre Asociado de Puerto Rico. Helvetia del Caribe tiene soluciones para el comercio, la industria, y para el desarrollo de aplicaciones. Helvetia del Caribe es una empresa netamente puertorriqueña. Nuestras oficinas están localizadas en Carolina, Puerto Rico y ocupan un espacio de aproximadamente 12,000 pies cuadrados.
         </p>
         <div class="card gr_card--mw text-start mx-auto mt-md-5">
-          <div class="row p-sm-2 p-md-3 align-items-center">
-            <div class="col-md-3">
+          <div class="row p-3 align-items-center">
+            <div class="col-3">
               <img class="img-fluid" src="images/phone.svg" alt="phone icon">
             </div>
-            <div class="col-md-9 align-items-center">
+            <div class="col-9 align-items-center card__soporte">
               <p class="fs-6 mb-1 light-gray-2">Soporte 24/7</p>
               <p class="fs-6 fw-bold mb-0">
                 <a href="tel:(787) 990-9090">Llámanos: (787) 990-9090</a>
@@ -60,10 +60,12 @@ include_once('templates/header.php'); ?>
   <div class="row text-center">
     <div class="col mx-auto">
       <h2 class="fs-3 fw-bold text-primary">Diferenciadores Clave</h2>
-      <div class="row gx-md-2 custom-card">
-        <div class="col-md-6">
+      <div class="row gx-md-2 custom-card"> <!-- Tarjetas de diferenciadores -->
+
+        <!-- Columna izquierda Desktop -->
+        <div class="col-md-6 d-none d-sm-block">
           <div class="card text-start mt-md-3">
-            <div class="row p-sm-2 p-md-3 align-items-center">
+            <div class="row p-2 p-md-3 align-items-center">
               <div class="col-1 align-items-center">
                 <img class="checked-list" src="images/check-circle-fill.svg" alt=""/>
               </div>
@@ -73,9 +75,8 @@ include_once('templates/header.php'); ?>
               </div>
             </div>
           </div>
-
           <div class="card text-start mt-md-3">
-            <div class="row p-sm-2 p-md-3 align-items-center">
+            <div class="row p-2 p-md-3 align-items-center">
               <div class="col-1 align-items-center">
                 <img class="checked-list" src="images/check-circle-fill.svg" alt=""/>
               </div>
@@ -85,9 +86,8 @@ include_once('templates/header.php'); ?>
               </div>
             </div>
           </div>
-
           <div class="card text-start mt-md-3">
-            <div class="row p-sm-2 p-md-3 align-items-center">
+            <div class="row p-2 p-md-3 align-items-center">
               <div class="col-1 align-items-center">
                 <img class="checked-list" src="images/check-circle-fill.svg" alt=""/>
               </div>
@@ -97,9 +97,8 @@ include_once('templates/header.php'); ?>
               </div>
             </div>
           </div>
-
           <div class="card text-start mt-md-3">
-            <div class="row p-sm-2 p-md-3 align-items-center">
+            <div class="row p-2 p-md-3 align-items-center">
               <div class="col-1 align-items-center">
                 <img class="checked-list" src="images/check-circle-fill.svg" alt=""/>
               </div>
@@ -110,9 +109,11 @@ include_once('templates/header.php'); ?>
             </div>
           </div>
         </div>
-        <div class="col-md-6">
+
+        <!-- Columna derecha Desktop-->
+        <div class="col-md-6 d-none d-sm-block">
           <div class="card text-start mt-md-3">
-            <div class="row p-sm-2 p-md-3 align-items-center">
+            <div class="row p-2 p-md-3 align-items-center">
               <div class="col-1 align-items-center">
                 <img class="checked-list" src="images/check-circle-fill.svg" alt=""/>
               </div>
@@ -123,7 +124,7 @@ include_once('templates/header.php'); ?>
             </div>
           </div>
           <div class="card text-start mt-md-3">
-            <div class="row p-sm-2 p-md-3 align-items-center">
+            <div class="row p-2 p-md-3 align-items-center">
               <div class="col-1 align-items-center">
                 <img class="checked-list" src="images/check-circle-fill.svg" alt=""/>
               </div>
@@ -134,7 +135,99 @@ include_once('templates/header.php'); ?>
             </div>
           </div>
           <div class="card text-start mt-md-3">
-            <div class="row p-sm-2 p-md-3 align-items-center">
+            <div class="row p-2 p-md-3 align-items-center">
+              <div class="col-1 align-items-center">
+                <img class="checked-list" src="images/check-circle-fill.svg" alt=""/>
+              </div>
+              <div class="col-11 align-items-center">
+                <p class="mb-1 light-gray-2"><strong>Modelo de Datos Sofisticado:</strong> Captura la complejidad de la estructura del cliente con gran detalle.
+                </p>
+              </div>
+            </div>
+          </div> 
+          <div class="card text-start custom-card_bg mt-md-3">
+            <div class="p-3 p-md-3 align-items-center">
+              <div class="col align-items-center">
+                <p class="fs-4 text-white">Programa una consulta hoy mismo.</p>
+                <a href="contactenos.php">
+                  <button class="btn btn-info mx-auto text-tertiary fw-light">Contáctanos</button>
+                </a>
+              </div>
+            </div>
+          </div> 
+        </div>
+        
+
+        <!-- Movil : Columna -->
+        <div id="mobile-side-scroll" class="col d-sm-none">
+          <div class="card text-start mt-md-3">
+            <div class="row p-2 p-md-3 align-items-center">
+              <div class="col-1 align-items-center">
+                <img class="checked-list" src="images/check-circle-fill.svg" alt=""/>
+              </div>
+              <div class="col-11 align-items-center">
+                <p class="mb-1 light-gray-2"><strong>Venta Cruzada en Tiempo Real:</strong> Utilice datos efectivos para impulsar ventas adicionales de productos y servicios.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card text-start mt-md-3">
+            <div class="row p-2 p-md-3 align-items-center">
+              <div class="col-1 align-items-center">
+                <img class="checked-list" src="images/check-circle-fill.svg" alt=""/>
+              </div>
+              <div class="col-11 align-items-center">
+                <p class="mb-1 light-gray-2"><strong>Pruebas en Red de Preparación:</strong> Asegure una implementación fluida con pruebas exhaustivas antes de producción.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card text-start mt-md-3">
+            <div class="row p-2 p-md-3 align-items-center">
+              <div class="col-1 align-items-center">
+                <img class="checked-list" src="images/check-circle-fill.svg" alt=""/>
+              </div>
+              <div class="col-11 align-items-center">
+                <p class="mb-1 light-gray-2"><strong>Proceso Acelerado de Cuentas:</strong> Facilita la apertura y revisión de cuentas de cumplimiento de manera eficiente.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card text-start mt-md-3">
+            <div class="row p-2 p-md-3 align-items-center">
+              <div class="col-1 align-items-center">
+                <img class="checked-list" src="images/check-circle-fill.svg" alt=""/>
+              </div>
+              <div class="col-11 align-items-center">
+                <p class="mb-1 light-gray-2"><strong>Auto-configuración:</strong> Empodere a su equipo con el control directo sobre la configuración del sistema.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card text-start mt-md-3">
+            <div class="row p-2 p-md-3 align-items-center">
+              <div class="col-1 align-items-center">
+                <img class="checked-list" src="images/check-circle-fill.svg" alt=""/>
+              </div>
+              <div class="col-11 align-items-center">
+                <p class="mb-1 light-gray-2"><strong>Actualizaciones Continuas:</strong> Implemente mejoras rápidamente sin largos tiempos de espera.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card text-start mt-md-3">
+            <div class="row p-2 p-md-3 align-items-center">
+              <div class="col-1 align-items-center">
+                <img class="checked-list" src="images/check-circle-fill.svg" alt=""/>
+              </div>
+              <div class="col-11 align-items-center">
+                <p class="mb-1 light-gray-2"><strong>Análisis Avanzado de Relaciones:</strong> Proporciona perspectivas profundas sobre la organización y relaciones de los clientes más allá de los sistemas tradicionales.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card text-start mt-md-3">
+            <div class="row p-2 p-md-3 align-items-center">
               <div class="col-1 align-items-center">
                 <img class="checked-list" src="images/check-circle-fill.svg" alt=""/>
               </div>
@@ -145,10 +238,24 @@ include_once('templates/header.php'); ?>
             </div>
           </div> 
         </div>
+        <div class="text-center custom-card_bg mt-5 d-sm-none"> <!-- Solo móvil -->
+          <div class="p-5 align-items-center">
+            <div class="col align-items-center">
+              <p class="fs-4 text-white">Programa una consulta hoy mismo.</p>
+              <a href="contactenos.php">
+                <button class="btn btn-info mx-auto text-tertiary fw-light">Contáctanos</button>
+              </a>
+            </div>
+          </div>
+        </div> 
+        <!-- Fin elementos móvil -->
       </div>
     </div>
   </div>
 </div>
+
+<!-- Template Beneficios -->
+<?php include_once ('templates/beneficios.php'); ?>
 
 <?php
 include_once('templates/footer.php');

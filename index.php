@@ -11,7 +11,7 @@ function customPageHeader()
 include_once ('templates/header.php'); ?>
 
 <div
-  class="container-fluid vh-100 d-flex align-items-center justify-content-center text-white header-home-bg-img text-center">
+  class="container-fluid custom-vh-100 d-flex align-items-center justify-content-center text-white header-home-bg-img text-center">
   <div class="row py-4">
     <div class="col col-md-8 offset-md-2">
       <h1>Desarrollamos e implementamos soluciones informáticas para el sector financiero</h1>
