@@ -8,6 +8,7 @@ $primary: #3D8FA0;
 $secondary: #058FA5;
 $tertiary: #105A73;
 $info: #B6FFF6;
+$light-gray-3: #EEF2F4;
 
 
 //Font sizes
@@ -60,7 +61,7 @@ body{ color: #4C4C4C; }
   background: rgb(182,255,246);
   background: radial-gradient(ellipse at 50% 100%, rgba(182,255,246,.7) 0%, rgba(255,255,255,1) 47%);
 }
-.bg-light-primary{background-color:#EEF2F4}
+.bg-light-primary{background-color: $light-gray-3;}
 
 // Carousel
 .carousel-inner {
@@ -242,7 +243,7 @@ body{ color: #4C4C4C; }
 // Global RADAR
 .custom-card {
   .card {
-    background:#EEF2F4;
+    background:$light-gray-3;
     border:solid 1px #BDCCD4;
     box-shadow: 0px 0px 20px #00000010;
   }
@@ -290,8 +291,25 @@ body{ color: #4C4C4C; }
 
 // Sentinel
 .sentinel-row-bg {
-  background: url("../images/hel-sentinel-bg.jpg") no-repeat center center / cover;
+  background: url("../images/hel-sentinel-bg.webp") no-repeat center center / cover;
 }
+
+
+// Colecta
+.custom-card--colecta {
+  .card {
+    background:$light-gray-3;
+    box-shadow: none;
+    min-width:calc(33% - 16px) ;
+  }
+}
+@media (max-width: 575px) {
+  .br-0 {
+    border-radius: 0 !important;
+  }
+}
+
+
 
 //======================= Funciones ===========================
 

@@ -12155,9 +12155,20 @@ body {
   }
 }
 .sentinel-row-bg {
-  background: url("../images/hel-sentinel-bg.jpg") no-repeat center center/cover;
+  background: url("../images/hel-sentinel-bg.webp") no-repeat center center/cover;
 }
 
+.custom-card--colecta .card {
+  background: #EEF2F4;
+  box-shadow: none;
+  min-width: calc(33% - 16px);
+}
+
+@media (max-width: 575px) {
+  .br-0 {
+    border-radius: 0 !important;
+  }
+}
 @media (max-width: 575px) {
   #mobile-side-scroll {
     display: grid !important;
