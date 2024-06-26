@@ -18,7 +18,7 @@ include_once('templates/header.php'); ?>
 <section class="container-lg mw-1120">
   <div class="row pt-100 pb-64 d-flex mio-bg-gradient">
     <div class="col-sm-4">
-      <H2 class="fs-3 fw-bold text-primary">¿Qué es Sentinel</H2>
+      <H2 class="fs-3 fw-bold text-primary">¿Qué es Sentinel?</H2>
     </div>
     <div class="col-sm-8">
       <p>Sentinel es el producto de excelencia para comenzar esta fase de manejo de contenido electrónico, conocido por sus siglas en inglés, ECM (Electronic Content Management). Como parte de la solución se incluye un módulo de COLD para la importación de reportes diarios y mensuales. Adicional se incluye “Teller Scanning”, en adelante TELLER SCANNING. Integrado con la aplicación de ALAS y APERTURA, es la base para el expediente electrónico del socio.
