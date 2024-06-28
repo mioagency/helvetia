@@ -12146,25 +12146,25 @@ body {
     background: url("../images/ventas-y-automatizacion.svg") no-repeat center center/30px;
   }
 
-    .icon-text-box .area-de-caja {
-      background: url("../images/area-de-caja.svg") no-repeat center center/30px;
-    }
+  .icon-text-box .area-de-caja {
+    background: url("../images/area-de-caja.svg") no-repeat center center/30px;
+  }
 
-    .icon-text-box .prestamos {
-      background: url("../images/area-de-prestamos.svg") no-repeat center center/30px;
-    }
+  .icon-text-box .prestamos {
+    background: url("../images/area-de-prestamos.svg") no-repeat center center/30px;
+  }
 
-    .icon-text-box .contabilidad {
-      background: url("../images/contabilidad.svg") no-repeat center center/30px;
-    }
+  .icon-text-box .contabilidad {
+    background: url("../images/contabilidad.svg") no-repeat center center/30px;
+  }
 
-    .icon-text-box .computos {
-      background: url("../images/centro-de-computos.svg") no-repeat center center/30px;
-    }
+  .icon-text-box .computos {
+    background: url("../images/centro-de-computos.svg") no-repeat center center/30px;
+  }
 
-    .icon-text-box .administracion {
-      background: url("../images/administracion.svg") no-repeat center center/30px;
-    }
+  .icon-text-box .administracion {
+    background: url("../images/administracion.svg") no-repeat center center/30px;
+  }
 
   .icon-text-box:hover .sistemas-bancarios, .active .icon-text-box .sistemas-bancarios {
     background: url("../images/sistemas-bancarios-hover.svg") no-repeat center center/30px;
@@ -12210,6 +12210,7 @@ body {
   .icon-text-box:hover .icon-wrapper, .active .icon-text-box .icon-wrapper {
     background-color: #3D8FA0;
   }
+  
 }
 .mw-930 { /* Max width */
   max-width: 930px;
