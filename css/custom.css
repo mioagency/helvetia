@@ -11917,6 +11917,10 @@ body {
   background-color: #EEF2F4;
 }
 
+.bg-light-secondary {
+  background-color: #F7F7F7;
+}
+
 .carousel-inner {
   padding: 1em;
 }
@@ -12034,11 +12038,60 @@ body {
   background: url("../images/ventas-y-automatizacion-hover.svg") no-repeat center center/60px;
 }
 .icon-text-box:hover .icon-wrapper, .active .icon-text-box .icon-wrapper {
-  background-color: #3D8FA0;
+  background-color: #3D8FA0 !important;
 }
 .icon-text-box:hover h3, .icon-text-box:hover .h3, .active .icon-text-box h3, .active .icon-text-box .h3 {
-  color: #3D8FA0;
+  color: #3D8FA0 !important;
 }
+
+
+/* Página NCUS Web */
+.icon-text-box .area-de-caja {
+  background: url("../images/area-de-caja.svg") no-repeat center center/60px;
+}
+
+.icon-text-box:hover .area-de-caja,
+.active .icon-text-box .area-de-caja {
+  background: url("../images/area-de-caja-hover.svg") no-repeat center center/60px;
+}
+
+.icon-text-box .prestamos {
+  background: url("../images/area-de-prestamos.svg") no-repeat center center/60px;
+}
+
+.icon-text-box:hover .prestamos,
+.active .icon-text-box .prestamos {
+  background: url("../images/area-de-prestamos-hover.svg") no-repeat center center/60px;
+}
+
+.icon-text-box .contabilidad {
+  background: url("../images/contabilidad.svg") no-repeat center center/60px;
+}
+
+.icon-text-box:hover .contabilidad,
+.active .icon-text-box .contabilidad {
+  background: url("../images/contabilidad-hover.svg") no-repeat center center/60px;
+}
+
+.icon-text-box .computos {
+  background: url("../images/centro-de-computos.svg") no-repeat center center/60px;
+}
+
+.icon-text-box:hover .computos,
+.active .icon-text-box .computos {
+  background: url("../images/centro-de-computos-hover.svg") no-repeat center center/60px;
+}
+
+.icon-text-box .administracion {
+  background: url("../images/administracion.svg") no-repeat center center/60px;
+}
+
+.icon-text-box:hover .administracion,
+.active .icon-text-box .administracion {
+  background: url("../images/administracion-hover.svg") no-repeat center center/60px;
+}
+
+/* FIN Página NCUS Web */
 
 .pr-bg {
   background: url("../images/pr-bg.webp") no-repeat center center/cover;
