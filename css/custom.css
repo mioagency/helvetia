@@ -12145,9 +12145,56 @@ body {
   .icon-text-box .ventas-y-automatizacion {
     background: url("../images/ventas-y-automatizacion.svg") no-repeat center center/30px;
   }
+
+    .icon-text-box .area-de-caja {
+      background: url("../images/area-de-caja.svg") no-repeat center center/30px;
+    }
+
+    .icon-text-box .prestamos {
+      background: url("../images/area-de-prestamos.svg") no-repeat center center/30px;
+    }
+
+    .icon-text-box .contabilidad {
+      background: url("../images/contabilidad.svg") no-repeat center center/30px;
+    }
+
+    .icon-text-box .computos {
+      background: url("../images/centro-de-computos.svg") no-repeat center center/30px;
+    }
+
+    .icon-text-box .administracion {
+      background: url("../images/administracion.svg") no-repeat center center/30px;
+    }
+
   .icon-text-box:hover .sistemas-bancarios, .active .icon-text-box .sistemas-bancarios {
     background: url("../images/sistemas-bancarios-hover.svg") no-repeat center center/30px;
   }
+
+  .icon-text-box:hover .area-de-caja,
+  .active .icon-text-box .area-de-caja {
+    background: url("../images/area-de-caja-hover.svg") no-repeat center center/30px;
+  }
+
+  .icon-text-box:hover .prestamos,
+  .active .icon-text-box .prestamos {
+    background: url("../images/area-de-prestamos-hover.svg") no-repeat center center/30px;
+  }
+
+  .icon-text-box:hover .contabilidad,
+  .active .icon-text-box .contabilidad {
+    background: url("../images/contabilidad-hover.svg") no-repeat center center/30px;
+  }
+
+  .icon-text-box:hover .computos,
+  .active .icon-text-box .computos {
+    background: url("../images/centro-de-computos-hover.svg") no-repeat center center/30px;
+  }
+
+  .icon-text-box:hover .administracion,
+  .active .icon-text-box .administracion {
+    background: url("../images/administracion-hover.svg") no-repeat center center/30px;
+  }
+
   .icon-text-box:hover .analisis-de-datos, .active .icon-text-box .analisis-de-datos {
     background: url("../images/analisis-de-datos-hover.svg") no-repeat center center/30px;
   }
