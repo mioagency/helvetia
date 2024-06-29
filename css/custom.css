@@ -11887,7 +11887,7 @@ body {
 }
 
 .light-gray-2 {
-  color: #606F84;
+  color: #EEF2F4;
 }
 
 /* Utilities */
@@ -11907,6 +11907,18 @@ body {
   max-width: 75%;
 }
 
+.mw-1120 {
+  max-width: 1120px;
+}
+
+.mw-930 {
+  max-width: 930px;
+}
+
+.mw-760 {
+  max-width: 760px;
+}
+
 @media (min-width: 768px) {
   .py-100 {
     padding-top: 100px !important;
@@ -11914,6 +11926,9 @@ body {
   }
   .pt-100 {
     padding-top: 100px !important;
+  }
+  .pb-500 {
+    padding-bottom: 500px !important;
   }
 }
 /* Colors */
@@ -12120,10 +12135,6 @@ body {
     background-color: #3D8FA0;
   }
 }
-.mw-930 { /* Max width */
-  max-width: 930px;
-}
-
 .custom-card .card {
   background: #EEF2F4;
   border: solid 1px #BDCCD4;
@@ -12134,10 +12145,6 @@ body {
   background: url("../images/helv-gr-card-bg.webp") !important;
   background-position: center !important;
   background-repeat: no-repeat;
-}
-
-.mw-1120 {
-  max-width: 1120px;
 }
 
 .gr-bg {
@@ -12191,6 +12198,36 @@ body {
     display: block;
   }
 }
+.custom-card--oncall .card {
+  background: white;
+  box-shadow: none;
+  min-width: calc(33% - 16px);
+  max-width: 320px;
+  border: solid 1px #BDCCD4;
+}
+.custom-card--oncall .card .card_number {
+  background: #3D8FA0;
+  display: inline-flex;
+  min-width: 40px;
+  min-height: 40px;
+  border-radius: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-light-grey {
+  background: #f7f7f7;
+}
+
+@media (min-width: 768px) {
+  .mt-n500 {
+    margin-top: -500px;
+  }
+}
+.dark-grey {
+  color: var(--bs-gray-700);
+}
+
 @media (max-width: 575px) {
   #mobile-side-scroll {
     display: grid !important;

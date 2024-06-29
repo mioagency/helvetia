@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="610" height="509" viewBox="0 0 610 509">
+  <defs>
+    <filter id="Rectangle_1086" x="0" y="0" width="610" height="509" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-opacity="0.078"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_1023" data-name="Group 1023" transform="translate(-940 -291)">
+    <g transform="matrix(1, 0, 0, 1, 940, 291)" filter="url(#Rectangle_1086)">
+      <rect id="Rectangle_1086-2" data-name="Rectangle 1086" width="550" height="449" rx="10" transform="translate(30 30)" fill="#fff"/>
+    </g>
+    <g id="Group_988" data-name="Group 988" transform="translate(4 13)">
+      <g id="Group_985" data-name="Group 985">
+        <g id="Group_984" data-name="Group 984">
+          <g id="Rectangle_1089" data-name="Rectangle 1089" transform="translate(1014 460)" fill="#fff" stroke="#058fa5" stroke-width="1">
+            <rect width="455" height="44" rx="15" stroke="none"/>
+            <rect x="0.5" y="0.5" width="454" height="43" rx="14.5" fill="none"/>
+          </g>
+          <text id="Usuario" transform="translate(1030 487)" fill="#72797f" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Usuario</tspan></text>
+        </g>
+        <text id="Usuario-2" data-name="Usuario" transform="translate(1015 443)" fill="#72797f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Usuario</tspan></text>
+      </g>
+      <g id="Group_986" data-name="Group 986" transform="translate(0 108)">
+        <g id="Group_984-2" data-name="Group 984">
+          <g id="Rectangle_1089-2" data-name="Rectangle 1089" transform="translate(1014 460)" fill="#fff" stroke="#058fa5" stroke-width="1">
+            <rect width="455" height="44" rx="15" stroke="none"/>
+            <rect x="0.5" y="0.5" width="454" height="43" rx="14.5" fill="none"/>
+          </g>
+          <text id="Contraseña" transform="translate(1030 487)" fill="#72797f" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Contraseña</tspan></text>
+        </g>
+        <text id="Contraseña-2" data-name="Contraseña" transform="translate(1015 443)" fill="#72797f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Contraseña</tspan></text>
+      </g>
+    </g>
+    <g id="Group_987" data-name="Group 987" transform="translate(180.189 201)">
+      <g id="Rectangle_1089-3" data-name="Rectangle 1089" transform="translate(1014.811 460)" fill="#058fa5" stroke="#058fa5" stroke-width="1">
+        <rect width="101" height="57" rx="15" stroke="none"/>
+        <rect x="0.5" y="0.5" width="100" height="56" rx="14.5" fill="none"/>
+      </g>
+      <text id="ENTRAR" transform="translate(1065.811 494)" fill="#fff" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="-29" y="0">ENTRAR</tspan></text>
+    </g>
+    <g id="Group_989" data-name="Group 989" transform="translate(3)">
+      <line id="Line_70" data-name="Line 70" x2="455" transform="translate(1014.5 411)" fill="none" stroke="#707070" stroke-width="1"/>
+      <text id="Registrar_un_nuevo_servicio" data-name="Registrar un nuevo servicio" transform="translate(1014 393)" fill="#4c4c4c" font-size="24" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Registrar un nuevo servicio</tspan></text>
+    </g>
+  </g>
+</svg>
