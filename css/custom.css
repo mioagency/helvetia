@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/*
+/*!
  * Bootstrap  v5.3.3 (https://getbootstrap.com/)
  * Copyright 2011-2024 The Bootstrap Authors
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
@@ -11941,10 +11941,6 @@ body {
   background-color: #EEF2F4;
 }
 
-.bg-light-secondary {
-  background-color: #F7F7F7;
-}
-
 .carousel-inner {
   padding: 1em;
 }
@@ -12062,60 +12058,11 @@ body {
   background: url("../images/ventas-y-automatizacion-hover.svg") no-repeat center center/60px;
 }
 .icon-text-box:hover .icon-wrapper, .active .icon-text-box .icon-wrapper {
-  background-color: #3D8FA0 !important;
+  background-color: #3D8FA0;
 }
 .icon-text-box:hover h3, .icon-text-box:hover .h3, .active .icon-text-box h3, .active .icon-text-box .h3 {
-  color: #3D8FA0 !important;
+  color: #3D8FA0;
 }
-
-
-/* Página NCUS Web */
-.icon-text-box .area-de-caja {
-  background: url("../images/area-de-caja.svg") no-repeat center center/60px;
-}
-
-.icon-text-box:hover .area-de-caja,
-.active .icon-text-box .area-de-caja {
-  background: url("../images/area-de-caja-hover.svg") no-repeat center center/60px;
-}
-
-.icon-text-box .prestamos {
-  background: url("../images/area-de-prestamos.svg") no-repeat center center/60px;
-}
-
-.icon-text-box:hover .prestamos,
-.active .icon-text-box .prestamos {
-  background: url("../images/area-de-prestamos-hover.svg") no-repeat center center/60px;
-}
-
-.icon-text-box .contabilidad {
-  background: url("../images/contabilidad.svg") no-repeat center center/60px;
-}
-
-.icon-text-box:hover .contabilidad,
-.active .icon-text-box .contabilidad {
-  background: url("../images/contabilidad-hover.svg") no-repeat center center/60px;
-}
-
-.icon-text-box .computos {
-  background: url("../images/centro-de-computos.svg") no-repeat center center/60px;
-}
-
-.icon-text-box:hover .computos,
-.active .icon-text-box .computos {
-  background: url("../images/centro-de-computos-hover.svg") no-repeat center center/60px;
-}
-
-.icon-text-box .administracion {
-  background: url("../images/administracion.svg") no-repeat center center/60px;
-}
-
-.icon-text-box:hover .administracion,
-.active .icon-text-box .administracion {
-  background: url("../images/administracion-hover.svg") no-repeat center center/60px;
-}
-
-/* FIN Página NCUS Web */
 
 .pr-bg {
   background: url("../images/pr-bg.webp") no-repeat center center/cover;
@@ -12169,56 +12116,9 @@ body {
   .icon-text-box .ventas-y-automatizacion {
     background: url("../images/ventas-y-automatizacion.svg") no-repeat center center/30px;
   }
-
-  .icon-text-box .area-de-caja {
-    background: url("../images/area-de-caja.svg") no-repeat center center/30px;
-  }
-
-  .icon-text-box .prestamos {
-    background: url("../images/area-de-prestamos.svg") no-repeat center center/30px;
-  }
-
-  .icon-text-box .contabilidad {
-    background: url("../images/contabilidad.svg") no-repeat center center/30px;
-  }
-
-  .icon-text-box .computos {
-    background: url("../images/centro-de-computos.svg") no-repeat center center/30px;
-  }
-
-  .icon-text-box .administracion {
-    background: url("../images/administracion.svg") no-repeat center center/30px;
-  }
-
   .icon-text-box:hover .sistemas-bancarios, .active .icon-text-box .sistemas-bancarios {
     background: url("../images/sistemas-bancarios-hover.svg") no-repeat center center/30px;
   }
-
-  .icon-text-box:hover .area-de-caja,
-  .active .icon-text-box .area-de-caja {
-    background: url("../images/area-de-caja-hover.svg") no-repeat center center/30px;
-  }
-
-  .icon-text-box:hover .prestamos,
-  .active .icon-text-box .prestamos {
-    background: url("../images/area-de-prestamos-hover.svg") no-repeat center center/30px;
-  }
-
-  .icon-text-box:hover .contabilidad,
-  .active .icon-text-box .contabilidad {
-    background: url("../images/contabilidad-hover.svg") no-repeat center center/30px;
-  }
-
-  .icon-text-box:hover .computos,
-  .active .icon-text-box .computos {
-    background: url("../images/centro-de-computos-hover.svg") no-repeat center center/30px;
-  }
-
-  .icon-text-box:hover .administracion,
-  .active .icon-text-box .administracion {
-    background: url("../images/administracion-hover.svg") no-repeat center center/30px;
-  }
-
   .icon-text-box:hover .analisis-de-datos, .active .icon-text-box .analisis-de-datos {
     background: url("../images/analisis-de-datos-hover.svg") no-repeat center center/30px;
   }
@@ -12234,7 +12134,6 @@ body {
   .icon-text-box:hover .icon-wrapper, .active .icon-text-box .icon-wrapper {
     background-color: #3D8FA0;
   }
-  
 }
 .custom-card .card {
   background: #EEF2F4;
@@ -12327,6 +12226,10 @@ body {
 }
 .dark-grey {
   color: var(--bs-gray-700);
+}
+
+.text-decoration-none:hover {
+  text-decoration: underline !important;
 }
 
 @media (max-width: 575px) {

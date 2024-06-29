@@ -102,7 +102,7 @@ include_once('templates/header.php'); ?>
     <div class="col-12 mw-930 mx-auto mt-3">
       <img class="img-fluid" src="images/oncall-form-4.svg" alt="captura de formulario para servicio OnCall">
     </div>
-    <p class="fs-5 fs-md-4 fw-bold text-center mb-5 mx-md-4">Si desea registrar otro servicio seleccione <span class="text-primary">Nuevo Servicio</span>, de lo contrario puede <span class="text-primary">Salir del Sistema.</span></p>
+    <p class="fs-5 fs-md-4 fw-bold text-center mb-5 mx-auto mw-760">Si desea registrar otro servicio seleccione <span class="text-primary">Nuevo Servicio</span>, de lo contrario puede <span class="text-primary">Salir del Sistema.</span></p>
     <p class="text-center mw-760 mx-auto">Adicionalmente estará recibiendo una Confirmación al correo electrónico vinculado a su solicitud. El mismo detalla su número de caso y la descripción de su situación. 
     <br/><br/>
     Favor de NO escribir a este correo electrónico, el mismo es solo para confirmar su solicitud. Para seguimiento o si desea agregar algún detalle a su caso, favor comunicarse a nuestras oficinas</p>
