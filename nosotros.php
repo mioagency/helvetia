@@ -69,7 +69,7 @@ include_once('templates/header.php'); ?>
                   <img class="checked-list" src="images/check-circle-fill.svg" alt="" />
                 </div>
                 <div class="col-11 align-items-center">
-                  <p class="mb-1 light-gray-2">Vasta experiencia en el mercado, sobre 30 años
+                  <p class="mb-1 light-grey-text">Vasta experiencia en el mercado, sobre 30 años
                     sirviendo de manera exclusiva al mercado de ahorro y crédito.
                   </p>
                 </div>
@@ -81,7 +81,7 @@ include_once('templates/header.php'); ?>
                   <img class="checked-list" src="images/check-circle-fill.svg" alt="" />
                 </div>
                 <div class="col-11 align-items-center">
-                  <p class="mb-1 light-gray-2">Sobre sesenta cooperativas en Puerto Rico operan con
+                  <p class="mb-1 light-grey-text">Sobre sesenta cooperativas en Puerto Rico operan con
                     nuestros sistemas por más de una década.
                   </p>
                 </div>
@@ -93,7 +93,7 @@ include_once('templates/header.php'); ?>
                   <img class="checked-list" src="images/check-circle-fill.svg" alt="" />
                 </div>
                 <div class="col-11 align-items-center">
-                  <p class="mb-1 light-gray-2">Empresa con formalidad en sus instalaciones. No existe
+                  <p class="mb-1 light-grey-text">Empresa con formalidad en sus instalaciones. No existe
                     improvisación ni falta de experiencia. Sobre 2,500 instalaciones exitosas de
                     productos durante mas de 30 años.
                   </p>
@@ -106,7 +106,7 @@ include_once('templates/header.php'); ?>
                   <img class="checked-list" src="images/check-circle-fill.svg" alt="" />
                 </div>
                 <div class="col-11 align-items-center">
-                  <p class="mb-1 light-gray-2">Contamos con 60 empleados motivados. Promediando cuatro
+                  <p class="mb-1 light-grey-text">Contamos con 60 empleados motivados. Promediando cuatro
                     empleos nuevos por año de existencia. No ha existido una empresa local dedicada
                     a cooperativas que haya empleado tanto personal.
                   </p>
@@ -119,7 +119,7 @@ include_once('templates/header.php'); ?>
                   <img class="checked-list" src="images/check-circle-fill.svg" alt="" />
                 </div>
                 <div class="col-11 align-items-center">
-                  <p class="mb-1 light-gray-2">Capitalizamos nuestros ingresos. Única institución de
+                  <p class="mb-1 light-grey-text">Capitalizamos nuestros ingresos. Única institución de
                     servicios que se ha mantenido desarrollando, educando al personal e invirtiendo
                     en
                     infraestructura para tranquilidad de nuestros clientes.
@@ -133,7 +133,7 @@ include_once('templates/header.php'); ?>
                   <img class="checked-list" src="images/check-circle-fill.svg" alt="" />
                 </div>
                 <div class="col-11 align-items-center">
-                  <p class="mb-1 light-gray-2">Contamos con todos los productos necesarios para no
+                  <p class="mb-1 light-grey-text">Contamos con todos los productos necesarios para no
                     estar en desventaja con la banca. Trabajan en tiempo real red, cajeros
                     automáticos, TeleCoop, Home Banking y Shared Branch. Estos productos han sido
                     desarrollados con la más alta tecnología.
@@ -147,7 +147,7 @@ include_once('templates/header.php'); ?>
                   <img class="checked-list" src="images/check-circle-fill.svg" alt="" />
                 </div>
                 <div class="col-11 align-items-center">
-                  <p class="mb-1 light-gray-2">Todos los productos son integrados para evitar doble
+                  <p class="mb-1 light-grey-text">Todos los productos son integrados para evitar doble
                     esfuerzo e incompatibilidad entre los productos.
                   </p>
                 </div>
@@ -159,7 +159,7 @@ include_once('templates/header.php'); ?>
                   <img class="checked-list" src="images/check-circle-fill.svg" alt="" />
                 </div>
                 <div class="col-11 align-items-center">
-                  <p class="mb-1 light-gray-2">Contamos con todos los productos necesarios para la
+                  <p class="mb-1 light-grey-text">Contamos con todos los productos necesarios para la
                     digitalización total de la cooperativa.
                   </p>
                 </div>
@@ -177,7 +177,7 @@ include_once('templates/header.php'); ?>
                   <img class="checked-list" src="images/check-circle-fill.svg" alt="" />
                 </div>
                 <div class="col-11 align-items-center">
-                  <p class="mb-1 light-gray-2">Vasta experiencia en el mercado, sobre 30 años
+                  <p class="mb-1 light-grey-text">Vasta experiencia en el mercado, sobre 30 años
                     sirviendo de manera exclusiva al mercado de ahorro y crédito.
                   </p>
                 </div>
@@ -189,7 +189,7 @@ include_once('templates/header.php'); ?>
                   <img class="checked-list" src="images/check-circle-fill.svg" alt="" />
                 </div>
                 <div class="col-11 align-items-center">
-                  <p class="mb-1 light-gray-2">Sobre sesenta cooperativas en Puerto Rico operan con
+                  <p class="mb-1 light-grey-text">Sobre sesenta cooperativas en Puerto Rico operan con
                     nuestros sistemas por más de una década.
                   </p>
                 </div>
@@ -201,7 +201,7 @@ include_once('templates/header.php'); ?>
                   <img class="checked-list" src="images/check-circle-fill.svg" alt="" />
                 </div>
                 <div class="col-11 align-items-center">
-                  <p class="mb-1 light-gray-2">Empresa con formalidad en sus instalaciones. No existe
+                  <p class="mb-1 light-grey-text">Empresa con formalidad en sus instalaciones. No existe
                     improvisación ni falta de experiencia. Sobre 2,500 instalaciones exitosas de
                     productos durante mas de 30 años.
                   </p>
@@ -214,7 +214,7 @@ include_once('templates/header.php'); ?>
                   <img class="checked-list" src="images/check-circle-fill.svg" alt="" />
                 </div>
                 <div class="col-11 align-items-center">
-                  <p class="mb-1 light-gray-2">Contamos con 60 empleados motivados. Promediando cuatro
+                  <p class="mb-1 light-grey-text">Contamos con 60 empleados motivados. Promediando cuatro
                     empleos nuevos por año de existencia. No ha existido una empresa local dedicada
                     a cooperativas que haya empleado tanto personal.
                   </p>
@@ -227,7 +227,7 @@ include_once('templates/header.php'); ?>
                   <img class="checked-list" src="images/check-circle-fill.svg" alt="" />
                 </div>
                 <div class="col-11 align-items-center">
-                  <p class="mb-1 light-gray-2">Capitalizamos nuestros ingresos. Única institución de
+                  <p class="mb-1 light-grey-text">Capitalizamos nuestros ingresos. Única institución de
                     servicios que se ha mantenido desarrollando, educando al personal e invirtiendo
                     en
                     infraestructura para tranquilidad de nuestros clientes.
@@ -241,7 +241,7 @@ include_once('templates/header.php'); ?>
                   <img class="checked-list" src="images/check-circle-fill.svg" alt="" />
                 </div>
                 <div class="col-11 align-items-center">
-                  <p class="mb-1 light-gray-2">Contamos con todos los productos necesarios para no
+                  <p class="mb-1 light-grey-text">Contamos con todos los productos necesarios para no
                     estar en desventaja con la banca. Trabajan en tiempo real red, cajeros
                     automáticos, TeleCoop, Home Banking y Shared Branch. Estos productos han sido
                     desarrollados con la más alta tecnología.
@@ -255,7 +255,7 @@ include_once('templates/header.php'); ?>
                   <img class="checked-list" src="images/check-circle-fill.svg" alt="" />
                 </div>
                 <div class="col-11 align-items-center">
-                  <p class="mb-1 light-gray-2">Todos los productos son integrados para evitar doble
+                  <p class="mb-1 light-grey-text">Todos los productos son integrados para evitar doble
                     esfuerzo e incompatibilidad entre los productos.
                   </p>
                 </div>
@@ -267,7 +267,7 @@ include_once('templates/header.php'); ?>
                   <img class="checked-list" src="images/check-circle-fill.svg" alt="" />
                 </div>
                 <div class="col-11 align-items-center">
-                  <p class="mb-1 light-gray-2">Contamos con todos los productos necesarios para la
+                  <p class="mb-1 light-grey-text">Contamos con todos los productos necesarios para la
                     digitalización total de la cooperativa.
                   </p>
                 </div>

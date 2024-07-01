@@ -11890,6 +11890,10 @@ body {
   color: #EEF2F4;
 }
 
+.light-grey-text {
+  color: #606F84;
+}
+
 /* Utilities */
 .fs-14 {
   font-size: 0.875rem;
