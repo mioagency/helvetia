@@ -883,9 +883,8 @@ include_once('templates/cta-full-width.php');
 <!-- Template Beneficios -->
 <?php include_once('templates/beneficios.php'); ?>
 
-<?php
-include_once('templates/footer.php');
-?>
+<?php include_once('templates/footer.php');?>
+
 <?php
 include_once('templates/footer.php');
 ?>
