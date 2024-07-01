@@ -242,7 +242,7 @@ include_once('templates/header.php'); ?>
           <div class="p-5 align-items-center">
             <div class="col align-items-center">
               <p class="fs-4 text-white">Programa una consulta hoy mismo.</p>
-              <a href="contactenos.php">
+              <a href="<?php $SERVER_URI ?>contactenos.php">
                 <button class="btn btn-info mx-auto text-tertiary fw-light">Contáctanos</button>
               </a>
             </div>

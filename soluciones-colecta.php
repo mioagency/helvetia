@@ -83,7 +83,7 @@ include_once('templates/header.php'); ?>
     <div class="row text-sm-start text-center mx-auto">
         <div class="col d-flex justify-content-between flex-column flex-sm-row align-items-center px-sm-5">
             <h2 class="fs-3 text-white mb-4">Programa una consulta hoy mismo y obtén los beneficios.</h2>
-            <a href="contactenos.php">
+            <a href="<?php $SERVER_URI ?>contactenos.php">
                 <button class="btn btn-info mx-auto text-tertiary fw-light text-nowrap">Coordina tu cita aquí</button>
             </a>
         </div>

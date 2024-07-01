@@ -35,7 +35,7 @@ include_once('templates/header.php'); ?>
 </div>
 
 <!--Sección Modelos Básicos-->
-<div class="container-fluid responsive-tabs bg-light-secondary">
+<div class="container-fluid responsive-tabs bg-light-grey">
 
     <div class="container">
 
@@ -117,7 +117,7 @@ include_once('templates/header.php'); ?>
                 </div>
                 <div id="collapse-A" class="collapse show" data-bs-parent="#content" role="tabpanel"
                     aria-labelledby="heading-A">
-                    <div class="card-body bg-light-secondary">
+                    <div class="card-body bg-light-grey">
                         <div class="row py-2">
                             <div class="col">
                                 <h3 class="fs-4 fw-bold text-primary md-mt-3">Modelo área de caja</h3>
@@ -226,7 +226,7 @@ include_once('templates/header.php'); ?>
                 </div>
                 <div id="collapse-B" class="collapse" data-bs-parent="#content" role="tabpanel"
                     aria-labelledby="heading-B">
-                    <div class="card-body bg-light-secondary">
+                    <div class="card-body bg-light-grey">
                         <div class="row py-2">
                             <div class="col">
                                 <h3 class="fs-4 fw-bold text-primary mt-3">Modelo área de préstamos</h3>
@@ -307,7 +307,7 @@ include_once('templates/header.php'); ?>
                 </div>
                 <div id="collapse-C" class="collapse" data-bs-parent="#content" role="tabpanel"
                     aria-labelledby="heading-C">
-                    <div class="card-body bg-light-secondary">
+                    <div class="card-body bg-light-grey">
                         <div class="row py-2">
                             <div class="col">
                                 <h3 class="fs-4 fw-bold text-primary mt-3">Modelo contabilidad</h3>
@@ -429,7 +429,7 @@ include_once('templates/header.php'); ?>
                 </div>
                 <div id="collapse-D" class="collapse" data-bs-parent="#content" role="tabpanel"
                     aria-labelledby="heading-D">
-                    <div class="card-body bg-light-secondary">
+                    <div class="card-body bg-light-grey">
                         <div class="row py-2">
                             <div class="col">
                                 <h3 class="fs-4 fw-bold text-primary mt-3">Modelo centro de cómputos</h3>
@@ -504,7 +504,7 @@ include_once('templates/header.php'); ?>
                 </div>
                 <div id="collapse-E" class="collapse" data-bs-parent="#content" role="tabpanel"
                     aria-labelledby="heading-E">
-                    <div class="card-body bg-light-secondary">
+                    <div class="card-body bg-light-grey">
                         <div class="row py-2">
                             <div class="col">
                                 <h3 class="fs-4 fw-bold text-primary mt-3">Modelo de administración</h3>

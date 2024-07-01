@@ -32,10 +32,10 @@ include_once ('templates/header.php'); ?>
         sus oficinas, así como soporte remoto desde nuestro centro de servicio.</p>
     </div>
   </div>
-  <div class="container responsive-tabs">
+  <div class="container responsive-tabs pb-5">
     <ul class="nav nav-tabs justify-content-between border-0" role="tablist">
       <li class="nav-item">
-          <a id="tab-A" href="#pane-A" class="nav-link border border-0 bg-transparent active" data-bs-toggle="tab" role="tab">
+          <a id="tab-A" href="#pane-A" class="nav-link border border-0 bg-transparent active" data-bs-toggle="tab" role="tab" aria-selected="true">
           <button class="border border-0 bg-transparent" type="button">
             <div class="icon-text-box d-flex flex-column gap-2">
               <div class="icon-wrapper p-2 mx-auto my-auto sistemas-bancarios"></div>
@@ -87,7 +87,7 @@ include_once ('templates/header.php'); ?>
     </ul>
 
     <div id="content" class="tab-content" role="tablist">
-        <div id="pane-A" class="card shadow-none tab-pane fade" role="tabpanel" aria-labelledby="tab-A">
+        <div id="pane-A" class="card shadow-none tab-pane fade active show" role="tabpanel" aria-labelledby="tab-A">
             <div class="card-header border-0 p-4 bg-light-primary rounded-2 mb-2" role="tab" id="heading-A">
                 <h5 class="mb-3">
                     <a class="text-decoration-none" data-bs-toggle="collapse" href="#collapse-A" aria-expanded="true" aria-controls="collapse-A">

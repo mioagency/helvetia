@@ -27,6 +27,10 @@ $h6-font-size: $font-size-base * 1.25;
 // Then add additional custom code here
 
 /* Headers */
+.navbar-toggler span.navbar-toggler-icon {
+  width: 1em !important;
+  height: 1em !important;
+}
 .header-bg-img{
   background-color: $primary;
   background-image: url("../images/bg-hero-left.png"), url("../images/bg-hero-right.png");
@@ -41,6 +45,9 @@ $h6-font-size: $font-size-base * 1.25;
 .custom-vh-100 {
   height: calc(100vh - 96px) !important;
 }
+
+
+
 // Custom Colors
 .alt-primary { color: #0090A2 }
 .alt-text { color: #4C4C4C }
