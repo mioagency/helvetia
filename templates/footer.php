@@ -84,13 +84,13 @@
           </a>
         </li>
         <li>
-          <a class="d-flex mb-1 text-decoration-none link-dark" href="#">
+          <a class="d-flex mb-1 text-decoration-none link-dark" href="tel:7877503300">
             <i class="fa-solid fa-phone m-1 me-2 text-primary"></i><span>(787) 750-3300</span>
           </a>
         </li>
         <li>
-          <a class="d-flex mb-1 text-decoration-none link-dark" href="#">
-            <i class="fa-solid fa-envelope m-1 me-2 text-primary"></i><span>info@Helvetia-pr.com</span>
+          <a class="d-flex mb-1 text-decoration-none link-dark" href="mailto:info@helvetia-pr.com">
+            <i class="fa-solid fa-envelope m-1 me-2 text-primary"></i><span>info@helvetia-pr.com</span>
           </a>
         </li>
       </ul>

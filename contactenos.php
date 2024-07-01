@@ -30,14 +30,14 @@ include_once ('templates/header.php'); ?>
         <div class="d-flex flex-column align-items-center gap-2 border rounded-3 p-4 h-100">
           <i class="fa-solid fa-phone fs-3 text-primary"></i>
           <h2 class="fs-6 text-primary">Teléfono</h2>
-          <p class="text-center">(787)-750-3300</p>
+          <p class="text-center"><a href="tel:7877503300">(787)-750-3300</a></p>
         </div>
       </div>
       <div class="col-12 col-md-4">
         <div class="d-flex flex-column align-items-center gap-2 border rounded-3 p-4 h-100">
           <i class="fa-solid fa-envelope fs-3 text-primary"></i>
           <h2 class="fs-6 text-primary">Correo</h2>
-          <p class="text-center">info@helvetia-pr.com</p>
+          <p class="text-center"><a href="mailto:info@helvetia-pr.com">info@helvetia-pr.com</a></p>
         </div>
       </div>
     </div>

@@ -43,7 +43,7 @@ include_once('templates/header.php'); ?>
               <img class="img-fluid" src="images/phone.svg" alt="phone icon">
             </div>
             <div class="col-9 align-items-center card__soporte">
-              <p class="fs-6 mb-1 light-gray-2">Soporte 24/7</p>
+              <p class="fs-6 mb-1 light-grey-text">Soporte 24/7</p>
               <p class="fs-6 fw-bold mb-0">
                 <a href="tel:(787) 990-9090">Llámanos: (787) 990-9090</a>
               </p>
@@ -70,7 +70,7 @@ include_once('templates/header.php'); ?>
                 <img class="checked-list" src="images/check-circle-fill.svg" alt=""/>
               </div>
               <div class="col-11 align-items-center">
-                <p class="mb-1 light-gray-2"><strong>Venta Cruzada en Tiempo Real:</strong> Utilice datos efectivos para impulsar ventas adicionales de productos y servicios.
+                <p class="mb-1 light-grey-text"><strong>Venta Cruzada en Tiempo Real:</strong> Utilice datos efectivos para impulsar ventas adicionales de productos y servicios.
                 </p>
               </div>
             </div>
@@ -81,7 +81,7 @@ include_once('templates/header.php'); ?>
                 <img class="checked-list" src="images/check-circle-fill.svg" alt=""/>
               </div>
               <div class="col-11 align-items-center">
-                <p class="mb-1 light-gray-2"><strong>Pruebas en Red de Preparación:</strong> Asegure una implementación fluida con pruebas exhaustivas antes de producción.
+                <p class="mb-1 light-grey-text"><strong>Pruebas en Red de Preparación:</strong> Asegure una implementación fluida con pruebas exhaustivas antes de producción.
                 </p>
               </div>
             </div>
@@ -92,7 +92,7 @@ include_once('templates/header.php'); ?>
                 <img class="checked-list" src="images/check-circle-fill.svg" alt=""/>
               </div>
               <div class="col-11 align-items-center">
-                <p class="mb-1 light-gray-2"><strong>Proceso Acelerado de Cuentas:</strong> Facilita la apertura y revisión de cuentas de cumplimiento de manera eficiente.
+                <p class="mb-1 light-grey-text"><strong>Proceso Acelerado de Cuentas:</strong> Facilita la apertura y revisión de cuentas de cumplimiento de manera eficiente.
                 </p>
               </div>
             </div>
@@ -103,7 +103,7 @@ include_once('templates/header.php'); ?>
                 <img class="checked-list" src="images/check-circle-fill.svg" alt=""/>
               </div>
               <div class="col-11 align-items-center">
-                <p class="mb-1 light-gray-2"><strong>Auto-configuración:</strong> Empodere a su equipo con el control directo sobre la configuración del sistema.
+                <p class="mb-1 light-grey-text"><strong>Auto-configuración:</strong> Empodere a su equipo con el control directo sobre la configuración del sistema.
                 </p>
               </div>
             </div>
@@ -118,7 +118,7 @@ include_once('templates/header.php'); ?>
                 <img class="checked-list" src="images/check-circle-fill.svg" alt=""/>
               </div>
               <div class="col-11 align-items-center">
-                <p class="mb-1 light-gray-2"><strong>Actualizaciones Continuas:</strong> Implemente mejoras rápidamente sin largos tiempos de espera.
+                <p class="mb-1 light-grey-text"><strong>Actualizaciones Continuas:</strong> Implemente mejoras rápidamente sin largos tiempos de espera.
                 </p>
               </div>
             </div>
@@ -129,7 +129,7 @@ include_once('templates/header.php'); ?>
                 <img class="checked-list" src="images/check-circle-fill.svg" alt=""/>
               </div>
               <div class="col-11 align-items-center">
-                <p class="mb-1 light-gray-2"><strong>Análisis Avanzado de Relaciones:</strong> Proporciona perspectivas profundas sobre la organización y relaciones de los clientes más allá de los sistemas tradicionales.
+                <p class="mb-1 light-grey-text"><strong>Análisis Avanzado de Relaciones:</strong> Proporciona perspectivas profundas sobre la organización y relaciones de los clientes más allá de los sistemas tradicionales.
                 </p>
               </div>
             </div>
@@ -140,7 +140,7 @@ include_once('templates/header.php'); ?>
                 <img class="checked-list" src="images/check-circle-fill.svg" alt=""/>
               </div>
               <div class="col-11 align-items-center">
-                <p class="mb-1 light-gray-2"><strong>Modelo de Datos Sofisticado:</strong> Captura la complejidad de la estructura del cliente con gran detalle.
+                <p class="mb-1 light-grey-text"><strong>Modelo de Datos Sofisticado:</strong> Captura la complejidad de la estructura del cliente con gran detalle.
                 </p>
               </div>
             </div>

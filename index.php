@@ -17,7 +17,9 @@ include_once ('templates/header.php'); ?>
       <h1>Desarrollamos e implementamos soluciones informáticas para el sector financiero</h1>
       <h2 class="fs-5 fw-normal pt-4 light-grey">Innovamos en soluciones y servicios para las cooperativas líderes en Puerto Rico
       </h2>
-      <button class="btn btn-info mx-auto mt-4 text-tertiary">Conoce nuestras soluciones</button>
+      <button class="btn btn-info mx-auto mt-4 text-tertiary">
+        <a class="text-decoration-none" href="<?php $SERVER_URI ?>contactenos.php">Contacta nuestro equipo hoy</a>
+      </button>
     </div>
   </div>
 </div>
@@ -468,7 +470,7 @@ include_once ('templates/header.php'); ?>
                     <div>
                       <h4 class="text-primary fs-6 fw-bold">Sentinel</h4>
                       <p>Es el producto por excelencia para el manejo de contenido electrónico conocido por sus siglas en inglés ECM (Electronic Content Management). Esta plataforma permite la centralización de los documentos y reportes importantes de un negocio en un solo lugar y de manera segura. Sentinel es la solución ideal para el manejo y almacenamiento de documentos electrónicos con el fin de reducir gastos operacionales y promover la eficiencia en los procesos de la empresa.</p>
-                      <a href="javascript:void(0)"><button type="button" class="btn btn-link text-decoration-none ps-0 pt-0 fw-bold fs-14">
+                      <a href="<?php $SERVER_URI ?>soluciones-sentinel.php"><button type="button" class="btn btn-link text-decoration-none ps-0 pt-0 fw-bold fs-14">
                         Conoce más <i class="fa-solid fa-arrow-right-long"></i>
                       </button></a>
                     </div>
@@ -494,7 +496,9 @@ include_once ('templates/header.php'); ?>
       <div class="col-6">
         <h2 class="text-white">Una empresa puertoriqueña</h2>
         <p class="text-white mt-3">Helvetia del Caribe es una empresa que desarrolla e implementa soluciones informáticas, fundada en 1986 cuando se incorpora bajo las leyes del Estado Libre Asociado de Puerto Rico. Helvetia del Caribe tiene soluciones para el comercio, la industria, y para el desarrollo de aplicaciones. Helvetia del Caribe es una empresa netamente puertorriqueña. Nuestras oficinas están localizadas en Carolina, Puerto Rico y ocupan un espacio de aproximadamente 12,000 pies cuadrados.</p>
-        <button class="btn btn-primary text-white mt-3">Conoce más sobre nosotros</button>
+        <a class="text-decoration-none" href="<?php $SERVER_URI ?>contactenos.php">
+          <button class="text-white btn btn-primary mt-3">Conoce más sobre nosotros</button>
+        </a>
       </div>
     </div>
   </div>
