@@ -106,12 +106,12 @@ include_once ('templates/header.php'); ?>
                   </div>
                 </div>
                 <div class="row">
-                  <div class="col-12 pe-5">
+                  <div class="col-12 pe-sm-5">
                     <!-- NCUS WEB -->
                     <div class="row">
                       <div class="col-12 d-flex ps-4">
                         <div>
-                          <img class=" me-2" src="<?php $SERVER_URI ?>images/ncus-web.svg" alt="">
+                          <img class="me-4" src="<?php $SERVER_URI ?>images/ncus-web.svg" alt="">
                         </div>
                         <div>
                           <h4 class="text-primary fs-6 fw-bold">NCUS WEB</h4>
@@ -126,7 +126,7 @@ include_once ('templates/header.php'); ?>
                     <div class="row pt-3">
                       <div class="col-12 d-flex ps-4">
                         <div>
-                          <img class="me-2" src="<?php $SERVER_URI ?>images/originacion-y-ach.svg" alt="">
+                          <img class="me-4" src="<?php $SERVER_URI ?>images/originacion-y-ach.svg" alt="">
                         </div>
                         <div>
                           <h4 class="text-primary fs-6 fw-bold">Originación y ACH</h4>
@@ -205,12 +205,12 @@ include_once ('templates/header.php'); ?>
                 </div>
               </div>
               <div class="row">
-                <div class="col-12 pe-5">
+                <div class="col-12 pe-sm-5">
                   <!-- Notificación HDC -->
                   <div class="row pt-3">
                     <div class="col-12 d-flex ps-4">
                       <div>
-                        <img class="me-2" width="60" src="<?php $SERVER_URI ?>images/icon-placeholder.webp" alt="">
+                        <img class="me-4" width="60" src="<?php $SERVER_URI ?>images/notificacion-hdc.svg" alt="">
                       </div>
                       <div>
                         <h4 class="text-primary fs-6 fw-bold">Notificación HDC</h4>
@@ -225,7 +225,7 @@ include_once ('templates/header.php'); ?>
                   <div class="row pt-3">
                     <div class="col-12 d-flex ps-4">
                       <div>
-                        <img class="me-2" width="60" src="<?php $SERVER_URI ?>images/icon-placeholder.webp" alt="">
+                        <img class="me-4" width="60" src="<?php $SERVER_URI ?>images/notificaciones-por-texto.svg" alt="">
                       </div>
                       <div>
                         <h4 class="text-primary fs-6 fw-bold">Notificaciones por Texto</h4>
@@ -240,7 +240,7 @@ include_once ('templates/header.php'); ?>
                   <div class="row pt-3">
                     <div class="col-12 d-flex ps-4">
                       <div>
-                        <img class="me-2" width="60" src="<?php $SERVER_URI ?>images/icon-placeholder.webp" alt="">
+                        <img class="me-4" width="60" src="<?php $SERVER_URI ?>images/onCall.svg" alt="">
                       </div>
                       <div>
                         <h4 class="text-primary fs-6 fw-bold">OnCall</h4>
@@ -255,7 +255,7 @@ include_once ('templates/header.php'); ?>
                   <div class="row pt-3">
                     <div class="col-12 d-flex ps-4">
                       <div>
-                        <img class="me-2" width="60" src="<?php $SERVER_URI ?>images/icon-placeholder.webp" alt="">
+                        <img class="me-4" width="60" src="<?php $SERVER_URI ?>images/ventas-cruzadas.svg" alt="">
                       </div>
                       <div>
                         <h4 class="text-primary fs-6 fw-bold">Ventas Cruzadas</h4>
@@ -294,7 +294,7 @@ include_once ('templates/header.php'); ?>
                 <div class="row pt-3">
                   <div class="col-12 d-flex ps-4">
                     <div>
-                      <img class="me-2" src="<?php $SERVER_URI ?>images/eloans.svg" alt="">
+                      <img class="me-4" src="<?php $SERVER_URI ?>images/eloans.svg" alt="">
                     </div>
                     <div>
                       <h4 class="text-primary fs-6 fw-bold">eLoans</h4>
@@ -309,7 +309,7 @@ include_once ('templates/header.php'); ?>
                 <div class="row pt-3">
                   <div class="col-12 d-flex ps-4">
                     <div>
-                      <img class="me-2" width="60" src="<?php $SERVER_URI ?>images/icon-placeholder.webp" alt="">
+                      <img class="me-4" width="60" src="<?php $SERVER_URI ?>images/eNCUS.svg" alt="">
                     </div>
                     <div>
                       <h4 class="text-primary fs-6 fw-bold">eNCUS</h4>
@@ -324,7 +324,7 @@ include_once ('templates/header.php'); ?>
                 <div class="row pt-3">
                   <div class="col-12 d-flex ps-4">
                     <div>
-                      <img class="me-2" width="60" src="<?php $SERVER_URI ?>images/icon-placeholder.webp" alt="">
+                      <img class="me-4" width="60" src="<?php $SERVER_URI ?>images/estados-de-cuenta-digital.svg" alt="">
                     </div>
                     <div>
                       <h4 class="text-primary fs-6 fw-bold">Estados de Cuenta Digital</h4>
@@ -339,7 +339,7 @@ include_once ('templates/header.php'); ?>
                 <div class="row pt-3">
                   <div class="col-12 d-flex ps-4">
                     <div>
-                      <img class="me-2" width="60" src="<?php $SERVER_URI ?>images/icon-placeholder.webp" alt="">
+                      <img class="me-4" width="60" src="<?php $SERVER_URI ?>images/fono-coop.svg" alt="">
                     </div>
                     <div>
                       <h4 class="text-primary fs-6 fw-bold">FonoCoop</h4>
@@ -354,7 +354,7 @@ include_once ('templates/header.php'); ?>
                 <div class="row pt-3">
                   <div class="col-12 d-flex ps-4">
                     <div>
-                      <img class="me-2" width="60" src="<?php $SERVER_URI ?>images/icon-placeholder.webp" alt="">
+                      <img class="me-4" width="60" src="<?php $SERVER_URI ?>images/foto-deposito.svg" alt="">
                     </div>
                     <div>
                       <h4 class="text-primary fs-6 fw-bold">Foto Depósito</h4>
@@ -369,7 +369,7 @@ include_once ('templates/header.php'); ?>
                 <div class="row pt-3">
                   <div class="col-12 d-flex ps-4">
                     <div>
-                      <img class="me-2" width="60" src="<?php $SERVER_URI ?>images/icon-placeholder.webp" alt="">
+                      <img class="me-4" width="60" src="<?php $SERVER_URI ?>images/home-banking.svg" alt="">
                     </div>
                     <div>
                       <h4 class="text-primary fs-6 fw-bold">Home Banking</h4>
@@ -384,7 +384,7 @@ include_once ('templates/header.php'); ?>
                 <div class="row pt-3">
                   <div class="col-12 d-flex ps-4">
                     <div>
-                      <img class="me-2" width="60" src="<?php $SERVER_URI ?>images/icon-placeholder.webp" alt="">
+                      <img class="me-4" width="60" src="<?php $SERVER_URI ?>images/movil-coop.svg" alt="">
                     </div>
                     <div>
                       <h4 class="text-primary fs-6 fw-bold">Móvil Coop</h4>
@@ -399,7 +399,7 @@ include_once ('templates/header.php'); ?>
                 <div class="row pt-3">
                   <div class="col-12 d-flex ps-4">
                     <div>
-                      <img class="me-2" width="60" src="<?php $SERVER_URI ?>images/icon-placeholder.webp" alt="">
+                      <img class="me-4" width="60" src="<?php $SERVER_URI ?>images/shared-branch.svg" alt="">
                     </div>
                     <div>
                       <h4 class="text-primary fs-6 fw-bold">Shared Branch</h4>
@@ -414,7 +414,7 @@ include_once ('templates/header.php'); ?>
                 <div class="row pt-3">
                   <div class="col-12 d-flex ps-4">
                     <div>
-                      <img class="me-2" width="60" src="<?php $SERVER_URI ?>images/icon-placeholder.webp" alt="">
+                      <img class="me-4" width="60" src="<?php $SERVER_URI ?>images/text-coop.svg" alt="">
                     </div>
                     <div>
                       <h4 class="text-primary fs-6 fw-bold">Text Coop</h4>
@@ -450,7 +450,7 @@ include_once ('templates/header.php'); ?>
                 <div class="row pt-3">
                   <div class="col-12 d-flex ps-4">
                     <div>
-                      <img class="me-2" width="60" src="<?php $SERVER_URI ?>images/icon-placeholder.webp" alt="">
+                      <img class="me-4" width="60" src="<?php $SERVER_URI ?>images/helvetia-crm.svg" alt="">
                     </div>
                     <div>
                       <h4 class="text-primary fs-6 fw-bold">Helvetia CRM</h4>
@@ -465,7 +465,7 @@ include_once ('templates/header.php'); ?>
                 <div class="row pt-3">
                   <div class="col-12 d-flex ps-4">
                     <div>
-                      <img class="me-2" width="60" src="<?php $SERVER_URI ?>images/icon-placeholder.webp" alt="">
+                      <img class="me-4" width="60" src="<?php $SERVER_URI ?>images/sentinel.svg" alt="">
                     </div>
                     <div>
                       <h4 class="text-primary fs-6 fw-bold">Sentinel</h4>
