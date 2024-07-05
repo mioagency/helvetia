@@ -12237,6 +12237,76 @@ body {
   color: var(--bs-gray-700);
 }
 
+.icon-text-box .area-de-caja {
+  background: url("../images/area-de-caja.svg") no-repeat center center/60px;
+}
+.icon-text-box .prestamos {
+  background: url("../images/area-de-prestamos.svg") no-repeat center center/60px;
+}
+.icon-text-box .contabilidad {
+  background: url("../images/contabilidad.svg") no-repeat center center/60px;
+}
+.icon-text-box .computos {
+  background: url("../images/centro-de-computos.svg") no-repeat center center/60px;
+}
+.icon-text-box .administracion {
+  background: url("../images/administracion.svg") no-repeat center center/60px;
+}
+
+.icon-text-box:hover .area-de-caja, .active .icon-text-box .area-de-caja {
+  background: url("../images/area-de-caja-hover.svg") no-repeat center center/60px;
+}
+.icon-text-box:hover .prestamos, .active .icon-text-box .prestamos {
+  background: url("../images/area-de-prestamos-hover.svg") no-repeat center center/60px;
+}
+.icon-text-box:hover .contabilidad, .active .icon-text-box .contabilidad {
+  background: url("../images/contabilidad-hover.svg") no-repeat center center/60px;
+}
+.icon-text-box:hover .computos, .active .icon-text-box .computos {
+  background: url("../images/centro-de-computos-hover.svg") no-repeat center center/60px;
+}
+.icon-text-box:hover .administracion, .active .icon-text-box .administracion {
+  background: url("../images/administracion-hover.svg") no-repeat center center/60px;
+}
+.icon-text-box:hover .icon-wrapper, .active .icon-text-box .icon-wrapper {
+  background-color: #3D8FA0;
+}
+
+@media (max-width: 570px) {
+  .icon-text-box .area-de-caja {
+    background: url("../images/area-de-caja.svg") no-repeat center center/30px;
+  }
+  .icon-text-box .prestamos {
+    background: url("../images/area-de-prestamos.svg") no-repeat center center/30px;
+  }
+  .icon-text-box .contabilidad {
+    background: url("../images/contabilidad.svg") no-repeat center center/30px;
+  }
+  .icon-text-box .computos {
+    background: url("../images/centro-de-computos.svg") no-repeat center center/30px;
+  }
+  .icon-text-box .administracion {
+    background: url("../images/administracion.svg") no-repeat center center/30px;
+  }
+  .icon-text-box:hover .area-de-caja, .active .icon-text-box .area-de-caja {
+    background: url("../images/area-de-caja-hover.svg") no-repeat center center/30px;
+  }
+  .icon-text-box:hover .prestamos, .active .icon-text-box .prestamos {
+    background: url("../images/area-de-prestamos-hover.svg") no-repeat center center/30px;
+  }
+  .icon-text-box:hover .contabilidad, .active .icon-text-box .contabilidad {
+    background: url("../images/contabilidad-hover.svg") no-repeat center center/30px;
+  }
+  .icon-text-box:hover .computos, .active .icon-text-box .computos {
+    background: url("../images/centro-de-computos-hover.svg") no-repeat center center/30px;
+  }
+  .icon-text-box:hover .administracion, .active .icon-text-box .administracion {
+    background: url("../images/administracion-hover.svg") no-repeat center center/30px;
+  }
+  .icon-text-box:hover .icon-wrapper, .active .icon-text-box .icon-wrapper {
+    background-color: #3D8FA0;
+  }
+}
 @media (max-width: 575px) {
   #mobile-side-scroll {
     display: grid !important;

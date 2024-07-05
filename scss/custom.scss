@@ -385,6 +385,52 @@ body{ color: #4C4C4C; }
 }
 
 
+// NUCS
+.icon-text-box{
+  .area-de-caja{background: url("../images/area-de-caja.svg") no-repeat center center / 60px;}
+  .prestamos{background: url("../images/area-de-prestamos.svg") no-repeat center center / 60px;}
+  .contabilidad{background: url("../images/contabilidad.svg") no-repeat center center / 60px;}
+  .computos{background: url("../images/centro-de-computos.svg") no-repeat center center / 60px;}
+  .administracion{background: url("../images/administracion.svg") no-repeat center center / 60px;}
+
+}
+
+.icon-text-box:hover, .active .icon-text-box{
+  .area-de-caja{background: url("../images/area-de-caja-hover.svg") no-repeat center center / 60px;}
+  .prestamos{background: url("../images/area-de-prestamos-hover.svg") no-repeat center center / 60px;}
+  .contabilidad{background: url("../images/contabilidad-hover.svg") no-repeat center center / 60px;}
+  .computos{background: url("../images/centro-de-computos-hover.svg") no-repeat center center / 60px;}
+  .administracion{background: url("../images/administracion-hover.svg") no-repeat center center / 60px;}
+  .icon-wrapper{
+    background-color: $primary;
+  }
+}
+
+
+@media (max-width: 570px) {
+  .icon-text-box{
+    .area-de-caja{background: url("../images/area-de-caja.svg") no-repeat center center / 30px;}
+  .prestamos{background: url("../images/area-de-prestamos.svg") no-repeat center center / 30px;}
+  .contabilidad{background: url("../images/contabilidad.svg") no-repeat center center / 30px;}
+  .computos{background: url("../images/centro-de-computos.svg") no-repeat center center / 30px;}
+  .administracion{background: url("../images/administracion.svg") no-repeat center center / 30px;}
+
+  }
+
+  .icon-text-box:hover, .active .icon-text-box{
+    .area-de-caja{background: url("../images/area-de-caja-hover.svg") no-repeat center center / 30px;}
+    .prestamos{background: url("../images/area-de-prestamos-hover.svg") no-repeat center center / 30px;}
+    .contabilidad{background: url("../images/contabilidad-hover.svg") no-repeat center center / 30px;}
+    .computos{background: url("../images/centro-de-computos-hover.svg") no-repeat center center / 30px;}
+    .administracion{background: url("../images/administracion-hover.svg") no-repeat center center / 30px;}
+    .icon-wrapper{
+      background-color: $primary;
+    }
+  }
+
+}
+// END Responsive Tabs
+
 
 //======================= Funciones ===========================
 
