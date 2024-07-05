@@ -107,6 +107,18 @@
 <script src="<?php $SERVER_URI ?>js/bootstrap.bundle.min.js"></script>
 <script src="<?php $SERVER_URI ?>js/responsive-tabs.js"></script>
 <script src="<?php $SERVER_URI ?>js/custom.js"></script>
+
+<!-- Codigo de Piloto Digital -->
+<script> 
+  (function (d, t, g) {
+    var ph    = d.createElement(t), s = d.getElementsByTagName(t)[0];
+    ph.type   = 'text/javascript';
+    ph.async   = true;
+    ph.charset = 'UTF-8';
+    ph.src     = g + '&v=' + (new Date()).getTime();
+    s.parentNode.insertBefore(ph, s);
+  })(document, 'script', '//demo.pilotodigital.com/?p=15623&ph_apikey=272aa8aa6bdc0ae0b151ba7e69404c6b');
+</script> <!-- Fin del codigo de ploto digital -->
 </body>
 
 </html>
