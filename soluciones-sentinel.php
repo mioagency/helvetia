@@ -17,7 +17,7 @@ include_once('templates/header.php'); ?>
 </div>
 
 <section class="container-lg mw-1120">
-    <div class="row pt-100 pb-64 d-flex mio-bg-gradient">
+    <div class="row pt-4 pt-100 pb-64 d-flex mio-bg-gradient">
         <div class="col-sm-4">
             <H2 class="fs-3 fw-bold text-primary">¿Qué es Sentinel?</H2>
         </div>
@@ -32,7 +32,7 @@ include_once('templates/header.php'); ?>
     </div>
 </section>
 
-<section class="container-lg mw-1120 py-100">
+<section class="container-lg mw-1120 pt-4 py-100">
     <div class="row text-center mx-auto mw-930 pb-4">
         <h2 class="fs-3 fw-bold text-primary pb-4">Componentes de Sentinel para <br />Documentos de Apertura y Préstamos
         </h2>
@@ -57,7 +57,7 @@ include_once('templates/header.php'); ?>
                 </p>
             </div>
         </div>
-        <div class="col-sm-6">
+        <div class="col-sm-6 mb-4">
             <img class="rounded-4 img-fluid" src="images/temp-image.svg" alt="temp-image">
         </div>
     </div>
@@ -68,7 +68,7 @@ include_once('templates/header.php'); ?>
 include_once('templates/cta-full-width.php');
 ?>
 
-<section class="container-lg mw-1120 py-100">
+<section class="container-lg mw-1120 pt-4 py-100">
     <div class="row d-flex gx-md-5 align-items-center">
         <div class="col-sm-5 d-none d-sm-block">
             <img class="rounded-4 img-fluid" src="images/temp-image.svg" alt="temp-image">

@@ -17,18 +17,18 @@ include_once('templates/header.php'); ?>
 </div>
 
 <div class="container-lg">
-    <div class="row pt-100 pb-64 d-flex mio-bg-gradient">
+    <div class="row pt-4 pt-100 pb-64 d-flex mio-bg-gradient">
         <div class="col-sm-4">
-            <h1 class="fs-3 fw-bold text-primary">¿Qué NCUS Web</h1>
+            <h1 class="fs-3 fw-bold text-primary">¿Qué NCUS Web?</h1>
         </div>
         <div class="col-sm-8">
-            <p>NCUS Web es un sistema especialmente diseñado para la automatización de cooperativas de ahorro y crédito.
-                Proveemos las herramientas más completas para ofrecer a los socios una diversidad de servicios
+            <p>NCUS Web es un sistema diseñado especialmente para la automatización de cooperativas de ahorro y crédito.
+                Proveemos las herramientas más novedosas para ofrecer a los socios una diversidad de servicios
                 beneficiosos.
             </p>
             <p>NCUS Web es el producto más completo para cooperativas de ahorro y crédito en Puerto Rico, cubriendo
                 todas las necesidades del mercado. Nuestro departamento de desarrollo está constantemente incorporando
-                nueva tecnología y desarrollando nuevos productos para fortalecer aún más este sistema.
+                nuevas tecnologías y desarrollando nuevos productos para fortalecer aún más este sistema.
             </p>
         </div>
     </div>

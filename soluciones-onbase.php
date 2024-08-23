@@ -16,9 +16,9 @@ include_once('templates/header.php'); ?>
 </div>
 
 <div class="container-lg">
-    <div class="row pt-100 pb-64 d-flex mio-bg-gradient">
+    <div class="row pt-100 pb-64 pt-4 d-flex mio-bg-gradient">
         <div class="col-sm-4">
-            <H1 class="fs-3 fw-bold text-primary">¿Qué es OnBase®</H1>
+            <H1 class="fs-3 fw-bold text-primary">¿Qué es OnBase®?</H1>
         </div>
         <div class="col-sm-8">
             <p>OnBase® es una solución integral para la gestión electrónica de documentos, diseñada para optimizar las
@@ -32,10 +32,10 @@ include_once('templates/header.php'); ?>
 </div>
 
 
-<div class="container-md mw-930 py-100">
+<div class="container-md mw-930 py-4 py-100">
     <div class="row">
         <div class="col-12 pb-40">
-            <h1 class="text-center fs-3 fw-bold text-primary">¿Por Qué OnBase®</h1>
+            <h1 class="text-center fs-3 fw-bold text-primary">¿Por qué OnBase®?</h1>
         </div>
         <div class="col">
             <div class="accordion" id="accordionFlushExample">
