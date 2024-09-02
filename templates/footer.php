@@ -64,8 +64,8 @@
               href="<?php $SERVER_URI ?>nosotros.php">Nosotros</a>
           </li>
           <li class="nav-item">
-            <a class="<?= ($activePage == 'servicio-tecnico') ? 'active' : ''; ?> nav-link p-025"
-              href="<?php $SERVER_URI ?>servicio-tecnico.php">Servicio Técnico</a>
+            <a class="<?= ($activePage == 'apoyo-tecnico') ? 'active' : ''; ?> nav-link p-025"
+              href="<?php $SERVER_URI ?>apoyo-tecnico.php">Apoyo Técnico</a>
           </li>
           <li class="nav-item">
             <a class="<?= ($activePage == 'contactenos') ? 'active' : ''; ?> nav-link p-025"

@@ -1,7 +1,7 @@
 <?php
 
-$PageTitle = "Soluciones - Global Radar";
-$page = "global radar";
+$PageTitle = "Helvetia - Nosotros";
+$page = "nosotros";
 
 function customPageHeader()
 { ?>
@@ -17,11 +17,11 @@ include_once('templates/header.php'); ?>
 </div>
 
 <div class="container-lg">
-  <div class="row pt-100 pb-64 d-flex mio-bg-gradient">
-    <div class="col-sm-4">
-      <h1 class="fs-3 fw-bold text-primary">¿Qué NCUS Web</h1>
+  <div class="row pt-100 pt-5 pb-3 pb-md-5 pb-64 d-flex mio-bg-gradient">
+    <div class="col-sm-6 mb-3">
+      <img class="rounded-4 img-fluid" src="images/nosotros.webp" alt="Nuestro Compromiso">
     </div>
-    <div class="col-sm-8">
+    <div class="col-sm-6 ps-4 mb-md-5">
       <p>Helvetia del Caribe es una empresa que desarrolla e implementa soluciones informáticas, fundada en 1986
         cuando se incorpora bajo las leyes del Estado Libre Asociado de Puerto Rico. Helvetia del Caribe tiene
         soluciones para el comercio, la industria, y para el desarrollo de aplicaciones. Helvetia del Caribe es
@@ -282,9 +282,35 @@ include_once('templates/header.php'); ?>
   </div>
 </div>
 
+<!-- ¿Qué hacemos -->
+<div class="container-fluid py-100 gr-bg">
+  <div class="container">
+    <div class="row text-center">
+      <div class="col col-md-8 mx-auto">
+        <h2 class="text-white">¿Qué Hacemos?</h2>
+        <p class="text-white mt-3">Helvetia del Caribe es una empresa que desarrolla e implementa soluciones informáticas, fundada en 1986 cuando se incorpora bajo las leyes del Estado Libre Asociado de Puerto Rico. Helvetia del Caribe tiene soluciones para el comercio, la industria, y para el desarrollo de aplicaciones. Helvetia del Caribe es una empresa netamente puertorriqueña. Nuestras oficinas están localizadas en Carolina, Puerto Rico y ocupan un espacio de aproximadamente 12,000 pies cuadrados.
+        </p>
+        <div class="card gr_card--mw text-start mx-auto mt-md-5">
+          <div class="row p-3 align-items-center">
+            <div class="col-3">
+              <img class="img-fluid" src="images/phone.svg" alt="phone icon">
+            </div>
+            <div class="col-9 align-items-center card__soporte">
+              <p class="fs-6 mb-1 light-grey-text">Soporte 24/7</p>
+              <p class="fs-6 fw-bold mb-0">
+                <a href="tel:(787) 990-9090">Llámanos: (787) 990-9090</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 <!-- Row Compromiso -->
 <div class="container-lg mw-1120">
-  <div class="row py-100 d-flex gx-md-5 align-items-center">
+  <div class="row pt-md-5 mt-md-5 pb-md-5 mb-md-5 pt-3 pb-2 mb-5 d-flex gx-md-5 align-items-center">
     <div class="col-sm-6">
       <h2 class="fs-3 fw-bold text-primary pb-4">Nuestro Compromiso</h2>
       <p>Ofrecer a nuestros clientes un servicio único en su clase. El mismo está basado en un paquete diseñado
@@ -297,7 +323,7 @@ include_once('templates/header.php'); ?>
         infraestructura de redes.</p>
     </div>
     <div class="col-sm-6">
-      <img class="rounded-4 img-fluid" src="images/temp-image.svg" alt="temp-image">
+      <img class="rounded-4 img-fluid" src="images/two-business-partners-shaking-hands-office.webp" alt="Nuestro Compromiso">
     </div>
   </div>
 </div>
