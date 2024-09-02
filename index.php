@@ -13,13 +13,9 @@ include_once ('templates/header.php'); ?>
 <div
   class="container-fluid custom-vh-100 d-flex align-items-center justify-content-center text-white header-home-bg-img text-center">
   <div class="row py-4">
-    <div class="col col-md-8 offset-md-2">
-      <h1>Desarrollamos e implementamos soluciones informáticas para el sector financiero</h1>
-      <h2 class="fs-5 fw-normal pt-4 light-grey">Innovamos en soluciones y servicios para las cooperativas líderes en Puerto Rico
-      </h2>
-      <button class="btn btn-info mx-auto mt-4 text-tertiary">
-        <a class="text-decoration-none" href="<?php $SERVER_URI ?>contactenos.php">Contacta nuestro equipo hoy</a>
-      </button>
+    <div class="col col-md-9 mx-auto">
+      <h1>Desarrollamos soluciones innovadoras para el sector financiero</h1>
+      <h2 class="fs-5 fw-normal pt-4 light-grey">Creamos e implementamos soluciones y servicios para las cooperativas líderes en Puerto Rico</h2>
     </div>
   </div>
 </div>
@@ -27,9 +23,10 @@ include_once ('templates/header.php'); ?>
 <div class="container pt-4">
   <div class="row text-center py-5">
     <h2 class="text-primary fw-bold">Nuestras Soluciones</h2>
-    <div class="col col-md-7 mx-auto">
-      <p class="pt-2">Helvetia del Caribe cuenta con más de 60 empleados para darle servicios a sus clientes, tanto en
-        sus oficinas, así como soporte remoto desde nuestro centro de servicio.</p>
+    <div class="col col-md-8 mx-auto">
+      <p class="pt-2">Nuestras soluciones financieras están especialmente diseñadas para atender las diversas necesidades de las cooperativas y promover su fortalecimiento y crecimiento.</p>
+      <p>Desarrollamos e implementamos servicios digitalizados que facilitan y optimizan sus funciones.</p>
+      <p>Estamos comprometidos a seguir desempeñando un papel fundamental en la configuración del futuro de la industria de las cooperativas de ahorro y crédito.</p>
     </div>
   </div>
   <div class="container responsive-tabs pb-5">
@@ -130,7 +127,7 @@ include_once ('templates/header.php'); ?>
                         </div>
                         <div>
                           <h4 class="text-primary fs-6 fw-bold">Originación y ACH</h4>
-                          <p>Facilita el movimiento de dinero (transacciones) entre cooperativas de ahorro y crédito o hacia otras instituciones financieras.</p>
+                          <p>Facilita las transacciones entre cooperativas de ahorro y crédito o hacia otras instituciones financieras.</p>
                           <a href=""><button type="button" class="btn btn-link text-decoration-none ps-0 pt-0 fw-bold fs-14">
                             Conoce más <i class="fa-solid fa-arrow-right-long"></i>
                           </button></a>
@@ -214,7 +211,7 @@ include_once ('templates/header.php'); ?>
                       </div>
                       <div>
                         <h4 class="text-primary fs-6 fw-bold">Notificación HDC</h4>
-                        <p>Reciba notificaciones instantáneas de cualquier compra o transacción realizada con su tarjeta con nuestra módulo de Notificación de HDC. Los socios pueden mantener el control de sus cuentas comprobando el número de transacciones y los cargos de sus tarjetas desde tu dispositivo móvil. Esta función ayuda a evitar compras no autorizadas y/o fraudulentas proporcionándole seguridad y tranquilidad a los socios.</p>
+                        <p>Reciba notificaciones instantáneas de cualquier compra o transacción realizada con su tarjeta con nuestro módulo de Notificación de HDC. Los socios pueden mantener el control de sus cuentas comprobando el número de transacciones y los cargos de sus tarjetas desde un dispositivo móvil. Esta función ayuda a evitar compras no autorizadas y/o fraudulentas proporcionando seguridad y tranquilidad a los socios.</p>
                         <a href="javascript:void(0)"><button type="button" class="btn btn-link text-decoration-none ps-0 pt-0 fw-bold fs-14">
                           Conoce más <i class="fa-solid fa-arrow-right-long"></i>
                         </button></a>
@@ -343,7 +340,7 @@ include_once ('templates/header.php'); ?>
                     </div>
                     <div>
                       <h4 class="text-primary fs-6 fw-bold">FonoCoop</h4>
-                      <p>Ofrece un servicio telefónico confiable las 24 horas del día, los 7 días de la semana. Le permite a los socios realizar una variedad de transacciones financieras, como transferencias, cancelaciones y verificaciones de balances. Puede acceder a estos servicios desde la comodidad de su hogar. </p>
+                      <p>Ofrece un servicio telefónico confiable las 24 horas del día, los 7 días de la semana. Le permite a los socios realizar una variedad de transacciones financieras, como transferencias, cancelaciones y verificación de balances. Puede acceder a estos servicios desde la comodidad de su hogar. </p>
                       <a href="javascript:void(0)"><button type="button" class="btn btn-link text-decoration-none ps-0 pt-0 fw-bold fs-14">
                         Conoce más <i class="fa-solid fa-arrow-right-long"></i>
                       </button></a>
@@ -403,7 +400,7 @@ include_once ('templates/header.php'); ?>
                     </div>
                     <div>
                       <h4 class="text-primary fs-6 fw-bold">Shared Branch</h4>
-                      <p>Con su amplia red de cooperativas participantes, Shared Branch empodera a sus socios con una multitud de opciones para administrar sus finanzas. Los socios pueden realizar fácilmente depósitos, retiros y pagos en cualquiera de las cooperativas que forman parte de la red COOP. Además, pueden realizar transacciones en más de 5,000 puntos de servicio ubicados fuera de Puerto Rico, lo que les brinda una comodidad y accesibilidad sin igual.</p>
+                      <p>Con una amplia red de cooperativas, Shared Branch empodera a sus socios con una multitud de opciones para administrar sus finanzas. Los socios pueden realizar fácilmente depósitos, retiros y pagos en cualquiera de las cooperativas participantes de la red COOP. Además, pueden realizar transacciones en más de 5,000 puntos de servicio ubicados fuera de Puerto Rico, lo que les brinda una comodidad y accesibilidad sin igual.</p>
                       <a href="javascript:void(0)"><button type="button" class="btn btn-link text-decoration-none ps-0 pt-0 fw-bold fs-14">
                         Conoce más <i class="fa-solid fa-arrow-right-long"></i>
                       </button></a>
@@ -418,7 +415,7 @@ include_once ('templates/header.php'); ?>
                     </div>
                     <div>
                       <h4 class="text-primary fs-6 fw-bold">Text Coop</h4>
-                      <p>Nuestros innovadores Text Coop permite a los miembros acceder y solicitar información sobre sus cuentas sin esfuerzo en cualquier momento, todo a través de la comodidad de los mensajes de texto utilizando palabras claves y simples.</p>
+                      <p>Nuestros innovador Text Coop permite a los socios a acceder y solicitar información sobre sus cuentas en cualquier momento, a través de la comodidad de los mensajes de texto utilizando palabras claves y simples.</p>
                       <a href="javascript:void(0)"><button type="button" class="btn btn-link text-decoration-none ps-0 pt-0 fw-bold fs-14">
                         Conoce más <i class="fa-solid fa-arrow-right-long"></i>
                       </button></a>
@@ -454,7 +451,7 @@ include_once ('templates/header.php'); ?>
                     </div>
                     <div>
                       <h4 class="text-primary fs-6 fw-bold">Helvetia CRM</h4>
-                      <p>El módulo de CRM permite el acceso a todos los trámites que el socio lleva a cabo en la institución, a través de cualquier canal utilizado por el socio. Faculta el ajustar procesos de negocios integrados con NCUS y además procesos que no necesariamente se llevan a cabo dentro de NCUS. Desde reclamaciones a procesos de negocios de suplidores de la institución, cada uno de ellos puede ser modelado en un flujo de trabajo que garantice un proceso sistemático y ordenado.</p>
+                      <p>Helvetia CRM permite automatizar muchas tareas, proporcionando muchísimos datos y significativos análisis para un servicio personalizado. El módulo faculta el ajustar métodos de negocios, desde reclamaciones a protocolos internos de la institución. Todos los procesos pueden ser modelado en un flujo de trabajo que garantice un proceso sistemático y ordenado. Ayuda a construir relaciones duraderas con los socios.</p>
                       <a href="javascript:void(0)"><button type="button" class="btn btn-link text-decoration-none ps-0 pt-0 fw-bold fs-14">
                         Conoce más <i class="fa-solid fa-arrow-right-long"></i>
                       </button></a>
@@ -469,7 +466,7 @@ include_once ('templates/header.php'); ?>
                     </div>
                     <div>
                       <h4 class="text-primary fs-6 fw-bold">Sentinel</h4>
-                      <p>Es el producto por excelencia para el manejo de contenido electrónico conocido por sus siglas en inglés ECM (Electronic Content Management). Esta plataforma permite la centralización de los documentos y reportes importantes de un negocio en un solo lugar y de manera segura. Sentinel es la solución ideal para el manejo y almacenamiento de documentos electrónicos con el fin de reducir gastos operacionales y promover la eficiencia en los procesos de la empresa.</p>
+                      <p>Es el producto para el manejo de contenido electrónico conocido por sus siglas en inglés ECM (Electronic Content Management). Esta plataforma permite la centralización de los documentos y reportes en un solo lugar y de manera segura. Con la unificación de la información en formato electrónico se simplifica su acceso en todos los niveles operacionales con el fin de reducir gastos y promover la eficiencia en los procesos de la empresa.</p>
                       <a href="<?php $SERVER_URI ?>soluciones-sentinel.php"><button type="button" class="btn btn-link text-decoration-none ps-0 pt-0 fw-bold fs-14">
                         Conoce más <i class="fa-solid fa-arrow-right-long"></i>
                       </button></a>
