@@ -17,17 +17,30 @@ include_once('templates/header.php'); ?>
 <section class="container-lg mw-1120">
   <div class="row py-100 py-4 mio-bg-gradient">
     <div class="col-12 col-sm-6">
-      <h2 class="fs-3 fw-bold text-primary pb-2">¿Qué es OnCall?</h2>
+      <h2 class="fs-3 fw-bold text-primary pb-2">¿Qué es Apoyo Técnico?</h2>
       <p>Nuestro servicio de OnCall ha sido diseñado para proveer asistencia operacional a nuestros clientes sobre los diferentes productos que tenemos. Nuestros técnicos se encargan de detectar cualquier problema con el sistema y canalizarlo a través del departamento correspondiente.
       </p> 
       <p>De encontrarse algún problema en la programación, se verifican los programas con la versión más reciente para corregir la situación en el menor tiempo posible. Otra de las funciones de este departamento, siempre y cuando la situación lo amerite, es hacer mejoras al sistema a través de conexión remota para agilizar los procesos de los clientes y no esperar por un técnico a ser asignado para que realice una visita a las localidades del cliente.
       </p>
     </div>
-    <div class="col-12 col-sm-6">
-      <img class="img-fluid" src="images/oncall-form-1.svg" alt="captura de formulario para servicio OnCall">
-    </div>
+    <div class="col-12 col-sm-5 ms-sm-4 p-5 border rounded-3 bg-white">
+        <form>
+          <h3 class="fs-5 fw-normal">Registrar un nuevo servicio</h3>
+          <hr>
+          <div class="mb-3">
+            <label for="inputName" class="form-label">Usuario</label>
+            <input type="text" class="form-control" id="inputName" aria-describedby="nameHelp" placeholder="">
+          </div>
+          <div class="mb-3">
+            <label for="inputPass" class="form-label">Contraseña</label>
+            <input type="password" minlength="8" class="form-control" id="inputPass" aria-describedby="passHelp" placeholder="">
+          </div>
+          <button type="submit" class="btn w-100 btn-primary text-white">ENTRAR</button>
+        </form>
+      </div>
   </div>
 </section>
+
 
 <section class="container-fluid bg-light-grey pt-100 pb-500 py-4 px-0">
   <div class="row mw-1120 pb-4 mx-auto">

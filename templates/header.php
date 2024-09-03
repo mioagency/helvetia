@@ -11,6 +11,7 @@ $activePage = basename($_SERVER['PHP_SELF'], ".php");
   <!-- Additional tags here -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow" />
   <link rel="icon" type="image/x-icon" href="./images/favicon.png"/>
   <!--<link href="<?php $SERVER_URI ?>css/bootstrap/bootstrap.min.css" rel="stylesheet">-->
   <link href="<?php $SERVER_URI ?>css/fontawesome/css/fontawesome.min.css" rel="stylesheet" />
@@ -30,7 +31,7 @@ $activePage = basename($_SERVER['PHP_SELF'], ".php");
   <header id="header" class="container-fluid bg-white">
     <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="<?php $SERVER_URI ?>index.php">
           <img src="<?php $SERVER_URI ?>images/logo.png" alt="Logo Helvetia"
             class="d-inline-block align-text-top" width="116">
         </a>
@@ -61,7 +62,7 @@ $activePage = basename($_SERVER['PHP_SELF'], ".php");
               <a class="<?= ($activePage == 'nosotros') ? 'active':''; ?> nav-link" href="<?php $SERVER_URI ?>nosotros.php">Nosotros</a>
             </li>
             <li class="nav-item">
-                <a class="<?= ($activePage == 'servicio-tecnico') ? 'active':''; ?> nav-link" href="<?php $SERVER_URI ?>servicio-tecnico.php">Servicio Técnico</a>
+                <a class="<?= ($activePage == 'apoyo-tecnico') ? 'active':''; ?> nav-link" href="<?php $SERVER_URI ?>apoyo-tecnico.php">Apoyo Técnico</a>
             </li>
             <li class="nav-item">
                 <a class="<?= ($activePage == 'contactenos') ? 'active':''; ?> nav-link" href="<?php $SERVER_URI ?>contactenos.php"><button class="btn btn-primary text-white">Contáctenos</button></a>
