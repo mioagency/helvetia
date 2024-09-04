@@ -12313,6 +12313,12 @@ body {
   }
 }
 @media (max-width: 575px) {
+  .mx-n24 {
+    margin-left: -24px;
+    margin-right: -24px;
+  }
+}
+@media (max-width: 575px) {
   #mobile-side-scroll {
     display: grid !important;
     grid-auto-flow: column !important;

@@ -436,6 +436,14 @@ body{ color: #4C4C4C; }
 }
 // END Responsive Tabs
 
+// Nosotros
+@media (max-width: 575px) {
+  .mx-n24 {
+    margin-left: -24px;
+    margin-right: -24px;
+  }
+
+}
 
 //======================= Funciones ===========================
 
