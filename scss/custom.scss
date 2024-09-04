@@ -58,6 +58,11 @@ body{ color: #4C4C4C; }
 
 /* Utilities */
 .fs-14{ font-size: $font-size-base * 0.875; } 
+
+@media (max-width: 570px) {
+  .fs-sm-24 { font-size: $font-size-base * 1.5 !important;}
+}
+
 .p-025 {
   padding: 0.25rem;
 }

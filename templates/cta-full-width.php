@@ -2,7 +2,7 @@
 <section class="container-fluid py-100 py-4 sentinel-row-bg">
     <div class="row text-start mw-1120 mx-auto align-items-center">
         <div class="col-12 col-sm-6">
-            <h2 class="text-center text-sm-start text-white">Para más información:</h2>
+            <h2 class="text-center text-sm-start text-white fs-sm-24">Para más información:</h2>
         </div>
         <div class="col-12 col-sm-6">
             <div class="card gr_card--mw text-start mx-auto">
