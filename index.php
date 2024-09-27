@@ -325,7 +325,7 @@ include_once ('templates/header.php'); ?>
                     </div>
                     <div>
                       <h4 class="text-primary fs-6 fw-bold">Estados de Cuenta Digital</h4>
-                      <p>One Time Password - Para socios NO inscritos en Home Banking. Nuestro módulo de Estados de Cuenta Digital permite a los socios acceder a sus estados de cuenta de manera conveniente, sin necesidad de tener una cuenta activa de Home Banking o de iniciar sesión en Home Banking. Esto significa que todos los socios pueden aprovechar esta nueva función y disfrutar de los beneficios de tener sus estados de cuenta disponibles en línea al alcance de su mano.</p>
+                      <p>Nuestro módulo de Estados de Cuenta Digital permite a socios acceder a sus estados de cuenta de manera conveniente, sin necesidad de tener una cuenta activa o iniciar sesión de Home Banking. Todos los socios pueden aprovechar esta nueva función y disfrutar de tener sus estados de cuenta disponibles de manera digital y al alcance de sus manos.</p>
                       <a href="javascript:void(0)"><button type="button" class="btn btn-link text-decoration-none ps-0 pt-0 fw-bold fs-14">
                         Conoce más <i class="fa-solid fa-arrow-right-long"></i>
                       </button></a>
