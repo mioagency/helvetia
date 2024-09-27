@@ -451,7 +451,7 @@ include_once ('templates/header.php'); ?>
                     </div>
                     <div>
                       <h4 class="text-primary fs-6 fw-bold">Helvetia CRM</h4>
-                      <p>Helvetia CRM permite automatizar muchas tareas, proporcionando muchísimos datos y significativos análisis para un servicio personalizado. El módulo faculta el ajustar métodos de negocios, desde reclamaciones a protocolos internos de la institución. Todos los procesos pueden ser modelado en un flujo de trabajo que garantice un proceso sistemático y ordenado. Ayuda a construir relaciones duraderas con los socios.</p>
+                      <p>Helvetia CRM permite automatizar muchas tareas, proporcionando datos significativos y análisis para un servicio personalizado. El módulo faculta el ajustar métodos de negocios, desde reclamaciones a protocolos internos de la institución. Todos los procesos pueden ser modelado en un flujo de trabajo que garantice un proceso sistemático y ordenado. Ayuda a construir relaciones duraderas con sus socios.</p>
                       <a href="javascript:void(0)"><button type="button" class="btn btn-link text-decoration-none ps-0 pt-0 fw-bold fs-14">
                         Conoce más <i class="fa-solid fa-arrow-right-long"></i>
                       </button></a>
