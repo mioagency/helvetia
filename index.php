@@ -466,7 +466,7 @@ include_once ('templates/header.php'); ?>
                     </div>
                     <div>
                       <h4 class="text-primary fs-6 fw-bold">Sentinel</h4>
-                      <p>Es el producto para el manejo de contenido electrónico conocido por sus siglas en inglés ECM (Electronic Content Management). Esta plataforma permite la centralización de los documentos y reportes en un solo lugar y de manera segura. Con la unificación de la información en formato electrónico se simplifica su acceso en todos los niveles operacionales con el fin de reducir gastos y promover la eficiencia en los procesos de la empresa.</p>
+                      <p>Sentinel se utiliza para el manejo de contenido electrónico ECM (Electronic Content Management). Esta plataforma permite la centralización de los documentos y reportes en un solo lugar de manera segura. Con la unificación de la información en formato electrónico se simplifica su acceso en todos los niveles operacionales con el fin de reducir gastos y promover la eficiencia en los procesos de la empresa.</p>
                       <a href="<?php $SERVER_URI ?>soluciones-sentinel.php"><button type="button" class="btn btn-link text-decoration-none ps-0 pt-0 fw-bold fs-14">
                         Conoce más <i class="fa-solid fa-arrow-right-long"></i>
                       </button></a>
