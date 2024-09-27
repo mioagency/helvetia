@@ -2,7 +2,7 @@
   <div class="row">
     <div class="col-12 col-md-4 col-sm-12 col-xs-12 pe-5 mb-3">
       <img src="<?php $SERVER_URI ?>images/logo.png" alt="Helvetia Logo">
-      <p class="mt-2 text-terciary">Helvetia del Caribe es una empresa que desarrolla e implementa soluciones informáticas.</p>
+      <p class="mt-2 text-terciary">Helvetia del Caribe crea e implementa soluciones innovadoras para las cooperativas líderes en Puerto Rico.</p>
       <ul class="list-inline">
         <li class="list-inline-item fs-10">
           <a href="#">
