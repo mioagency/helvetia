@@ -355,7 +355,7 @@ include_once ('templates/header.php'); ?>
                     </div>
                     <div>
                       <h4 class="text-primary fs-6 fw-bold">Foto Depósito</h4>
-                      <p>Con este módulo puede depositar cheques de forma rápida y sin esfuerzo simplemente tomando una foto del cheque y seleccionando la cuenta. Nuestro sistema procesará su depósito y le notificará por correo electrónico una vez que se complete la transacción. Esta forma rápida y conveniente de depositar cheques le ahorra tiempo y esfuerzo, lo que le permite concentrarse en las cosas que más importan.</p>
+                      <p>Con este módulo puede depositar cheques de forma rápida y sin esfuerzo. Simplemente, tomé una foto del cheque, seleccione la cuenta deseada y entre la cantidad. Nuestro sistema procesa su depósito y le notificará por correo electrónico una vez se complete la transacción. Esta forma rápida y conveniente de depositar cheques le ahorra tiempo y esfuerzo, lo que le permite concentrarse en las cosas que más importan.</p>
                       <a href="javascript:void(0)"><button type="button" class="btn btn-link text-decoration-none ps-0 pt-0 fw-bold fs-14">
                         Conoce más <i class="fa-solid fa-arrow-right-long"></i>
                       </button></a>
