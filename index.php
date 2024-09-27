@@ -306,7 +306,7 @@ include_once ('templates/header.php'); ?>
                 <div class="row pt-3">
                   <div class="col-12 d-flex ps-4">
                     <div>
-                      <img class="me-4" width="60" src="<?php $SERVER_URI ?>images/ROUND WHITE_eNCUS.png" alt="">
+                      <img class="me-4" width="60" src="<?php $SERVER_URI ?>images/round_white_encus.png" alt="">
                     </div>
                     <div>
                       <h4 class="text-primary fs-6 fw-bold">eNCUS</h4>
@@ -321,7 +321,7 @@ include_once ('templates/header.php'); ?>
                 <div class="row pt-3">
                   <div class="col-12 d-flex ps-4">
                     <div>
-                      <img class="me-4" width="60" src="<?php $SERVER_URI ?>images/ROUND WHITE_ESTADOS.png" alt="">
+                      <img class="me-4" width="60" src="<?php $SERVER_URI ?>images/round_white_estados.png" alt="">
                     </div>
                     <div>
                       <h4 class="text-primary fs-6 fw-bold">Estados de Cuenta Digital</h4>
