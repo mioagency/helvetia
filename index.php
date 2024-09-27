@@ -256,7 +256,7 @@ include_once ('templates/header.php'); ?>
                       </div>
                       <div>
                         <h4 class="text-primary fs-6 fw-bold">Ventas Cruzadas</h4>
-                        <p>Utiliza algoritmos avanzados para identificar las preferencias y hábitos de sus socios, lo que le permite crear ofertas personalizadas adaptadas a sus necesidades. Presentar a sus clientes con promociones relevantes y específicas, puede aumentar significativamente sus ventas y la lealtad de sus socios. Así que, ¡no te pierdas esta fantástica oportunidad de llevar los esfuerzos de mercadeo de tu cooperativa al siguiente nivel!</p>
+                        <p>Utiliza algoritmos avanzados para identificar las preferencias y hábitos de sus socios, lo que le permite crear ofertas personalizadas adaptadas a sus necesidades. Presentar a sus clientes con promociones relevantes y específicas, puede aumentar significativamente sus ventas y la lealtad de sus socios.</p>
                         <a href="javascript:void(0)"><button type="button" class="btn btn-link text-decoration-none ps-0 pt-0 fw-bold fs-14">
                           Conoce más <i class="fa-solid fa-arrow-right-long"></i>
                         </button></a>
