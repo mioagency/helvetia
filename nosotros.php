@@ -19,29 +19,13 @@ include_once('templates/header.php'); ?>
 <div class="container-lg">
   <div class="row pt-100 pt-5 pb-3 pb-md-5 pb-64 d-flex mio-bg-gradient">
     <div class="col-sm-6 mb-3">
-      <img class="rounded-4 img-fluid" src="images/nosotros.webp" alt="Nuestro Compromiso">
+      <img class="rounded-4 img-fluid" src="images/nosotros-v2.webp" alt="Nuestro Compromiso">
     </div>
     <div class="col-sm-6 ps-4 mb-md-5">
-      <p>Helvetia del Caribe es una empresa que desarrolla e implementa soluciones informáticas, fundada en 1986
-        cuando se incorpora bajo las leyes del Estado Libre Asociado de Puerto Rico. Helvetia del Caribe tiene
-        soluciones para el comercio, la industria, y para el desarrollo de aplicaciones. Helvetia del Caribe es
-        una empresa netamente puertorriqueña. Nuestras oficinas están localizadas en Carolina, Puerto Rico y
-        ocupan un espacio de aproximadamente 12,000 pies cuadrados.
-      </p>
-      <p>
-        Su principal producto es NCUS© (Next generation Credit Union System©), un sistema de información
-        integrada para el manejo y administración de una cooperativa de ahorro y crédito, siendo nuestro
-        producto el más instalado y usado actualmente en cooperativas de ahorro y crédito en Puerto Rico. El
-        mismo está instalado en más de 60 cooperativas. Además, Helvetia del Caribe, Inc. representa otros
-        productos en Puerto Rico.
-      </p>
-      <p>
-        Helvetia del Caribe cuenta con más de 60 empleados para darle servicios a sus clientes, tanto en sus
-        oficinas, así como soporte remoto desde nuestro centro de servicio. En nuestras oficinas tenemos un
-        centro de cómputos con una gran variedad de equipo. También mantenemos un Departamento de investigación
-        y desarrollo con personal técnico dedicado a mejorar y mantener informados a nuestros clientes de los
-        últimos adelantos en sistema y tecnología.
-      </p>
+      <h2 class="fs-3 fw-bold text-primary  mb-4">Una empresa netamente puertorriqueña fundada en 1986</h2>
+      <p>Durante más de 38 años, Helvetia del Caribe ha sido el principal proveedor de servicios financieros en la industria de las cooperativas de ahorro y crédito.</p>
+      <p>Nuestra variedad de servicios son utilizados actualmente por más de 65 cooperativas, incluyendo nuestro core bancario NCUS (Next-generation Credit Union System). Es un sistema de información integrada para el manejo y administración de las cooperativas de ahorro y crédito, siendo nuestro producto el más instalado y usado actualmente en Puerto Rico. NCUS es confiable, seguro y continuamente actualizado, garantizando que nuestros clientes reciban la más alta calidad de servicio.</p>
+      <p>Nuestra ética de trabajo se basa en el orgullo y la confianza en el nivel superior de servicio que brindamos. Nuestro equipo de 58 profesionales altamente capacitados está firmemente comprometido a brindar un servicio al cliente excepcional.</p>
     </div>
   </div>
 </div>
@@ -53,10 +37,8 @@ include_once('templates/header.php'); ?>
       <div class="col mx-auto">
         <div class="row text-center">
           <div class="col col-md-8 mx-auto mb-4">
-            <h2 class="fs-3 fw-bold text-primary  mb-4">¿Por qué Nosotros?</h2>
-            <p>En todo mercado existen variedad de soluciones. Así que la pregunta que corresponde es cuál
-              es la diferencia entre una y otra. Helvetia del Caribe tiene cualidades que la hacen
-              diferente a los demás. Por eso nuestro lema es Helvetia del Caribe es inversión segura.</p>
+            <h2 class="fs-3 fw-bold text-primary  mb-4">Helvetia del Caribe es su opción ideal</h2>
+            <p>Nos destacamos por cualidades únicas que nos colocan por encima de la competencia. Con nuestra amplia experiencia y dedicación a los clientes,  ofreciendo soluciones de calidad que superan expectativas.</p>
           </div>
         </div>
 
@@ -69,8 +51,7 @@ include_once('templates/header.php'); ?>
                   <img class="checked-list" src="images/check-circle-fill.svg" alt="" />
                 </div>
                 <div class="col-11 align-items-center">
-                  <p class="mb-1 light-grey-text">Vasta experiencia en el mercado, sobre 30 años
-                    sirviendo de manera exclusiva al mercado de ahorro y crédito.
+                  <p class="mb-1 light-grey-text">Vasta experiencia en el mercado, sobre 30 años sirviendo a las cooperativas de Puerto Rico.
                   </p>
                 </div>
               </div>
@@ -81,8 +62,7 @@ include_once('templates/header.php'); ?>
                   <img class="checked-list" src="images/check-circle-fill.svg" alt="" />
                 </div>
                 <div class="col-11 align-items-center">
-                  <p class="mb-1 light-grey-text">Sobre sesenta cooperativas en Puerto Rico operan con
-                    nuestros sistemas por más de una década.
+                  <p class="mb-1 light-grey-text">Sobre 60 cooperativas en Puerto Rico operando con nuestros sistemas por más de una década.
                   </p>
                 </div>
               </div>
@@ -282,45 +262,24 @@ include_once('templates/header.php'); ?>
   </div>
 </div>
 
-<!-- ¿Qué hacemos -->
-<div class="container-fluid py-100 pt-5 pb-5 gr-bg">
-  <div class="container">
-    <div class="row text-center">
-      <div class="col col-md-8 mx-auto">
-        <h2 class="text-white">¿Qué Hacemos?</h2>
-        <p class="text-white mt-3">Helvetia del Caribe es una empresa que desarrolla e implementa soluciones informáticas, fundada en 1986 cuando se incorpora bajo las leyes del Estado Libre Asociado de Puerto Rico. Helvetia del Caribe tiene soluciones para el comercio, la industria, y para el desarrollo de aplicaciones. Helvetia del Caribe es una empresa netamente puertorriqueña. Nuestras oficinas están localizadas en Carolina, Puerto Rico y ocupan un espacio de aproximadamente 12,000 pies cuadrados.
-        </p>
-        <div class="card gr_card--mw text-start mx-auto mt-md-5">
-          <div class="row p-3 align-items-center">
-            <div class="col-3">
-              <img class="img-fluid" src="images/phone.svg" alt="phone icon">
-            </div>
-            <div class="col-9 align-items-center card__soporte">
-              <p class="fs-6 mb-1 light-grey-text">Soporte 24/7</p>
-              <p class="fs-6 fw-bold mb-0">
-                <a href="tel:(787) 990-9090">Llámanos: (787) 990-9090</a>
-              </p>
-            </div>
-          </div>
+<section class="container py-5 sentinel-row-bg mw-1120 rounded-2 my-5 br-0">
+    <div class="row text-sm-start text-center mx-auto">
+        <div class="col d-flex justify-content-between flex-column flex-sm-row align-items-center px-sm-5">
+            <h2 class="fs-3 text-white mb-4">Para más información:</h2>
+            <a href="<?php $SERVER_URI ?>contactenos.php">
+                <button class="btn btn-info mx-auto text-tertiary fw-light text-nowrap">Contáctanos aquí</button>
+            </a>
         </div>
-      </div>
     </div>
-  </div>
-</div>
+</section>
 
 <!-- Row Compromiso -->
 <div class="container-lg mw-1120">
-  <div class="row pt-md-5 mt-md-5 pb-md-5 mb-md-5 pt-5 pb-2 mb-5 d-flex gx-md-5 align-items-center">
+  <div class="row pt-md-5 mt-md-5 pb-md-5 mb-md-5 pt-5 pb-2 mb-5 d-flex gx-md-5">
     <div class="col-sm-6">
       <h2 class="fs-3 fw-bold text-primary pb-4">Nuestro Compromiso</h2>
-      <p>Ofrecer a nuestros clientes un servicio único en su clase. El mismo está basado en un paquete diseñado
-        para el desarrollo y mantenimiento de un sistema integrado de procesamiento de datos para cooperativas
-        de ahorro y crédito. La plena satisfacción plena de nuestros clientes es testimonio inequívoco de la
-        efectividad de nuestro sistema y la calidad de nuestro servicio.
-      </p>
-      <p>También ofrecemos las licencias del "software" de aplicación, del sistema operativo, la instalación y
-        configuración del sistema operativo, de sistemas de mensajería y colaboración, el equipo y la
-        infraestructura de redes.</p>
+      <p>Helvetia del Caribe está comprometido en ofrecer a nuestros clientes un servicio único en su clase. Estamos enfocados en satisfacer las necesidades de nuestros clientes con soluciones personalizadas y atención de calidad.</p>
+      <p>Nuestro equipo trabaja con dedicación y profesionalismo para superar expectativas en cada interacción. La plena satisfacción de nuestros clientes es testimonio inequívoco de la efectividad de nuestro sistema y la calidad de nuestro servicio.</p>
     </div>
     <div class="col-sm-6">
       <img class="rounded-4 img-fluid" src="images/two-business-partners-shaking-hands-office.webp" alt="Nuestro Compromiso">
