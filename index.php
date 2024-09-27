@@ -370,7 +370,7 @@ include_once ('templates/header.php'); ?>
                     </div>
                     <div>
                       <h4 class="text-primary fs-6 fw-bold">Home Banking</h4>
-                      <p>Su cooperativa en cualquier lugar. Sistema disponible 24/7 donde puedes realizar, verificación de cuentas, balances disponibles, acceder a detalles de sus préstamos,l hacer pagos y mucho más.</p>
+                      <p>Su cooperativa en cualquier lugar. Sistema disponible 24/7 donde puedes realizar verificación de cuentas, balances disponibles, acceder a detalles de sus préstamos, hacer pagos y mucho más.</p>
                       <a href="javascript:void(0)"><button type="button" class="btn btn-link text-decoration-none ps-0 pt-0 fw-bold fs-14">
                         Conoce más <i class="fa-solid fa-arrow-right-long"></i>
                       </button></a>
