@@ -36,7 +36,7 @@ include_once ('templates/header.php'); ?>
       <div class="col-12 col-md-4">
         <div class="d-flex flex-column align-items-center gap-2 border rounded-3 p-4 h-100">
           <i class="fa-solid fa-envelope fs-3 text-primary"></i>
-          <h2 class="fs-6 text-primary">Correo</h2>
+          <h2 class="fs-6 text-primary">Correo electrónico</h2>
           <p class="text-center"><a href="mailto:info@helvetia-pr.com">info@helvetia-pr.com</a></p>
         </div>
       </div>
@@ -45,10 +45,8 @@ include_once ('templates/header.php'); ?>
   <div class="container px-4">
     <div class="row g-4 py-4 mt-md-3 py-md-5">
       <div class="col-12 col-md-6 d-flex flex-column gap-2 pe-5">
-        <h2 class="text-primary fw-bold fs-3">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-          eirmod tempor</h2>
-        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-          dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et</p>
+        <h2 class="text-primary fw-bold fs-3">Para Helvetia del Caribe es un placer servirles</h2>
+        <p>En Helvetia del Caribe, nuestro compromiso es ofrecer un servicio de excelencia. Nos dedicamos a satisfacer las necesidades de nuestros clientes con soluciones personalizadas y un enfoque constante en la calidad. Nos esforzamos por mejorar continuamente, buscando innovar y adaptarnos a los cambios para garantizar que nuestros clientes siempre reciban lo mejor.</p>
         <h3 class="fs-6 text-primary fw-bold">Síguenos en las redes:</h3>
         <ul class="list-inline">
           <li class="list-inline-item fs-10">
@@ -80,20 +78,20 @@ include_once ('templates/header.php'); ?>
       <div class="col-12 col-md-6 p-5  border rounded-3 bg-white">
         <form>
           <div class="mb-3">
-            <label for="inputName" class="form-label">Nombre*</label>
+            <label for="inputName" class="form-label">Nombre</label>
             <input type="text" class="form-control" id="inputName" aria-describedby="nameHelp" placeholder="Ingresa tu nombre">
           </div>
           <div class="mb-3">
-            <label for="inputTel" class="form-label">Teléfono*</label>
+            <label for="inputTel" class="form-label">Teléfono</label>
             <input type="tel" class="form-control" id="inputTel" aria-describedby="telHelp" placeholder="Ingresa tu número de teléfono">
           </div>
           <div class="mb-3">
-            <label for="inputEmail" class="form-label">Email address</label>
+            <label for="inputEmail" class="form-label">Correo electrónico</label>
             <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Ingresa tu correo electrónico">
           </div>
           <div class="mb-3">
-            <label for="selectService">Servicio:</label>
-            <select id="selectService" class="form-select" aria-label="Default select example">
+            <label for="selectService">Orientación sobre nuestro servicio:</label>
+            <select style="margin-top:5px" id="selectService" class="form-select" aria-label="Default select example">
               <option selected>Selecciona un servicio</option>
               <option value="nucs-web">NUCS Web</option>
               <option value="onbase">OnBase</option>
