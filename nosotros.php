@@ -47,7 +47,7 @@ include_once('templates/header.php'); ?>
 </div>
 
 <!-- Segundo Container -->
-<div class="container-fluid bg-light-secondary py-100">
+<div class="container-fluid bg-light-secondary pt-5 pb-5 py-100">
   <div class="container">
     <div class="row text-center">
       <div class="col mx-auto">
@@ -60,7 +60,7 @@ include_once('templates/header.php'); ?>
           </div>
         </div>
 
-        <div class="row gx-md-2 custom-card">
+        <div class="row gx-md-2 mx-n24 custom-card">
           <!-- Tarjetas de diferenciadores -->
           <div class="col-md-8 d-none d-sm-block mx-auto">
             <div class="card text-start mt-md-3">
@@ -283,7 +283,7 @@ include_once('templates/header.php'); ?>
 </div>
 
 <!-- ¿Qué hacemos -->
-<div class="container-fluid py-100 gr-bg">
+<div class="container-fluid py-100 pt-5 pb-5 gr-bg">
   <div class="container">
     <div class="row text-center">
       <div class="col col-md-8 mx-auto">
@@ -310,7 +310,7 @@ include_once('templates/header.php'); ?>
 
 <!-- Row Compromiso -->
 <div class="container-lg mw-1120">
-  <div class="row pt-md-5 mt-md-5 pb-md-5 mb-md-5 pt-3 pb-2 mb-5 d-flex gx-md-5 align-items-center">
+  <div class="row pt-md-5 mt-md-5 pb-md-5 mb-md-5 pt-5 pb-2 mb-5 d-flex gx-md-5 align-items-center">
     <div class="col-sm-6">
       <h2 class="fs-3 fw-bold text-primary pb-4">Nuestro Compromiso</h2>
       <p>Ofrecer a nuestros clientes un servicio único en su clase. El mismo está basado en un paquete diseñado

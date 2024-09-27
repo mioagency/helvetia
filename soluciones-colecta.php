@@ -18,17 +18,12 @@ include_once('templates/header.php'); ?>
 </div>
 
 <section class="container-lg mw-1120">
-    <div class="row pt-100 pb-64 d-flex mio-bg-gradient">
+    <div class="row pt-100 pt-4 pb-64 d-flex mio-bg-gradient">
         <div class="col-sm-4">
             <h2 class="fs-3 fw-bold text-primary text-center text-sm-start pb-3">¿Qué es Colecta?</h2>
         </div>
         <div class="col-sm-8">
-            <p>Un efecto de la recesión en el País ha sido que la morosidad en los pagos a los préstamos ha incrementado
-                desde el 2007. Ese aumento en la morosidad ha provocado que las cooperativas de ahorro y crédito hayan
-                tenido que aumentar las reservas para préstamos incobrables. Permítanos ayudar en el cobro de estos
-                préstamos.
-            </p>
-            <p>Colecta es un servicio automatizado de llamadas. Realiza las gestiones de cobros y campañas de mercadeo.
+            <p>Colecta consiste en un servicio automatizado de llamadas con un marcador predictivo con el propósito de servir en la gestión de cobros, mercadeo y servicio al cliente sin la intervención de un representante de servicio.
             </p>
         </div>
     </div>
@@ -82,9 +77,9 @@ include_once('templates/header.php'); ?>
 <section class="container py-5 sentinel-row-bg mw-1120 rounded-2 my-5 br-0">
     <div class="row text-sm-start text-center mx-auto">
         <div class="col d-flex justify-content-between flex-column flex-sm-row align-items-center px-sm-5">
-            <h2 class="fs-3 text-white mb-4">Programa una consulta hoy mismo y obtén los beneficios.</h2>
+            <h2 class="fs-3 text-white mb-4">Para más información:</h2>
             <a href="<?php $SERVER_URI ?>contactenos.php">
-                <button class="btn btn-info mx-auto text-tertiary fw-light text-nowrap">Coordina tu cita aquí</button>
+                <button class="btn btn-info mx-auto text-tertiary fw-light text-nowrap">Contáctanos aquí</button>
             </a>
         </div>
     </div>

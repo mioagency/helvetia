@@ -1,6 +1,6 @@
 <?php
 
-$PageTitle = "Helvetia - Contáctenos";
+$PageTitle = "Helvetia - Comuníquese con nosotros";
 $page = "contactenos";
 
 function customPageHeader()
@@ -12,7 +12,7 @@ include_once ('templates/header.php'); ?>
 
 <div class="container-fluid">
   <div class="row header-bg-img py-xl-5 py-3">
-    <h1 class="text-center text-white">Contáctanos</h1>
+    <h1 class="text-center text-white">Comuníquese con nosotros</h1>
   </div>
 </div>
 

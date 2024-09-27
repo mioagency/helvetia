@@ -2,7 +2,7 @@
 <div class="container-fluid pt-4 pb-5 bg-gray px-0">
   <div class="container pb-5">
     <div class="row text-center py-5">
-      <h2 class="text-primary fw-bold">Ofrecemos servicio de apoyo técnico atención personalizada desde nuestras instalaciones</h2>
+      <h2 class="text-primary fs-sm-24 fw-bold">Ofrecemos servicio de apoyo técnico atención personalizada desde nuestras instalaciones</h2>
     </div>
     <div id="mobile-side-scroll" class="row">
       <div class="col-12 col-md-3">

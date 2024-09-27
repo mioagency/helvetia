@@ -17,7 +17,7 @@ include_once('templates/header.php'); ?>
 
 <!-- Primer container -->
 <div class="container-lg mw-1120">
-  <div class="row py-100 d-flex gx-md-5 align-items-center">
+  <div class="row py-100 pt-4 d-flex gx-md-5 align-items-center">
     <div class="col-sm-6">
       <H1 class="fs-3 fw-bold text-primary pb-4">¿Quién es Global RADAR®</H1>
       <p>Es una solución de gestión de riesgos basada en una base potente y simple dentro de la red que proporciona un enfoque integral al cumplimiento de AML en una aplicación intuitiva y optimizada. Los muchos beneficios de Global RADAR® incluyen la protección de las instituciones con pérdidas financieras o de reputación, a la vez que generan ahorros de costos y oportunidades de generación de ingresos.</p>

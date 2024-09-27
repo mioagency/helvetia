@@ -17,7 +17,7 @@ include_once('templates/header.php'); ?>
 </div>
 
 <section class="container-lg mw-1120">
-    <div class="row pt-100 pb-64 d-flex mio-bg-gradient">
+    <div class="row pt-4 pt-100 pb-64 d-flex mio-bg-gradient">
         <div class="col-sm-4">
             <H2 class="fs-3 fw-bold text-primary">¿Qué es Sentinel?</H2>
         </div>
@@ -25,14 +25,14 @@ include_once('templates/header.php'); ?>
             <p>Sentinel es el producto de excelencia para comenzar esta fase de manejo de contenido electrónico,
                 conocido por sus siglas en inglés, ECM (Electronic Content Management). Como parte de la solución se
                 incluye un módulo de COLD para la importación de reportes diarios y mensuales. Adicional se incluye
-                “Teller Scanning”, en adelante TELLER SCANNING. Integrado con la aplicación de ALAS y APERTURA, es la
+                “Scanning Station”, en adelante SCANNING STATION. Integrado con la aplicación de ALAS y APERTURA, es la
                 base para el expediente electrónico del socio.
             </p>
         </div>
     </div>
 </section>
 
-<section class="container-lg mw-1120 py-100">
+<section class="container-lg mw-1120 pt-4 pb-4 py-100">
     <div class="row text-center mx-auto mw-930 pb-4">
         <h2 class="fs-3 fw-bold text-primary pb-4">Componentes de Sentinel para <br />Documentos de Apertura y Préstamos
         </h2>
@@ -40,8 +40,8 @@ include_once('templates/header.php'); ?>
     <div class="row d-flex gx-md-5 align-items-center">
         <div class="col-sm-6">
             <div class="pb-5">
-                <img class="img-fluid pb-2" src="images/teller-scanning.svg" alt="teller scanning icon">
-                <H3 class="fs-4 fw-bold text-primary pb-3">Teller Scanning</H3>
+                <img class="img-fluid pb-2" src="images/teller-scanning.svg" alt="scanning station icon">
+                <H3 class="fs-4 fw-bold text-primary pb-3">Scanning Station</H3>
                 <p>Se utiliza para digitalizar todo documento externo incluyendo los que se deben imprimir para obtener
                     firmas originales. Su comunicación con ALAS y APERTURA permite que reciba todos los campos índices
                     desde la aplicación a la vez que facilita al usuario el trabajo de digitalizar e indexar los
@@ -57,7 +57,7 @@ include_once('templates/header.php'); ?>
                 </p>
             </div>
         </div>
-        <div class="col-sm-6">
+        <div class="col-sm-6 mb-4">
             <img class="rounded-4 img-fluid" src="images/temp-image.svg" alt="temp-image">
         </div>
     </div>
@@ -68,14 +68,14 @@ include_once('templates/header.php'); ?>
 include_once('templates/cta-full-width.php');
 ?>
 
-<section class="container-lg mw-1120 py-100">
+<section class="container-lg mw-1120 pt-5 py-100">
     <div class="row d-flex gx-md-5 align-items-center">
         <div class="col-sm-5 d-none d-sm-block">
             <img class="rounded-4 img-fluid" src="images/temp-image.svg" alt="temp-image">
         </div>
         <div class="col-sm-7">
             <div class="pb-5">
-                <H2 class="fs-3 fw-bold text-primary pb-3">Integración de Teller Scanning</H3>
+                <H2 class="fs-3 fw-bold text-primary pb-3">Integración de Scanning Station</H3>
                     <p>Con la integración de Desktop Scanning con el módulo de ALAS y Apertura se obtienen los
                         siguientes beneficios:
 

@@ -11904,6 +11904,11 @@ body {
   font-size: 0.875rem;
 }
 
+@media (max-width: 570px) {
+  .fs-sm-24 {
+    font-size: 1.5rem !important;
+  }
+}
 .p-025 {
   padding: 0.25rem;
 }
@@ -12305,6 +12310,12 @@ body {
   }
   .icon-text-box:hover .icon-wrapper, .active .icon-text-box .icon-wrapper {
     background-color: #3D8FA0;
+  }
+}
+@media (max-width: 575px) {
+  .mx-n24 {
+    margin-left: -24px;
+    margin-right: -24px;
   }
 }
 @media (max-width: 575px) {
