@@ -167,7 +167,7 @@ include_once ('templates/header.php'); ?>
                     </div>
                     <div class="col-10 ps-4">
                       <h4 class="text-primary fs-6 fw-bold">Dashboards</h4>
-                      <p>Analizar el estado de su cooperativa de ahorro y crédito a través de medios visuales puede resultar una herramienta valiosa para obtener información detallada y valiosa.</p>
+                      <p>Analizar el estado de su cooperativa de ahorro y crédito a través de medios visuales puede resultar una herramienta valiosa para obtener información detallada.</p>
                       <a href="javascript:void(0)"><button type="button" class="btn btn-link text-decoration-none ps-0 pt-0 fw-bold fs-14">
                         Conoce más <i class="fa-solid fa-arrow-right-long"></i>
                       </button></a>
