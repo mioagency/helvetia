@@ -282,7 +282,7 @@ include_once('templates/header.php'); ?>
       <p>Nuestro equipo trabaja con dedicación y profesionalismo para superar expectativas en cada interacción. La plena satisfacción de nuestros clientes es testimonio inequívoco de la efectividad de nuestro sistema y la calidad de nuestro servicio.</p>
     </div>
     <div class="col-sm-6">
-      <img class="rounded-4 img-fluid" src="images/two-business-partners-shaking-hands-office.webp" alt="Nuestro Compromiso">
+      <img class="rounded-4 img-fluid" src="images/nosotros-nuestro-compromiso.webp" alt="Nuestro Compromiso">
     </div>
   </div>
 </div>
