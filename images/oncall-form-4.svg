@@ -12,10 +12,10 @@
     <g transform="matrix(1, 0, 0, 1, 464, 3606)" filter="url(#Rectangle_1098)">
       <rect id="Rectangle_1098-2" data-name="Rectangle 1098" width="930" height="262" rx="10" transform="translate(30 30)" fill="#fff"/>
     </g>
-    <text id="Su_servicio_fue_registrado_personal_de_Helvetia_del_Caribe_lo_contactará" data-name="Su servicio fue registrado, personal de Helvetia del Caribe lo contactará" transform="translate(554 3765)" fill="#72797f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Su servicio fue registrado, personal de Helvetia del Caribe lo contactará</tspan></text>
+    <text id="Su_servicio_fue_registrado_personal_de_Helvetia_del_Caribe_lo_contactará" data-name="Su servicio fue registrado, personal de Helvetia del Caribe lo contactará" transform="translate(554 3765)" fill="#72797f" font-size="16" font-family="Lato-Regular, Lato"><tspan x="0" y="0">Su servicio fue registrado, personal de Helvetia del Caribe lo contactará</tspan></text>
     <g id="Group_1014" data-name="Group 1014" transform="translate(-460 3307)">
-      <line id="Line_70" data-name="Line 70" x2="810.5" transform="translate(1014.5 411)" fill="none" stroke="#707070" stroke-width="1"/>
-      <text id="Servicio_completado" data-name="Servicio completado" transform="translate(1014 393)" fill="#4c4c4c" font-size="24" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Servicio completado</tspan></text>
+      <line id="Line_70" data-name="Line 70" x2="810.5" transform="translate(1014.5 410)" fill="none" stroke="#707070" stroke-width="1"/>
+      <text id="Servicio_completado" data-name="Servicio completado" transform="translate(1014 393)" fill="#4c4c4c" font-size="24" font-family="Lato-Regular, Lato"><tspan x="0" y="0">Servicio completado</tspan></text>
     </g>
     <g id="Group_1016" data-name="Group 1016" transform="translate(32 859)">
       <g id="Group_1003" data-name="Group 1003" transform="translate(-45.811 2483)">
@@ -23,14 +23,14 @@
           <rect width="194" height="43" rx="15" stroke="none"/>
           <rect x="0.5" y="0.5" width="193" height="42" rx="14.5" fill="none"/>
         </g>
-        <text id="SALIR_DEL_SISTEMA" data-name="SALIR DEL SISTEMA" transform="translate(1065.811 494)" fill="#fff" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="-72" y="0">SALIR DEL SISTEMA</tspan></text>
+        <text id="SALIR_DEL_SISTEMA" data-name="SALIR DEL SISTEMA" transform="translate(1065.811 494)" fill="#fff" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="-72.691" y="0">SALIR DEL SISTEMA</tspan></text>
       </g>
       <g id="Group_1002" data-name="Group 1002" transform="translate(-240.811 2483)">
         <g id="Rectangle_1089-2" data-name="Rectangle 1089" transform="translate(979.811 467)" fill="#058fa5" stroke="#058fa5" stroke-width="1">
           <rect width="172" height="43" rx="15" stroke="none"/>
           <rect x="0.5" y="0.5" width="171" height="42" rx="14.5" fill="none"/>
         </g>
-        <text id="NUEVO_SERVICIO" data-name="NUEVO SERVICIO" transform="translate(1065.811 494)" fill="#fff" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="-62" y="0">NUEVO SERVICIO</tspan></text>
+        <text id="NUEVO_SERVICIO" data-name="NUEVO SERVICIO" transform="translate(1065.811 494)" fill="#fff" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="-62.25" y="0">NUEVO SERVICIO</tspan></text>
       </g>
     </g>
   </g>

@@ -18,10 +18,7 @@ include_once('templates/header.php'); ?>
   <div class="row py-100 pt-4 pb-5 mio-bg-gradient justify-content-sm-between justify-content-center">
     <div class="col-12 pb-4 col-sm-6">
       <h2 class="fs-3 fw-bold text-primary pb-2">¿Qué es Apoyo Técnico?</h2>
-      <p>Nuestro servicio de OnCall ha sido diseñado para proveer asistencia operacional a nuestros clientes sobre los diferentes productos que tenemos. Nuestros técnicos se encargan de detectar cualquier problema con el sistema y canalizarlo a través del departamento correspondiente.
-      </p> 
-      <p>De encontrarse algún problema en la programación, se verifican los programas con la versión más reciente para corregir la situación en el menor tiempo posible. Otra de las funciones de este departamento, siempre y cuando la situación lo amerite, es hacer mejoras al sistema a través de conexión remota para agilizar los procesos de los clientes y no esperar por un técnico a ser asignado para que realice una visita a las localidades del cliente.
-      </p>
+      <p>Nuestro servicio de OnCall ha sido diseñado para proveer apoyo técnico a nuestros clientes sobre los diferentes productos que tenemos. Nuestros técnicos se encargan de detectar cualquier problema con el sistema y canalizarlo a través del departamento correspondiente.</p>
     </div>
     <div class="col-11 col-sm-5 ms-sm-4 p-5 border rounded-3 bg-white">
         <form>

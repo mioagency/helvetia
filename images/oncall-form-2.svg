@@ -13,68 +13,68 @@
       <rect id="Rectangle_1091-2" data-name="Rectangle 1091" width="930" height="929" rx="10" transform="translate(30 30)" fill="#fff"/>
     </g>
     <g id="Group_985" data-name="Group 985" transform="translate(554.413 1793)">
-      <g id="Group_984" data-name="Group 984">
+      <g id="Group_984" data-name="Group 984" transform="translate(0 -1)">
         <g id="Rectangle_1089" data-name="Rectangle 1089" transform="translate(-0.413 460)" fill="#f7f7f7" stroke="#058fa5" stroke-width="1">
           <rect width="811" height="44" rx="15" stroke="none"/>
           <rect x="0.5" y="0.5" width="810" height="43" rx="14.5" fill="none"/>
         </g>
         <text id="Helvetia_del_Caribe" data-name="Helvetia del Caribe" transform="translate(15.587 487)" fill="#72797f" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Helvetia del Caribe</tspan></text>
       </g>
-      <text id="Cliente" transform="translate(0.587 443)" fill="#72797f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Cliente</tspan></text>
+      <text id="Cliente" transform="translate(0.587 443)" fill="#72797f" font-size="16" font-family="Lato-Regular, Lato"><tspan x="0" y="0">Cliente</tspan></text>
     </g>
     <g id="Group_986" data-name="Group 986" transform="translate(555.413 1901)">
-      <g id="Group_984-2" data-name="Group 984">
+      <g id="Group_984-2" data-name="Group 984" transform="translate(0 -1)">
         <g id="Rectangle_1089-2" data-name="Rectangle 1089" transform="translate(-0.413 460)" fill="#f7f7f7" stroke="#058fa5" stroke-width="1">
           <rect width="811" height="44" rx="15" stroke="none"/>
           <rect x="0.5" y="0.5" width="810" height="43" rx="14.5" fill="none"/>
         </g>
         <text id="Administrador" transform="translate(15.587 487)" fill="#72797f" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Administrador</tspan></text>
       </g>
-      <text id="Contacto" transform="translate(0.587 443)" fill="#72797f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Contacto</tspan></text>
+      <text id="Contacto" transform="translate(0.587 443)" fill="#72797f" font-size="16" font-family="Lato-Regular, Lato"><tspan x="0" y="0">Contacto</tspan></text>
     </g>
     <g id="Group_992" data-name="Group 992" transform="translate(555.413 2009)">
-      <g id="Group_984-3" data-name="Group 984" transform="translate(-0.413)">
+      <g id="Group_984-3" data-name="Group 984" transform="translate(-0.413 -1)">
         <g id="Rectangle_1089-3" data-name="Rectangle 1089" transform="translate(0 460)" fill="#fff" stroke="#058fa5" stroke-width="1">
           <rect width="395" height="44" rx="15" stroke="none"/>
           <rect x="0.5" y="0.5" width="394" height="43" rx="14.5" fill="none"/>
         </g>
         <text id="correo_correo.com" data-name="correo@correo.com" transform="translate(16 487)" fill="#72797f" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">correo@correo.com</tspan></text>
       </g>
-      <text id="Correo_Electrónico" data-name="Correo Electrónico" transform="translate(0.587 443)" fill="#72797f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Correo Electrónico</tspan></text>
+      <text id="Correo_Electrónico" data-name="Correo Electrónico" transform="translate(0.587 443)" fill="#72797f" font-size="16" font-family="Lato-Regular, Lato"><tspan x="0" y="0">Correo Electrónico</tspan></text>
     </g>
     <g id="Group_993" data-name="Group 993" transform="translate(971.413 2009)">
-      <g id="Group_984-4" data-name="Group 984" transform="translate(-0.413)">
+      <g id="Group_984-4" data-name="Group 984" transform="translate(-0.413 -1)">
         <g id="Rectangle_1089-4" data-name="Rectangle 1089" transform="translate(0 460)" fill="#fff" stroke="#058fa5" stroke-width="1">
           <rect width="395" height="44" rx="15" stroke="none"/>
           <rect x="0.5" y="0.5" width="394" height="43" rx="14.5" fill="none"/>
         </g>
         <text id="_7878889090" data-name="7878889090" transform="translate(16 487)" fill="#72797f" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">7878889090</tspan></text>
       </g>
-      <text id="Teléfono" transform="translate(0.587 443)" fill="#72797f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Teléfono</tspan></text>
+      <text id="Teléfono" transform="translate(0.587 443)" fill="#72797f" font-size="16" font-family="Lato-Regular, Lato"><tspan x="0" y="0">Teléfono</tspan></text>
     </g>
     <g id="Group_991" data-name="Group 991" transform="translate(-460 1776)">
-      <line id="Line_70" data-name="Line 70" x2="810.5" transform="translate(1014.5 411)" fill="none" stroke="#707070" stroke-width="1"/>
-      <text id="Registrar_un_nuevo_servicio" data-name="Registrar un nuevo servicio" transform="translate(1014 393)" fill="#4c4c4c" font-size="24" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Registrar un nuevo servicio</tspan></text>
+      <line id="Line_70" data-name="Line 70" x2="810.5" transform="translate(1014.5 410)" fill="none" stroke="#707070" stroke-width="1"/>
+      <text id="Registrar_un_nuevo_servicio" data-name="Registrar un nuevo servicio" transform="translate(1014 393)" fill="#4c4c4c" font-size="24" font-family="Lato-Regular, Lato"><tspan x="0" y="0">Registrar un nuevo servicio</tspan></text>
     </g>
     <g id="Group_1001" data-name="Group 1001">
-      <text id="Área_de_servicio" data-name="Área de servicio" transform="translate(556 2560)" fill="#72797f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Área de servicio</tspan></text>
+      <text id="Área_de_servicio" data-name="Área de servicio" transform="translate(556 2560)" fill="#72797f" font-size="16" font-family="Lato-Regular, Lato"><tspan x="0" y="0">Área de servicio</tspan></text>
       <g id="Group_997" data-name="Group 997" transform="translate(3 -9)">
         <g id="Group_994" data-name="Group 994" transform="translate(0 9)">
-          <text id="NCUS" transform="translate(576 2591)" fill="#72797f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">NCUS</tspan></text>
+          <text id="NCUS" transform="translate(576 2591)" fill="#72797f" font-size="16" font-family="Lato-Regular, Lato"><tspan x="0" y="0">NCUS</tspan></text>
           <g id="Ellipse_21" data-name="Ellipse 21" transform="translate(553 2578)" fill="#fff" stroke="#bdccd4" stroke-width="1">
             <circle cx="7.5" cy="7.5" r="7.5" stroke="none"/>
             <circle cx="7.5" cy="7.5" r="7" fill="none"/>
           </g>
         </g>
         <g id="Group_995" data-name="Group 995" transform="translate(0 40)">
-          <text id="ATM" transform="translate(576 2591)" fill="#72797f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">ATM</tspan></text>
+          <text id="ATM" transform="translate(576 2591)" fill="#72797f" font-size="16" font-family="Lato-Regular, Lato"><tspan x="0" y="0">ATM</tspan></text>
           <g id="Ellipse_21-2" data-name="Ellipse 21" transform="translate(553 2578)" fill="#fff" stroke="#bdccd4" stroke-width="1">
             <circle cx="7.5" cy="7.5" r="7.5" stroke="none"/>
             <circle cx="7.5" cy="7.5" r="7" fill="none"/>
           </g>
         </g>
         <g id="Group_996" data-name="Group 996" transform="translate(0 71)">
-          <text id="TSG" transform="translate(576 2591)" fill="#72797f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">TSG</tspan></text>
+          <text id="TSG" transform="translate(576 2591)" fill="#72797f" font-size="16" font-family="Lato-Regular, Lato"><tspan x="0" y="0">TSG</tspan></text>
           <g id="Ellipse_21-3" data-name="Ellipse 21" transform="translate(553 2578)" fill="#fff" stroke="#bdccd4" stroke-width="1">
             <circle cx="7.5" cy="7.5" r="7.5" stroke="none"/>
             <circle cx="7.5" cy="7.5" r="7" fill="none"/>
@@ -90,14 +90,14 @@
       <text id="_7878889090-2" data-name="7878889090" transform="translate(16 487)" fill="#72797f" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">7878889090</tspan></text>
     </g>
     <g id="Group_1000" data-name="Group 1000" transform="translate(0 -9)">
-      <g id="Group_999" data-name="Group 999" transform="translate(0 -9)">
+      <g id="Group_999" data-name="Group 999" transform="translate(0 -10)">
         <g id="Rectangle_1089-6" data-name="Rectangle 1089" transform="translate(553 2738)" fill="#fff" stroke="#058fa5" stroke-width="1">
           <rect width="813" height="195" rx="15" stroke="none"/>
           <rect x="0.5" y="0.5" width="812" height="194" rx="14.5" fill="none"/>
         </g>
-        <text id="Descripción_del_servicio_solicitado" data-name="Descripción del servicio solicitado" transform="translate(571 2771)" fill="#72797f" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Descripción del servicio solicitado</tspan></text>
+        <text id="Descripción_del_servicio_solicitado" data-name="Descripción del servicio solicitado" transform="translate(571 2771)" fill="#72797f" font-size="14" font-family="Lato-Regular, Lato"><tspan x="0" y="0">Descripción del servicio solicitado</tspan></text>
       </g>
-      <text id="Descripción_del_servicio_solicitado-2" data-name="Descripción del servicio solicitado" transform="translate(556 2713)" fill="#72797f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Descripción del servicio solicitado</tspan></text>
+      <text id="Descripción_del_servicio_solicitado-2" data-name="Descripción del servicio solicitado" transform="translate(556 2713)" fill="#72797f" font-size="16" font-family="Lato-Regular, Lato"><tspan x="0" y="0">Descripción del servicio solicitado</tspan></text>
     </g>
     <g id="Group_1004" data-name="Group 1004" transform="translate(37)">
       <g id="Group_1002" data-name="Group 1002" transform="translate(-193.811 2483)">
@@ -105,14 +105,14 @@
           <rect width="104" height="43" rx="15" stroke="none"/>
           <rect x="0.5" y="0.5" width="103" height="42" rx="14.5" fill="none"/>
         </g>
-        <text id="ENVIAR" transform="translate(1065.811 494)" fill="#fff" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="-27" y="0">ENVIAR</tspan></text>
+        <text id="ENVIAR" transform="translate(1065.811 494)" fill="#fff" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="-27.73" y="0">ENVIAR</tspan></text>
       </g>
       <g id="Group_1003" data-name="Group 1003" transform="translate(-84.811 2483)">
         <g id="Rectangle_1089-8" data-name="Rectangle 1089" transform="translate(1020.811 467)" fill="#058fa5" stroke="#058fa5" stroke-width="1">
           <rect width="90" height="43" rx="15" stroke="none"/>
           <rect x="0.5" y="0.5" width="89" height="42" rx="14.5" fill="none"/>
         </g>
-        <text id="SALIR" transform="translate(1065.811 494)" fill="#fff" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="-21" y="0">SALIR</tspan></text>
+        <text id="SALIR" transform="translate(1065.811 494)" fill="#fff" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="-21.371" y="0">SALIR</tspan></text>
       </g>
     </g>
   </g>

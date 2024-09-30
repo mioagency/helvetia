@@ -13,14 +13,14 @@
       <rect id="Rectangle_1091-2" data-name="Rectangle 1091" width="930" height="516" rx="10" transform="translate(30 30)" fill="#fff"/>
     </g>
     <text id="Seleccione_los_archivos_que_desea_enviar_como_parte_de_este_servicio._Los_archivos_deben_estar_en_formato_PDF." data-name="Seleccione los archivos que desea enviar como parte de este servicio.
-Los archivos deben estar en formato PDF." transform="translate(554 2833)" fill="#72797f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Seleccione los archivos que desea enviar como parte de este servicio.</tspan><tspan x="0" y="40">Los archivos deben estar en formato PDF.</tspan></text>
+Los archivos deben estar en formato PDF." transform="translate(554 2833)" fill="#72797f" font-size="16" font-family="Lato-Regular, Lato"><tspan x="0" y="0">Seleccione los archivos que desea enviar como parte de este servicio.</tspan><tspan x="0" y="40">Los archivos deben estar en formato PDF.</tspan></text>
     <g id="Group_991" data-name="Group 991" transform="translate(-460 2375)">
-      <line id="Line_70" data-name="Line 70" x2="810.5" transform="translate(1014.5 411)" fill="none" stroke="#707070" stroke-width="1"/>
-      <text id="Carga_de_archivos" data-name="Carga de archivos" transform="translate(1014 393)" fill="#4c4c4c" font-size="24" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Carga de archivos</tspan></text>
+      <line id="Line_70" data-name="Line 70" x2="810.5" transform="translate(1014.5 410)" fill="none" stroke="#707070" stroke-width="1"/>
+      <text id="Carga_de_archivos" data-name="Carga de archivos" transform="translate(1014 393)" fill="#4c4c4c" font-size="24" font-family="Lato-Regular, Lato"><tspan x="0" y="0">Carga de archivos</tspan></text>
     </g>
     <g id="Group_1012" data-name="Group 1012" transform="translate(-460 2671)">
-      <line id="Line_70-2" data-name="Line 70" x2="810.5" transform="translate(1014.5 411)" fill="none" stroke="#707070" stroke-width="1"/>
-      <text id="Carga_de_archivos-2" data-name="Carga de archivos" transform="translate(1014 393)" fill="#4c4c4c" font-size="24" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Carga de archivos</tspan></text>
+      <line id="Line_70-2" data-name="Line 70" x2="810.5" transform="translate(1014.5 410)" fill="none" stroke="#707070" stroke-width="1"/>
+      <text id="Carga_de_archivos-2" data-name="Carga de archivos" transform="translate(1014 393)" fill="#4c4c4c" font-size="24" font-family="Lato-Regular, Lato"><tspan x="0" y="0">Carga de archivos</tspan></text>
     </g>
     <g id="Group_1010" data-name="Group 1010" transform="translate(0 -34)">
       <rect id="Rectangle_1089" data-name="Rectangle 1089" width="811" height="44" rx="15" transform="translate(554 2935)" fill="#3d8fa0"/>
@@ -41,19 +41,19 @@ Los archivos deben estar en formato PDF." transform="translate(554 2833)" fill="
           <rect width="174" height="43" rx="15" stroke="none"/>
           <rect x="0.5" y="0.5" width="173" height="42" rx="14.5" fill="none"/>
         </g>
-        <text id="ENVIAR_ARCHIVO" data-name="ENVIAR ARCHIVO" transform="translate(1065.811 494)" fill="#fff" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="-63" y="0">ENVIAR ARCHIVO</tspan></text>
+        <text id="ENVIAR_ARCHIVO" data-name="ENVIAR ARCHIVO" transform="translate(1065.811 494)" fill="#fff" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="-63.48" y="0">ENVIAR ARCHIVO</tspan></text>
       </g>
       <g id="Group_1003" data-name="Group 1003" transform="translate(-44.811 2483)">
         <g id="Rectangle_1089-3" data-name="Rectangle 1089" transform="translate(954.811 467)" fill="#058fa5" stroke="#058fa5" stroke-width="1">
           <rect width="222" height="43" rx="15" stroke="none"/>
           <rect x="0.5" y="0.5" width="221" height="42" rx="14.5" fill="none"/>
         </g>
-        <text id="COMPLETAR_SOLICITUD" data-name="COMPLETAR SOLICITUD" transform="translate(1065.811 494)" fill="#fff" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="-87" y="0">COMPLETAR SOLICITUD</tspan></text>
+        <text id="COMPLETAR_SOLICITUD" data-name="COMPLETAR SOLICITUD" transform="translate(1065.811 494)" fill="#fff" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="-87.461" y="0">COMPLETAR SOLICITUD</tspan></text>
       </g>
     </g>
     <g id="Group_1013" data-name="Group 1013" transform="translate(0 -8)">
       <rect id="Rectangle_1094" data-name="Rectangle 1094" width="811" height="59" transform="translate(554 3114)" fill="#fcf3d2"/>
-      <text id="Archivo_enviado_satisfactoriamente_puede_enviar_más_archivos_de_lo_contrario_oprima_aquí" data-name="Archivo enviado satisfactoriamente, puede enviar más archivos, de lo contrario oprima aquí" transform="translate(590 3149)" fill="#7c7357" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Archivo enviado satisfactoriamente, puede enviar más archivos, de lo contrario oprima </tspan><tspan y="0" fill="#009dff">aquí</tspan></text>
+      <text id="Archivo_enviado_satisfactoriamente_puede_enviar_más_archivos_de_lo_contrario_oprima_aquí" data-name="Archivo enviado satisfactoriamente, puede enviar más archivos, de lo contrario oprima aquí" transform="translate(636 3149)" fill="#7c7357" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Archivo enviado satisfactoriamente, puede enviar más archivos, de lo contrario oprima </tspan><tspan y="0" fill="#009dff">aquí</tspan></text>
     </g>
   </g>
 </svg>
