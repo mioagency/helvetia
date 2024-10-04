@@ -32,7 +32,7 @@ $activePage = basename($_SERVER['PHP_SELF'], ".php");
     <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container">
         <a class="navbar-brand" href="<?php $SERVER_URI ?>index.php">
-          <img src="<?php $SERVER_URI ?>images/logo.png" alt="Logo Helvetia"
+          <img src="<?php $SERVER_URI ?>images/logo.png" width="205" alt="Logo Helvetia"
             class="d-inline-block align-text-top" width="116">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navItems"
