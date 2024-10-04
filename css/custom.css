@@ -12029,53 +12029,57 @@ body {
 }
 
 /* =========================== Páginas ============================== */
-.icon-text-box * {
-  transition: all ease-in-out 0.2s;
+.nav-tabs {
+  gap: 20px;
 }
-.icon-text-box .icon-wrapper {
+
+.nav-tabs .nav-item {
+  border-radius: 5px;
+}
+.nav-tabs .nav-item .icon-text-box .icon-wrapper {
   width: 104px;
   height: 104px;
   border-radius: 5px;
 }
-.icon-text-box .sistemas-bancarios {
+.nav-tabs .nav-item .icon-text-box .sistemas-bancarios {
   background: url("../images/sistemas-bancarios.svg") no-repeat center center/60px;
 }
-.icon-text-box .analisis-de-datos {
+.nav-tabs .nav-item .icon-text-box .analisis-de-datos {
   background: url("../images/analisis-de-datos.svg") no-repeat center center/60px;
 }
-.icon-text-box .comunicacion-y-notificaciones {
+.nav-tabs .nav-item .icon-text-box .comunicacion-y-notificaciones {
   background: url("../images/comunicacion-y-notificaciones.svg") no-repeat center center/60px;
 }
-.icon-text-box .operaciones-en-linea {
+.nav-tabs .nav-item .icon-text-box .operaciones-en-linea {
   background: url("../images/operaciones-en-linea.svg") no-repeat center center/60px;
 }
-.icon-text-box .ventas-y-automatizacion {
+.nav-tabs .nav-item .icon-text-box .ventas-y-automatizacion {
   background: url("../images/ventas-y-automatizacion.svg") no-repeat center center/60px;
 }
-.icon-text-box h3, .icon-text-box .h3 {
+.nav-tabs .nav-item .icon-text-box h3, .nav-tabs .nav-item .icon-text-box .h3 {
   color: black;
 }
 
-.icon-text-box:hover .sistemas-bancarios, .active .icon-text-box .sistemas-bancarios {
-  background: url("../images/sistemas-bancarios-hover.svg") no-repeat center center/60px;
-}
-.icon-text-box:hover .analisis-de-datos, .active .icon-text-box .analisis-de-datos {
-  background: url("../images/analisis-de-datos-hover.svg") no-repeat center center/60px;
-}
-.icon-text-box:hover .comunicacion-y-notificaciones, .active .icon-text-box .comunicacion-y-notificaciones {
-  background: url("../images/comunicacion-y-notificaciones-hover.svg") no-repeat center center/60px;
-}
-.icon-text-box:hover .operaciones-en-linea, .active .icon-text-box .operaciones-en-linea {
-  background: url("../images/operaciones-en-linea-hover.svg") no-repeat center center/60px;
-}
-.icon-text-box:hover .ventas-y-automatizacion, .active .icon-text-box .ventas-y-automatizacion {
-  background: url("../images/ventas-y-automatizacion-hover.svg") no-repeat center center/60px;
-}
-.icon-text-box:hover .icon-wrapper, .active .icon-text-box .icon-wrapper {
+.nav-tabs .nav-item:hover, .nav-tabs .nav-item:has(> .active) {
   background-color: #3D8FA0;
 }
-.icon-text-box:hover h3, .icon-text-box:hover .h3, .active .icon-text-box h3, .active .icon-text-box .h3 {
-  color: #3D8FA0;
+.nav-tabs .nav-item:hover h3, .nav-tabs .nav-item:hover .h3, .nav-tabs .nav-item:has(> .active) h3, .nav-tabs .nav-item:has(> .active) .h3 {
+  color: white;
+}
+.nav-tabs .nav-item:hover .icon-text-box .sistemas-bancarios, .nav-tabs .nav-item:hover .active .icon-text-box .sistemas-bancarios, .nav-tabs .nav-item:has(> .active) .icon-text-box .sistemas-bancarios, .nav-tabs .nav-item:has(> .active) .active .icon-text-box .sistemas-bancarios {
+  background: url("../images/sistemas-bancarios-hover.svg") no-repeat center center/60px;
+}
+.nav-tabs .nav-item:hover .icon-text-box .analisis-de-datos, .nav-tabs .nav-item:hover .active .icon-text-box .analisis-de-datos, .nav-tabs .nav-item:has(> .active) .icon-text-box .analisis-de-datos, .nav-tabs .nav-item:has(> .active) .active .icon-text-box .analisis-de-datos {
+  background: url("../images/analisis-de-datos-hover.svg") no-repeat center center/60px;
+}
+.nav-tabs .nav-item:hover .icon-text-box .comunicacion-y-notificaciones, .nav-tabs .nav-item:hover .active .icon-text-box .comunicacion-y-notificaciones, .nav-tabs .nav-item:has(> .active) .icon-text-box .comunicacion-y-notificaciones, .nav-tabs .nav-item:has(> .active) .active .icon-text-box .comunicacion-y-notificaciones {
+  background: url("../images/comunicacion-y-notificaciones-hover.svg") no-repeat center center/60px;
+}
+.nav-tabs .nav-item:hover .icon-text-box .operaciones-en-linea, .nav-tabs .nav-item:hover .active .icon-text-box .operaciones-en-linea, .nav-tabs .nav-item:has(> .active) .icon-text-box .operaciones-en-linea, .nav-tabs .nav-item:has(> .active) .active .icon-text-box .operaciones-en-linea {
+  background: url("../images/operaciones-en-linea-hover.svg") no-repeat center center/60px;
+}
+.nav-tabs .nav-item:hover .icon-text-box .ventas-y-automatizacion, .nav-tabs .nav-item:hover .active .icon-text-box .ventas-y-automatizacion, .nav-tabs .nav-item:has(> .active) .icon-text-box .ventas-y-automatizacion, .nav-tabs .nav-item:has(> .active) .active .icon-text-box .ventas-y-automatizacion {
+  background: url("../images/ventas-y-automatizacion-hover.svg") no-repeat center center/60px;
 }
 
 .pr-bg {

@@ -30,8 +30,8 @@ include_once ('templates/header.php'); ?>
     </div>
   </div>
   <div class="container responsive-tabs pb-5">
-    <ul class="nav nav-tabs justify-content-between border-0" role="tablist">
-      <li class="nav-item">
+    <ul id="da-thumbs" class="nav nav-tabs justify-content-between border-0 da-thumbs" role="tablist">
+      <li class="nav-item col text-center">
           <a id="tab-A" href="#pane-A" class="nav-link border border-0 bg-transparent active" data-bs-toggle="tab" role="tab" aria-selected="true">
           <button class="border border-0 bg-transparent" type="button">
             <div class="icon-text-box d-flex flex-column gap-2">
@@ -41,7 +41,7 @@ include_once ('templates/header.php'); ?>
           </button>
           </a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item col text-center">
           <a id="tab-B" href="#pane-B" class="nav-link border border-0 bg-transparent" data-bs-toggle="tab" role="tab">
             <button class="border border-0 bg-transparent" type="button">
               <div class="icon-text-box d-flex flex-column gap-2">
@@ -51,7 +51,7 @@ include_once ('templates/header.php'); ?>
             </button>
           </a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item col text-center">
           <a id="tab-C" href="#pane-C" class="nav-link border border-0 bg-transparent" data-bs-toggle="tab" role="tab">
             <button class="border border-0 bg-transparent" type="button">
               <div class="icon-text-box d-flex flex-column gap-2">
@@ -61,7 +61,7 @@ include_once ('templates/header.php'); ?>
             </button>
           </a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item col text-center">
           <a id="tab-D" href="#pane-D" class="nav-link border border-0 bg-transparent" data-bs-toggle="tab" role="tab">
             <button class="border border-0 bg-transparent" type="button">
               <div class="icon-text-box d-flex flex-column gap-2">
@@ -71,7 +71,7 @@ include_once ('templates/header.php'); ?>
             </button>
           </a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item col text-center">
           <a id="tab-E" href="#pane-E" class="nav-link border border-0 bg-transparent" data-bs-toggle="tab" role="tab">
             <button class="border border-0 bg-transparent" type="button" role="tab">
               <div class="icon-text-box d-flex flex-column gap-2">

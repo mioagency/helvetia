@@ -172,36 +172,44 @@ body{ color: #4C4C4C; }
 
 /* =========================== Páginas ============================== */
 // Homepage 
-.icon-text-box{
-  * {transition: all ease-in-out .2s;}
-  .icon-wrapper{
-    width: 104px;
-    height: 104px;
-    border-radius: 5px;
-  }
-  .sistemas-bancarios{background: url("../images/sistemas-bancarios.svg") no-repeat center center / 60px;}
-  .analisis-de-datos{background: url("../images/analisis-de-datos.svg") no-repeat center center / 60px;}
-  .comunicacion-y-notificaciones{background: url("../images/comunicacion-y-notificaciones.svg") no-repeat center center / 60px;}
-  .operaciones-en-linea{background: url("../images/operaciones-en-linea.svg") no-repeat center center / 60px;}
-  .ventas-y-automatizacion{background: url("../images/ventas-y-automatizacion.svg") no-repeat center center / 60px;}
-  h3{
-    color: black;
+.nav-tabs{
+  gap:20px
+}
+.nav-tabs .nav-item{
+  border-radius: 5px;
+  .icon-text-box{
+    .icon-wrapper{
+      width: 104px;
+      height: 104px;
+      border-radius: 5px;
+    }
+    .sistemas-bancarios{background: url("../images/sistemas-bancarios.svg") no-repeat center center / 60px;}
+    .analisis-de-datos{background: url("../images/analisis-de-datos.svg") no-repeat center center / 60px;}
+    .comunicacion-y-notificaciones{background: url("../images/comunicacion-y-notificaciones.svg") no-repeat center center / 60px;}
+    .operaciones-en-linea{background: url("../images/operaciones-en-linea.svg") no-repeat center center / 60px;}
+    .ventas-y-automatizacion{background: url("../images/ventas-y-automatizacion.svg") no-repeat center center / 60px;}
+    h3{
+      color: black;
+    }
   }
 }
 
-.icon-text-box:hover, .active .icon-text-box{
-  .sistemas-bancarios{background: url("../images/sistemas-bancarios-hover.svg") no-repeat center center / 60px;}
-  .analisis-de-datos{background: url("../images/analisis-de-datos-hover.svg") no-repeat center center / 60px;}
-  .comunicacion-y-notificaciones{background: url("../images/comunicacion-y-notificaciones-hover.svg") no-repeat center center / 60px;}
-  .operaciones-en-linea{background: url("../images/operaciones-en-linea-hover.svg") no-repeat center center / 60px;}
-  .ventas-y-automatizacion{background: url("../images/ventas-y-automatizacion-hover.svg") no-repeat center center / 60px;}
-  .icon-wrapper{
-    background-color: $primary;
-  }
+.nav-tabs .nav-item:hover, .nav-tabs .nav-item:has(> .active){
+  background-color: $primary;
   h3{
-    color: $primary;
+    color: white;
+  }
+  .icon-text-box, .active .icon-text-box{
+    .sistemas-bancarios{background: url("../images/sistemas-bancarios-hover.svg") no-repeat center center / 60px;}
+    .analisis-de-datos{background: url("../images/analisis-de-datos-hover.svg") no-repeat center center / 60px;}
+    .comunicacion-y-notificaciones{background: url("../images/comunicacion-y-notificaciones-hover.svg") no-repeat center center / 60px;}
+    .operaciones-en-linea{background: url("../images/operaciones-en-linea-hover.svg") no-repeat center center / 60px;}
+    .ventas-y-automatizacion{background: url("../images/ventas-y-automatizacion-hover.svg") no-repeat center center / 60px;}
   }
 }
+
+
+
 
 .pr-bg{
   background: url("../images/pr-bg.webp") no-repeat center center / cover;
