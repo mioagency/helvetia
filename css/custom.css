@@ -12056,6 +12056,21 @@ body {
 .nav-tabs .nav-item .icon-text-box .ventas-y-automatizacion {
   background: url("../images/ventas-y-automatizacion.svg") no-repeat center center/60px;
 }
+.nav-tabs .nav-item .icon-text-box .area-de-caja {
+  background: url("../images/area-de-caja.svg") no-repeat center center/60px;
+}
+.nav-tabs .nav-item .icon-text-box .prestamos {
+  background: url("../images/area-de-prestamos.svg") no-repeat center center/60px;
+}
+.nav-tabs .nav-item .icon-text-box .contabilidad {
+  background: url("../images/contabilidad.svg") no-repeat center center/60px;
+}
+.nav-tabs .nav-item .icon-text-box .computos {
+  background: url("../images/centro-de-computos.svg") no-repeat center center/60px;
+}
+.nav-tabs .nav-item .icon-text-box .administracion {
+  background: url("../images/administracion.svg") no-repeat center center/60px;
+}
 .nav-tabs .nav-item .icon-text-box h3, .nav-tabs .nav-item .icon-text-box .h3 {
   color: black;
 }
@@ -12080,6 +12095,21 @@ body {
 }
 .nav-tabs .nav-item:hover .icon-text-box .ventas-y-automatizacion, .nav-tabs .nav-item:hover .active .icon-text-box .ventas-y-automatizacion, .nav-tabs .nav-item:has(> .active) .icon-text-box .ventas-y-automatizacion, .nav-tabs .nav-item:has(> .active) .active .icon-text-box .ventas-y-automatizacion {
   background: url("../images/ventas-y-automatizacion-hover.svg") no-repeat center center/60px;
+}
+.nav-tabs .nav-item:hover .icon-text-box .area-de-caja, .nav-tabs .nav-item:hover .active .icon-text-box .area-de-caja, .nav-tabs .nav-item:has(> .active) .icon-text-box .area-de-caja, .nav-tabs .nav-item:has(> .active) .active .icon-text-box .area-de-caja {
+  background: url("../images/area-de-caja-hover.svg") no-repeat center center/60px;
+}
+.nav-tabs .nav-item:hover .icon-text-box .prestamos, .nav-tabs .nav-item:hover .active .icon-text-box .prestamos, .nav-tabs .nav-item:has(> .active) .icon-text-box .prestamos, .nav-tabs .nav-item:has(> .active) .active .icon-text-box .prestamos {
+  background: url("../images/area-de-prestamos-hover.svg") no-repeat center center/60px;
+}
+.nav-tabs .nav-item:hover .icon-text-box .contabilidad, .nav-tabs .nav-item:hover .active .icon-text-box .contabilidad, .nav-tabs .nav-item:has(> .active) .icon-text-box .contabilidad, .nav-tabs .nav-item:has(> .active) .active .icon-text-box .contabilidad {
+  background: url("../images/contabilidad-hover.svg") no-repeat center center/60px;
+}
+.nav-tabs .nav-item:hover .icon-text-box .computos, .nav-tabs .nav-item:hover .active .icon-text-box .computos, .nav-tabs .nav-item:has(> .active) .icon-text-box .computos, .nav-tabs .nav-item:has(> .active) .active .icon-text-box .computos {
+  background: url("../images/centro-de-computos-hover.svg") no-repeat center center/60px;
+}
+.nav-tabs .nav-item:hover .icon-text-box .administracion, .nav-tabs .nav-item:hover .active .icon-text-box .administracion, .nav-tabs .nav-item:has(> .active) .icon-text-box .administracion, .nav-tabs .nav-item:has(> .active) .active .icon-text-box .administracion {
+  background: url("../images/administracion-hover.svg") no-repeat center center/60px;
 }
 
 .pr-bg {
@@ -12244,41 +12274,6 @@ body {
 }
 .dark-grey {
   color: var(--bs-gray-700);
-}
-
-.icon-text-box .area-de-caja {
-  background: url("../images/area-de-caja.svg") no-repeat center center/60px;
-}
-.icon-text-box .prestamos {
-  background: url("../images/area-de-prestamos.svg") no-repeat center center/60px;
-}
-.icon-text-box .contabilidad {
-  background: url("../images/contabilidad.svg") no-repeat center center/60px;
-}
-.icon-text-box .computos {
-  background: url("../images/centro-de-computos.svg") no-repeat center center/60px;
-}
-.icon-text-box .administracion {
-  background: url("../images/administracion.svg") no-repeat center center/60px;
-}
-
-.icon-text-box:hover .area-de-caja, .active .icon-text-box .area-de-caja {
-  background: url("../images/area-de-caja-hover.svg") no-repeat center center/60px;
-}
-.icon-text-box:hover .prestamos, .active .icon-text-box .prestamos {
-  background: url("../images/area-de-prestamos-hover.svg") no-repeat center center/60px;
-}
-.icon-text-box:hover .contabilidad, .active .icon-text-box .contabilidad {
-  background: url("../images/contabilidad-hover.svg") no-repeat center center/60px;
-}
-.icon-text-box:hover .computos, .active .icon-text-box .computos {
-  background: url("../images/centro-de-computos-hover.svg") no-repeat center center/60px;
-}
-.icon-text-box:hover .administracion, .active .icon-text-box .administracion {
-  background: url("../images/administracion-hover.svg") no-repeat center center/60px;
-}
-.icon-text-box:hover .icon-wrapper, .active .icon-text-box .icon-wrapper {
-  background-color: #3D8FA0;
 }
 
 @media (max-width: 570px) {

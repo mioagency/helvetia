@@ -44,7 +44,7 @@ include_once('templates/header.php'); ?>
         </div>
 
         <ul class="nav nav-tabs justify-content-between border-0 mio-bg-gradient-alt" role="tablist">
-            <li class="nav-item">
+            <li class="nav-item col text-center">
                 <a id="tab-A" href="#pane-A" class="nav-link border border-0 bg-transparent active" data-bs-toggle="tab"
                     role="tab">
                     <button class="border border-0 bg-transparent" type="button">
@@ -55,7 +55,7 @@ include_once('templates/header.php'); ?>
                     </button>
                 </a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item col text-center">
                 <a id="tab-B" href="#pane-B" class="nav-link border border-0 bg-transparent" data-bs-toggle="tab"
                     role="tab">
                     <button class="border border-0 bg-transparent" type="button">
@@ -66,7 +66,7 @@ include_once('templates/header.php'); ?>
                     </button>
                 </a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item col text-center">
                 <a id="tab-C" href="#pane-C" class="nav-link border border-0 bg-transparent" data-bs-toggle="tab"
                     role="tab">
                     <button class="border border-0 bg-transparent" type="button">
@@ -77,7 +77,7 @@ include_once('templates/header.php'); ?>
                     </button>
                 </a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item col text-center">
                 <a id="tab-D" href="#pane-D" class="nav-link border border-0 bg-transparent" data-bs-toggle="tab"
                     role="tab">
                     <button class="border border-0 bg-transparent" type="button">
@@ -88,7 +88,7 @@ include_once('templates/header.php'); ?>
                     </button>
                 </a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item col text-center">
                 <a id="tab-E" href="#pane-E" class="nav-link border border-0 bg-transparent" data-bs-toggle="tab"
                     role="tab">
                     <button class="border border-0 bg-transparent" type="button" role="tab">
@@ -101,7 +101,7 @@ include_once('templates/header.php'); ?>
             </li>
         </ul>
 
-        <div id="content" class="tab-content" role="tablist">
+        <div id="content" class="tab-content mt-5" role="tablist">
             <div id="pane-A" class="card shadow-none tab-pane fade mb-3 show active" role="tabpanel"
                 aria-labelledby="tab-A">
                 <div class="card-header bg-light-primary border-0 p-4 rounded-2" role="tab" id="heading-A">

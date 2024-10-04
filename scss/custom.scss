@@ -188,6 +188,12 @@ body{ color: #4C4C4C; }
     .comunicacion-y-notificaciones{background: url("../images/comunicacion-y-notificaciones.svg") no-repeat center center / 60px;}
     .operaciones-en-linea{background: url("../images/operaciones-en-linea.svg") no-repeat center center / 60px;}
     .ventas-y-automatizacion{background: url("../images/ventas-y-automatizacion.svg") no-repeat center center / 60px;}
+    // NUCS
+    .area-de-caja{background: url("../images/area-de-caja.svg") no-repeat center center / 60px;}
+    .prestamos{background: url("../images/area-de-prestamos.svg") no-repeat center center / 60px;}
+    .contabilidad{background: url("../images/contabilidad.svg") no-repeat center center / 60px;}
+    .computos{background: url("../images/centro-de-computos.svg") no-repeat center center / 60px;}
+    .administracion{background: url("../images/administracion.svg") no-repeat center center / 60px;}
     h3{
       color: black;
     }
@@ -205,6 +211,12 @@ body{ color: #4C4C4C; }
     .comunicacion-y-notificaciones{background: url("../images/comunicacion-y-notificaciones-hover.svg") no-repeat center center / 60px;}
     .operaciones-en-linea{background: url("../images/operaciones-en-linea-hover.svg") no-repeat center center / 60px;}
     .ventas-y-automatizacion{background: url("../images/ventas-y-automatizacion-hover.svg") no-repeat center center / 60px;}
+    // NUCS
+    .area-de-caja{background: url("../images/area-de-caja-hover.svg") no-repeat center center / 60px;}
+    .prestamos{background: url("../images/area-de-prestamos-hover.svg") no-repeat center center / 60px;}
+    .contabilidad{background: url("../images/contabilidad-hover.svg") no-repeat center center / 60px;}
+    .computos{background: url("../images/centro-de-computos-hover.svg") no-repeat center center / 60px;}
+    .administracion{background: url("../images/administracion-hover.svg") no-repeat center center / 60px;}
   }
 }
 
@@ -398,31 +410,9 @@ body{ color: #4C4C4C; }
 }
 
 
-// NUCS
-.icon-text-box{
-  .area-de-caja{background: url("../images/area-de-caja.svg") no-repeat center center / 60px;}
-  .prestamos{background: url("../images/area-de-prestamos.svg") no-repeat center center / 60px;}
-  .contabilidad{background: url("../images/contabilidad.svg") no-repeat center center / 60px;}
-  .computos{background: url("../images/centro-de-computos.svg") no-repeat center center / 60px;}
-  .administracion{background: url("../images/administracion.svg") no-repeat center center / 60px;}
-
-}
-
-.icon-text-box:hover, .active .icon-text-box{
-  .area-de-caja{background: url("../images/area-de-caja-hover.svg") no-repeat center center / 60px;}
-  .prestamos{background: url("../images/area-de-prestamos-hover.svg") no-repeat center center / 60px;}
-  .contabilidad{background: url("../images/contabilidad-hover.svg") no-repeat center center / 60px;}
-  .computos{background: url("../images/centro-de-computos-hover.svg") no-repeat center center / 60px;}
-  .administracion{background: url("../images/administracion-hover.svg") no-repeat center center / 60px;}
-  .icon-wrapper{
-    background-color: $primary;
-  }
-}
-
-
 @media (max-width: 570px) {
   .icon-text-box{
-    .area-de-caja{background: url("../images/area-de-caja.svg") no-repeat center center / 30px;}
+  .area-de-caja{background: url("../images/area-de-caja.svg") no-repeat center center / 30px;}
   .prestamos{background: url("../images/area-de-prestamos.svg") no-repeat center center / 30px;}
   .contabilidad{background: url("../images/contabilidad.svg") no-repeat center center / 30px;}
   .computos{background: url("../images/centro-de-computos.svg") no-repeat center center / 30px;}
