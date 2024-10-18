@@ -57,6 +57,7 @@ body{ color: #4C4C4C; }
 .light-grey-text {color:$light-grey-2;}
 
 /* Utilities */
+sup { font-size: 40%;vertical-align: super;}
 .fs-14{ font-size: $font-size-base * 0.875; } 
 
 @media (max-width: 570px) {

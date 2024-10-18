@@ -11900,6 +11900,11 @@ body {
 }
 
 /* Utilities */
+sup {
+  font-size: 40%;
+  vertical-align: super;
+}
+
 .fs-14 {
   font-size: 0.875rem;
 }
