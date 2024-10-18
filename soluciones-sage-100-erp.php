@@ -17,7 +17,7 @@ include_once('templates/header.php'); ?>
 
 <section class="container-lg mw-1120 py-100 py-4 mio-bg-gradient">
   <div class="row text-center mx-auto mw-930">
-    <h2 class="fs-3 fw-bold text-primary pb-4">¿Qué es Sage 100 ERP?</h2>
+    <h2 class="fs-3 fw-bold text-primary pb-4">Sage 100 ERP</h2>
     <p class="text-start">Helvetia del Caribe es el principal proveedor en Puerto Rico y Latinoamérica de soluciones avanzadas de software empresarial, destacándose como "Master Developer" de Sage Software, Inc. Nos especializamos en adaptar y optimizar productos Sage para satisfacer las necesidades específicas de su negocio, ofreciendo una integración sin fisuras y soporte técnico de clase mundial.</p>
   </div>
 </section>
