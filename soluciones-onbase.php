@@ -11,17 +11,17 @@ include_once('templates/header.php'); ?>
 
 <div class="container-fluid">
     <div class="row header-bg-img py-xl-5 py-3">
-        <h1 class="text-center text-white">OnBase®</h1>
+        <h1 class="text-center text-white">OnBase<sup>®</sup></h1>
     </div>
 </div>
 
 <div class="container-lg">
     <div class="row pt-100 pb-64 pt-4 d-flex mio-bg-gradient">
         <div class="col-sm-4">
-            <H1 class="fs-3 fw-bold text-primary">¿Qué es OnBase®?</H1>
+            <H1 class="fs-3 fw-bold text-primary">OnBase<sup>®</sup></H1>
         </div>
         <div class="col-sm-8">
-            <p>OnBase® es una solución integral para la gestión electrónica de documentos, diseñada para optimizar las
+            <p>OnBase<sup>®</sup> es una solución integral para la gestión electrónica de documentos, diseñada para optimizar las
                 operaciones empresariales mediante la creación, organización y control dinámico de documentos. Esta
                 plataforma web combina tecnologías avanzadas como la administración de documentos, flujos de trabajo, y
                 gestión de imágenes, permitiendo a las organizaciones compartir eficientemente información entre
@@ -35,7 +35,7 @@ include_once('templates/header.php'); ?>
 <div class="container-md mw-930 py-4 py-100">
     <div class="row">
         <div class="col-12 pb-40">
-            <h1 class="text-center fs-3 fw-bold text-primary">¿Por qué OnBase®?</h1>
+            <h1 class="text-center fs-3 fw-bold text-primary">¿Por qué OnBase<sup>®</sup>?</h1>
         </div>
         <div class="col">
             <div class="accordion" id="accordionFlushExample">
@@ -48,7 +48,7 @@ include_once('templates/header.php'); ?>
                     </h2>
                     <div id="flush-collapseOne" class="accordion-collapse collapse show"
                         data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">OnBase® gestiona diversos tipos de documentos electrónicos,
+                        <div class="accordion-body">OnBase<sup>®</sup> gestiona diversos tipos de documentos electrónicos,
                             incluyendo imágenes, reportes, archivos de aplicación, formas HTML, mensajes de correo
                             electrónico, y archivos multimedia.
                         </div>
@@ -110,7 +110,7 @@ include_once('templates/header.php'); ?>
                     <div id="flush-collapseFive" class="accordion-collapse collapse"
                         data-bs-parent="#accordionFlushExample">
                         <div class="accordion-body">Permite acceso desde navegadores web, clientes de escritorio,
-                            Windows Explorer® y otras aplicaciones.</div>
+                            Windows Explorer<sup>®</sup> y otras aplicaciones.</div>
                     </div>
                 </div>
                 <div class="accordion-item">
