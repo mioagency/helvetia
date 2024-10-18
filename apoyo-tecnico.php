@@ -17,7 +17,7 @@ include_once('templates/header.php'); ?>
 <section class="container-lg mw-1120">
   <div class="row py-100 pt-4 pb-5 mio-bg-gradient justify-content-sm-between justify-content-center">
     <div class="col-12 pb-4 col-sm-6">
-      <h2 class="fs-3 fw-bold text-primary pb-2">¿Qué es Apoyo Técnico?</h2>
+      <h2 class="fs-3 fw-bold text-primary pb-2">Nuestro Apoyo Técnico:</h2>
       <p>Nuestro servicio de OnCall ha sido diseñado para proveer apoyo técnico a nuestros clientes sobre los diferentes productos que tenemos. Nuestros técnicos se encargan de detectar cualquier problema con el sistema y canalizarlo a través del departamento correspondiente.</p>
     </div>
     <div class="col-11 col-sm-5 ms-sm-4 p-5 border rounded-3 bg-white">
