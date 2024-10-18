@@ -53,7 +53,7 @@ $activePage = basename($_SERVER['PHP_SELF'], ".php");
                 <li><a class="<?= ($activePage == 'soluciones-ncus-web') ? 'active':''; ?> dropdown-item" href="<?php $SERVER_URI ?>soluciones-ncus-web.php">NCUS Web</a></li>
                 <li><a class="<?= ($activePage == 'soluciones-onbase') ? 'active':''; ?> dropdown-item" href="<?php $SERVER_URI ?>soluciones-onbase.php">OnBase</a></li>
                 <li><a class="<?= ($activePage == 'soluciones-sage-100-erp') ? 'active':''; ?> dropdown-item" href="<?php $SERVER_URI ?>soluciones-sage-100-erp.php">Sage 100 ERP</a></li>
-                <li><a class="<?= ($activePage == 'soluciones-global-radar') ? 'active':''; ?> dropdown-item" href="<?php $SERVER_URI ?>soluciones-global-radar.php">Global Radar</a></li>
+                <li><a class="<?= ($activePage == 'soluciones-global-radar') ? 'active':''; ?> dropdown-item" href="<?php $SERVER_URI ?>soluciones-global-radar.php">Global Radar<sup>®</sup></a></li>
                 <li><a class="<?= ($activePage == 'soluciones-sentinel') ? 'active':''; ?> dropdown-item" href="<?php $SERVER_URI ?>soluciones-sentinel.php">Sentinel</a></li>
                 <li><a class="<?= ($activePage == 'soluciones-colecta') ? 'active':''; ?> dropdown-item" href="<?php $SERVER_URI ?>soluciones-colecta.php">Colecta</a></li>
               </ul>
