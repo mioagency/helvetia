@@ -19,7 +19,7 @@ include_once('templates/header.php'); ?>
 <div class="container-lg">
     <div class="row pt-4 pt-100 pb-64 d-flex mio-bg-gradient">
         <div class="col-sm-4">
-            <h1 class="fs-3 fw-bold text-primary">¿Qué NCUS Web?</h1>
+            <h1 class="fs-3 fw-bold text-primary">NCUS Web</h1>
         </div>
         <div class="col-sm-8">
             <p>NCUS Web es un sistema diseñado especialmente para la automatización de cooperativas de ahorro y crédito.
