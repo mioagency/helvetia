@@ -876,9 +876,8 @@ include_once('templates/header.php'); ?>
 </div>
 
 
-<?php
-include_once('templates/cta-full-width.php');
-?>
+<!-- Template Más Información -->
+<?php include_once('templates/mas-informacion.php'); ?>
 
 <!-- Template Beneficios -->
 <?php include_once('templates/beneficios.php'); ?>

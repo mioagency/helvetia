@@ -63,10 +63,8 @@ include_once('templates/header.php'); ?>
     </div>
 </section>
 
-<!--CTA Coordinar llamada-->
-<?php
-include_once('templates/cta-full-width.php');
-?>
+<!-- Template Más Información -->
+<?php include_once('templates/mas-informacion.php'); ?>
 
 <section class="container-lg mw-1120 pt-5 py-100">
     <div class="row d-flex gx-md-5 align-items-center">

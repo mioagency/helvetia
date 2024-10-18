@@ -132,8 +132,8 @@ include_once('templates/header.php'); ?>
   </div>
 </section>
 
-<!--CTA Coordinar llamada-->
-<?php include_once('templates/cta-full-width.php');?>
+<!-- Template Más Información -->
+<?php include_once('templates/mas-informacion.php'); ?>
 
 <!-- Template Beneficios -->
 <?php include_once ('templates/beneficios.php'); ?>
