@@ -1,7 +1,7 @@
 <?php
 
-$PageTitle = "Soluciones - NUCS Web";
-$page = "nucs web";
+$PageTitle = "Soluciones - NCUS Web";
+$page = "ncus web";
 
 function customPageHeader()
 { ?>
