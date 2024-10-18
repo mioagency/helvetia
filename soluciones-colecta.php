@@ -20,7 +20,7 @@ include_once('templates/header.php'); ?>
 <section class="container-lg mw-1120">
     <div class="row pt-100 pt-4 pb-64 d-flex mio-bg-gradient">
         <div class="col-sm-4">
-            <h2 class="fs-3 fw-bold text-primary text-center text-sm-start pb-3">¿Qué es Colecta?</h2>
+            <h2 class="fs-3 fw-bold text-primary text-center text-sm-start pb-3">Colecta</h2>
         </div>
         <div class="col-sm-8">
             <p>Colecta consiste en un servicio automatizado de llamadas con un marcador predictivo con el propósito de servir en la gestión de cobros, mercadeo y servicio al cliente sin la intervención de un representante de servicio.
