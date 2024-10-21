@@ -728,7 +728,7 @@ include_once('templates/header.php'); ?>
                     <div id="flush-collapseEight" class="accordion-collapse collapse"
                         data-bs-parent="#accordionFlushExample">
                         <div class="accordion-body">
-                            Sistema para la captura de firma y foto de los socios, integrado con NCUS®.
+                            Sistema para la captura de firma y foto de los socios, integrado con NCUS<sup>®</sup>.
                             <ul>
                                 <li>Verificación automática: Firma y foto en tiempo real.
                                 </li>
