@@ -19,7 +19,7 @@ include_once('templates/header.php'); ?>
 <div class="container-lg">
   <div class="row pt-100 pt-5 pb-3 pb-md-5 pb-64 d-flex mio-bg-gradient">
     <div class="col-sm-6 mb-3">
-      <img class="rounded-4 img-fluid" src="images/nosotros-v2.webp" alt="Nuestro Compromiso">
+      <img class="rounded-4 img-fluid" src="images/nosotros.webp" alt="Nuestro Compromiso">
     </div>
     <div class="col-sm-6 ps-4 mb-md-5">
       <h2 class="fs-3 fw-bold text-primary  mb-4">Una empresa netamente puertorriqueña fundada en 1986</h2>
