@@ -48,7 +48,9 @@ include_once('templates/header.php'); ?>
                     documentos.
                 </p>
             </div>
-            <div>
+        </div>
+        <div class="col-sm-6 mb-4">
+            <div class="pb-5">
                 <img class="img-fluid pb-2" src="images/helv-api.svg" alt="Helvetica API icon">
                 <H3 class="fs-4 fw-bold text-primary pb-3">API de Sentinel</H3>
                 <p>El API de Sentinel es el medio para que todos los documentos de ALAS y Apertura entren a Sentinel de
@@ -56,9 +58,6 @@ include_once('templates/header.php'); ?>
                     sistema, permitiendo acceso inmediato a los mismos por todos los usuarios.
                 </p>
             </div>
-        </div>
-        <div class="col-sm-6 mb-4">
-            <img class="rounded-4 img-fluid" src="images/temp-image.svg" alt="temp-image">
         </div>
     </div>
 </section>
@@ -68,13 +67,10 @@ include_once('templates/header.php'); ?>
 
 <section class="container-lg mw-1120 pt-5 py-100">
     <div class="row d-flex gx-md-5 align-items-center">
-        <div class="col-sm-5 d-none d-sm-block">
-            <img class="rounded-4 img-fluid" src="images/temp-image.svg" alt="temp-image">
-        </div>
-        <div class="col-sm-7">
+        <div class="col-10 offset-1">
             <div class="pb-5">
-                <H2 class="fs-3 fw-bold text-primary pb-3">Integración de Scanning Station</H3>
-                    <p>Con la integración de Desktop Scanning con el módulo de ALAS y Apertura se obtienen los
+                <H2 class="fs-3 fw-bold text-primary pb-3 text-center">Integración de Scanning Station</H3>
+                    <p class="text-center">Con la integración de Desktop Scanning con el módulo de ALAS y Apertura se obtienen los
                         siguientes beneficios:
 
                         Todos los oficiales y los usuarios con acceso a Sentinel y los permisos adecuados pueden acceder
