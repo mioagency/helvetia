@@ -23,7 +23,7 @@ include_once('templates/header.php'); ?>
       <p>Es una solución de gestión de riesgos basada en una base potente y simple dentro de la red que proporciona un enfoque integral al cumplimiento de AML en una aplicación intuitiva y optimizada. Los muchos beneficios de Global RADAR<sup>®</sup> incluyen la protección de las instituciones con pérdidas financieras o de reputación, a la vez que generan ahorros de costos y oportunidades de generación de ingresos.</p>
     </div>
     <div class="col-sm-6">
-      <img class="rounded-4 img-fluid" src="images/temp-image.svg" alt="temp-image">
+      <img class="rounded-4 img-fluid" src="images/global-radar-logo.webp" alt="temp-image">
     </div>
   </div>
 </div>
