@@ -1,10 +1,18 @@
-// Add mobile css class to body
-$(window).ready(function () {
+
+$(document).ready(function () {
+  
+  // Add mobile css class to body
   if (window.screen.width <= 700) {
     $("body").addClass("mobile");
   } else {
     $("body").removeClass("mobile");
   }
+
+  //Show tab content on hover
+  $(".nav-link").mouseenter(function() {
+    $(this).tab('show');
+    console.log('hover')
+  });
 });
 
 /*var multipleCardCarousel = document.querySelector(
@@ -39,11 +47,4 @@ if (window.matchMedia("(min-width: 768px)").matches) {
   $(multipleCardCarousel).addClass("slide");
 }*/
 
-$('#da-thumbs > li').hoverdir({hoverDelay: 75, hoverElem: '.elem'});
-
-$(document).ready(function() {
-  $(".nav-link").mouseenter(function() {
-    $(this).tab('show');
-    console.log('hover')
-  });
-});
+//$('#da-thumbs > li').hoverdir({hoverDelay: 75, hoverElem: '.elem'});
