@@ -11871,6 +11871,10 @@ textarea.form-control-lg {
   background: url("../images/ncus-web-header.webp") no-repeat center center/cover;
 }
 
+.header-bg-img-oncall {
+  background: url("../images/oncall-header.webp") no-repeat center center/cover;
+}
+
 .header-home-bg-img {
   background: url("../images/header-home-bg-img.png") no-repeat center center/cover;
 }

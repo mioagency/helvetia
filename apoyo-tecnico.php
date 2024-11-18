@@ -9,7 +9,7 @@ function customPageHeader(){?>
 include_once('templates/header.php'); ?>
 
 <div class="container-fluid">
-  <div class="row header-bg-img py-xl-5 py-3">
+  <div class="row header-bg-img-oncall py-xl-5 py-3">
     <h1 class="text-center text-white">OnCall</h1>
   </div>
 </div>
