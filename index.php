@@ -32,7 +32,7 @@ include_once ('templates/header.php'); ?>
   <div class="container responsive-tabs pb-5">
     <ul id="da-thumbs" class="nav nav-tabs justify-content-between border-0 da-thumbs" role="tablist">
       <li class="nav-item col text-center">
-          <a id="tab-A" href="#pane-A" class="nav-link border border-0 bg-transparent active" data-bs-toggle="tab" role="tab" aria-selected="true">
+          <a id="tab-A" href="#pane-A" class="nav-link border border-0 bg-transparent active" data-bs-toggle="tab" data-bs-target="#pane-A" role="tab" aria-selected="true">
           <button class="border border-0 bg-transparent" type="button">
             <div class="icon-text-box d-flex flex-column gap-2">
               <div class="icon-wrapper p-2 mx-auto my-auto sistemas-bancarios"></div>
@@ -42,7 +42,7 @@ include_once ('templates/header.php'); ?>
           </a>
       </li>
       <li class="nav-item col text-center">
-          <a id="tab-B" href="#pane-B" class="nav-link border border-0 bg-transparent" data-bs-toggle="tab" role="tab">
+          <a id="tab-B" href="#pane-B" class="nav-link border border-0 bg-transparent" data-bs-toggle="tab" data-bs-target="#pane-B" role="tab">
             <button class="border border-0 bg-transparent" type="button">
               <div class="icon-text-box d-flex flex-column gap-2">
                 <div class="icon-wrapper p-2 mx-auto my-auto analisis-de-datos"></div>
@@ -52,7 +52,7 @@ include_once ('templates/header.php'); ?>
           </a>
       </li>
       <li class="nav-item col text-center">
-          <a id="tab-C" href="#pane-C" class="nav-link border border-0 bg-transparent" data-bs-toggle="tab" role="tab">
+          <a id="tab-C" href="#pane-C" class="nav-link border border-0 bg-transparent" data-bs-toggle="tab" data-bs-target="#pane-C" role="tab">
             <button class="border border-0 bg-transparent" type="button">
               <div class="icon-text-box d-flex flex-column gap-2">
                 <div class="icon-wrapper p-2 mx-auto my-auto comunicacion-y-notificaciones"></div>
@@ -62,7 +62,7 @@ include_once ('templates/header.php'); ?>
           </a>
       </li>
       <li class="nav-item col text-center">
-          <a id="tab-D" href="#pane-D" class="nav-link border border-0 bg-transparent" data-bs-toggle="tab" role="tab">
+          <a id="tab-D" href="#pane-D" class="nav-link border border-0 bg-transparent" data-bs-toggle="tab" data-bs-target="#pane-D" role="tab">
             <button class="border border-0 bg-transparent" type="button">
               <div class="icon-text-box d-flex flex-column gap-2">
                 <div class="icon-wrapper p-2 mx-auto my-auto operaciones-en-linea"></div>
@@ -72,7 +72,7 @@ include_once ('templates/header.php'); ?>
           </a>
       </li>
       <li class="nav-item col text-center">
-          <a id="tab-E" href="#pane-E" class="nav-link border border-0 bg-transparent" data-bs-toggle="tab" role="tab">
+          <a id="tab-E" href="#pane-E" class="nav-link border border-0 bg-transparent" data-bs-toggle="tab" data-bs-target="#pane-E" role="tab">
             <button class="border border-0 bg-transparent" type="button" role="tab">
               <div class="icon-text-box d-flex flex-column gap-2">
                 <div class="icon-wrapper p-2 mx-auto my-auto ventas-y-automatizacion"></div>

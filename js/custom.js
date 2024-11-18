@@ -40,3 +40,9 @@ if (window.matchMedia("(min-width: 768px)").matches) {
 }
 
 $('#da-thumbs > li').hoverdir({hoverDelay: 75, hoverElem: '.elem'});
+
+$(document).ready(function() {
+  $(".nav-link").mouseenter(function() {
+    $(this).tab('show');
+  });
+});
