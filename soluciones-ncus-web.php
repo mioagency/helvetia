@@ -45,7 +45,7 @@ include_once('templates/header.php'); ?>
 
         <ul class="nav nav-tabs justify-content-between border-0 mio-bg-gradient-alt" role="tablist">
             <li class="nav-item col text-center">
-                <a id="tab-A" href="#pane-A" class="nav-link border border-0 bg-transparent" data-bs-toggle="tab" data-bs-target="#pane-A"
+                <a id="tab-A" href="#pane-A" class="nav-link border border-0 bg-transparent active" data-bs-toggle="tab" data-bs-target="#pane-A"
                     role="tab">
                     <button class="border border-0 bg-transparent" type="button">
                         <div class="icon-text-box d-flex flex-column gap-2">
@@ -115,7 +115,7 @@ include_once('templates/header.php'); ?>
                         </a>
                     </h5>
                 </div>
-                <div id="collapse-A" class="collapse show" data-bs-parent="#content" role="tabpanel"
+                <div id="collapse-A" class="collapse" data-bs-parent="#content" role="tabpanel"
                     aria-labelledby="heading-A">
                     <div class="card-body bg-light-grey">
                         <div class="row py-2">
@@ -585,7 +585,7 @@ include_once('templates/header.php'); ?>
                             ALAS - Automated Loan Application System
                         </button>
                     </h2>
-                    <div id="flush-collapseOne" class="accordion-collapse collapse show"
+                    <div id="flush-collapseOne" class="accordion-collapse collapse"
                         data-bs-parent="#accordionFlushExample">
                         <div class="accordion-body">ALAS optimiza el proceso de solicitudes de préstamos, gestionando
                             todo el flujo desde la solicitud hasta el desembolso.

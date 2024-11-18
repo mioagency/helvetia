@@ -84,7 +84,7 @@ include_once ('templates/header.php'); ?>
     </ul>
 
     <div id="content" class="tab-content" role="tablist">
-        <div id="pane-A" class="card shadow-none tab-pane fade active show" role="tabpanel" aria-labelledby="tab-A">
+        <div id="pane-A" class="card shadow-none tab-pane fade" role="tabpanel" aria-labelledby="tab-A">
             <div class="card-header border-0 p-4 bg-light-primary rounded-2 mb-2" role="tab" id="heading-A">
                 <h5 class="mb-3">
                     <a class="text-decoration-none" data-bs-toggle="collapse" href="#collapse-A" aria-expanded="true" aria-controls="collapse-A">
