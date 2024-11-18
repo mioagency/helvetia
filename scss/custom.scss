@@ -38,6 +38,9 @@ $h6-font-size: $font-size-base * 1.25;
   background-repeat: no-repeat, no-repeat;
   background-size: contain, contain;
 }
+.header-bg-img-ncus{
+  background: url("../images/ncus-web-header.webp") no-repeat center center / cover;
+}
 .header-home-bg-img{
   background: url("../images/header-home-bg-img.png") no-repeat center center / cover;
 }
