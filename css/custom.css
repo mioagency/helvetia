@@ -11917,6 +11917,14 @@ sup {
   font-size: 0.875rem;
 }
 
+.filter-white:hover {
+  background-color: #3D8FA0 !important;
+}
+
+.filter-white:hover * {
+  filter: brightness(0) invert(1);
+}
+
 @media (max-width: 570px) {
   .fs-sm-24 {
     font-size: 1.5rem !important;

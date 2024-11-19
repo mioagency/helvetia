@@ -64,7 +64,14 @@ body{ color: #4C4C4C; }
 
 /* Utilities */
 sup { font-size: 40%;vertical-align: super;}
-.fs-14{ font-size: $font-size-base * 0.875; } 
+.fs-14{ font-size: $font-size-base * 0.875; }
+
+.filter-white:hover{
+  background-color: $primary !important;
+}
+.filter-white:hover *{
+  filter: brightness(0) invert(1);
+}
 
 @media (max-width: 570px) {
   .fs-sm-24 { font-size: $font-size-base * 1.5 !important;}
