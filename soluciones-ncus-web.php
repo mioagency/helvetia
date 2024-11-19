@@ -102,7 +102,7 @@ include_once('templates/header.php'); ?>
         </ul>
 
         <div id="content" class="tab-content mt-5" role="tablist">
-            <div id="pane-A" class="card shadow-none tab-pane fade mb-3" role="tabpanel"
+            <div id="pane-A" class="card shadow-none tab-pane fade mb-3 active show" role="tabpanel"
                 aria-labelledby="tab-A">
                 <div class="card-header bg-light-primary border-0 p-4 rounded-2" role="tab" id="heading-A">
                     <h5 class="mb-3">
@@ -569,308 +569,331 @@ include_once('templates/header.php'); ?>
     </div>
 </div>
 
-
-<!--Otros Módulos-->
-<div class="container-md mw-930 py-100 pt-5">
+<div class="container-md mw-930 py-4 py-100">
     <div class="row">
         <div class="col-12 pb-40">
             <h1 class="text-center fs-3 fw-bold text-primary">Modelos Opcionales</h1>
         </div>
-        <div class="col">
-            <div class="accordion" id="accordionFlushExample">
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#flush-collapseOne" aria-expanded="true" aria-controls="flush-collapseOne">
-                            ALAS - Automated Loan Application System
-                        </button>
-                    </h2>
-                    <div id="flush-collapseOne" class="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">ALAS optimiza el proceso de solicitudes de préstamos, gestionando
-                            todo el flujo desde la solicitud hasta el desembolso.
-                        </div>
-                    </div>
+        <div class="row gx-md-2 mx-n24 custom-card">
+          <!-- Tarjetas de diferenciadores -->
+          <div class="col-md-8 d-none d-sm-block mx-auto">
+            <div class="card text-start mt-md-3">
+              <div class="row p-2 p-md-3 align-items-center">
+                <div class="col-1 align-items-center">
+                  <img class="checked-list" src="images/check-circle-fill.svg" alt="" />
                 </div>
-
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#flush-collapseTwo" aria-expanded="true" aria-controls="flush-collapseTwo">
-                            Cajeros Automáticos (ATM)
-                        </button>
-                    </h2>
-                    <div id="flush-collapseTwo" class="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">
-                            El módulo ATM ofrece una solución completa para la gestión de transacciones y servicios
-                            financieros a
-                            través de cajeros automáticos.
-                        </div>
-                    </div>
+                <div class="col-11 align-items-center">
+                  <p class="mb-1 text-primary">ALAS - Automated Loan Application System</p>
                 </div>
-
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#flush-collapseThree" aria-expanded="true"
-                            aria-controls="flush-collapseThree">
-                            IDM (Intelligent Depository Module)
-                        </button>
-                    </h2>
-                    <div id="flush-collapseThree" class="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">
-                            <ul>
-                                <li>Aceptación y procesamiento de cheques de manera eficiente.</li>
-                                <li>Captura y verificación de imágenes de cheques.</li>
-                                <li>Impresión y almacenamiento seguro de transacciones.</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#flush-collapseFour" aria-expanded="true"
-                            aria-controls="flush-collapseFour">
-                            ENA (Enhanced Note Acceptor)
-                        </button>
-                    </h2>
-                    <div id="flush-collapseFour" class="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">
-                            <ul>
-                                <li>Diseño anti-atascos para máximo tiempo de funcionamiento.</li>
-                                <li>Acepta hasta 50 billetes mixtos sin sobres.</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#flush-collapseFive" aria-expanded="true"
-                            aria-controls="flush-collapseFive">
-                            Control de Cajeros
-                        </button>
-                    </h2>
-                    <div id="flush-collapseFive" class="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">
-                            Este módulo registra y controla todas las transacciones de los cajeros, facilitando el
-                            cuadre diario y la administración de efectivo.
-                            <ul>
-                                <li>Eliminación de calculadoras: Cuadre rápido y preciso.</li>
-                                <li>Registro detallado: Control de denominaciones y transacciones.</li>
-                                <li>Seguridad: Registro automático de datos y verificación de balances.</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#flush-collapseSix" aria-expanded="true" aria-controls="flush-collapseSix">
-                            Cuenta Corriente
-                        </button>
-                    </h2>
-                    <div id="flush-collapseSix" class="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">
-                            Gestión completa de cuentas de cheques, incluyendo cancelaciones, sobregiros, cargos, y pago
-                            de intereses.
-                            <ul>
-                                <li>Integración con Red ATH y ATM: Facilita transacciones y acceso a líneas de crédito.
-                                </li>
-                                <li>Parametrización: Configuración fácil y flexible.</li>
-                                <li>Estados de cuenta detallados: Información completa de movimientos y balances.</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#flush-collapseSeven" aria-expanded="true"
-                            aria-controls="flush-collapseSeven">
-                            Home Banking
-                        </button>
-                    </h2>
-                    <div id="flush-collapseSeven" class="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">
-                            "Cooperativa en tu casa" permite a los socios realizar transacciones y acceder a sus cuentas
-                            desde cualquier lugar con acceso a Internet.
-                            <ul>
-                                <li>Consultas de balances y movimientos: Información detallada de cuentas y préstamos.
-                                </li>
-                                <li>Transferencias y pagos: Entre cuentas y a comerciantes.</li>
-                                <li>Cancelación de cheques: Gestión de pagos y control de transacciones.</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#flush-collapseEight" aria-expanded="true"
-                            aria-controls="flush-collapseEight">
-                            HVIEW
-                        </button>
-                    </h2>
-                    <div id="flush-collapseEight" class="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">
-                            Sistema para la captura de firma y foto de los socios, integrado con NCUS<sup>®</sup>.
-                            <ul>
-                                <li>Verificación automática: Firma y foto en tiempo real.
-                                </li>
-                                <li>Almacenamiento seguro: Base de datos centralizada y accesible.</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#flush-collapseNine" aria-expanded="true"
-                            aria-controls="flush-collapseNine">
-                            Laser Check
-                        </button>
-                    </h2>
-                    <div id="flush-collapseNine" class="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">
-                            Impresión de cheques y otros documentos en papel de seguridad blanco, con reducción de
-                            costos y mejora en la eficiencia.
-                            <ul>
-                                <li>Ahorro significativo: Reducción de hasta 50% en costos de impresión.</li>
-                                <li>Impresión de firmas: Facilitación de procesos manuales.</li>
-                                <li>Almacenamiento digital: Búsqueda y recuperación eficiente de documentos.</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#flush-collapseTen" aria-expanded="true" aria-controls="flush-collapseTen">
-                            OnBase
-                        </button>
-                    </h2>
-                    <div id="flush-collapseTen" class="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">
-                            Sistema para la digitalización de reportes y expedientes, mejorando el manejo documental.
-                        </div>
-                    </div>
-                </div>
-
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#flush-collapseEleven" aria-expanded="true"
-                            aria-controls="flush-collapseEleven">
-                            PagoCoop
-                        </button>
-                    </h2>
-                    <div id="flush-collapseEleven" class="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">
-                            Permite a los socios registrar y pagar cuentas electrónicamente, mejorando la eficiencia
-                            operativa.
-                        </div>
-                    </div>
-                </div>
-
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#flush-collapseTwelve" aria-expanded="true"
-                            aria-controls="flush-collapseTwelve">
-                            Red de Cajeros
-                        </button>
-                    </h2>
-                    <div id="flush-collapseTwelve" class="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">
-                            Gestión de la red de cajeros automáticos, incluyendo retiros de líneas de crédito.
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#flush-collapseThirteen" aria-expanded="true"
-                            aria-controls="flush-collapseThirteen">
-                            Sistema Troy
-                        </button>
-                    </h2>
-                    <div id="flush-collapseThirteen" class="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">
-                            Optimización en la impresión y gestión de cheques con ahorro en costos y materiales.
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#flush-collapseFourteen" aria-expanded="true"
-                            aria-controls="flush-collapseFourteen">
-                            TeleCoop
-                        </button>
-                    </h2>
-                    <div id="flush-collapseFourteen" class="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">
-                            Servicio de banca telefónica que ofrece acceso a balances y transacciones las 24 horas, los
-                            7 días de la semana.
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#flush-collapseFifteen" aria-expanded="true"
-                            aria-controls="flush-collapseFifteen">
-                            eLoans
-                        </button>
-                    </h2>
-                    <div id="flush-collapseFifteen" class="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">
-                            Módulo que permite a los socios solicitar préstamos a través de la web, con validación y
-                            procesamiento integrados.
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#flush-collapseSixteen" aria-expanded="true"
-                            aria-controls="flush-collapseSixteen">
-                            eNCUS
-                        </button>
-                    </h2>
-                    <div id="flush-collapseSixteen" class="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">
-                            Permite abrir cuentas de socios en línea, facilitando la captación de nuevos socios sin
-                            necesidad de visitas físicas.
-                        </div>
-                    </div>
-                </div>
+              </div>
             </div>
+            <div class="card text-start mt-md-3">
+              <div class="row p-2 p-md-3 align-items-center">
+                <div class="col-1 align-items-center">
+                  <img class="checked-list" src="images/check-circle-fill.svg" alt="" />
+                </div>
+                <div class="col-11 align-items-center">
+                  <p class="mb-1 text-primary">Cajeros Automáticos (ATM)</p>
+                </div>
+              </div>
+            </div>
+            <div class="card text-start mt-md-3">
+              <div class="row p-2 p-md-3 align-items-center">
+                <div class="col-1 align-items-center">
+                  <img class="checked-list" src="images/check-circle-fill.svg" alt="" />
+                </div>
+                <div class="col-11 align-items-center">
+                  <p class="mb-1 text-primary">IDM (Intelligent Depository Module)</p>
+                </div>
+              </div>
+            </div>
+            <div class="card text-start mt-md-3">
+              <div class="row p-2 p-md-3 align-items-center">
+                <div class="col-1 align-items-center">
+                  <img class="checked-list" src="images/check-circle-fill.svg" alt="" />
+                </div>
+                <div class="col-11 align-items-center">
+                  <p class="mb-1 text-primary">ENA (Enhanced Note Acceptor)</p>
+                </div>
+              </div>
+            </div>
+            <div class="card text-start mt-md-3">
+              <div class="row p-2 p-md-3 align-items-center">
+                <div class="col-1 align-items-center">
+                  <img class="checked-list" src="images/check-circle-fill.svg" alt="" />
+                </div>
+                <div class="col-11 align-items-center">
+                  <p class="mb-1 text-primary">Control de Cajeros</p>
+                </div>
+              </div>
+            </div>
+            <div class="card text-start mt-md-3">
+              <div class="row p-2 p-md-3 align-items-center">
+                <div class="col-1 align-items-center">
+                  <img class="checked-list" src="images/check-circle-fill.svg" alt="" />
+                </div>
+                <div class="col-11 align-items-center">
+                  <p class="mb-1 text-primary">Cuenta Corriente</p>
+                </div>
+              </div>
+            </div>
+            <div class="card text-start mt-md-3">
+              <div class="row p-2 p-md-3 align-items-center">
+                <div class="col-1 align-items-center">
+                  <img class="checked-list" src="images/check-circle-fill.svg" alt="" />
+                </div>
+                <div class="col-11 align-items-center">
+                  <p class="mb-1 text-primary">Home Banking</p>
+                </div>
+              </div>
+            </div>
+            <div class="card text-start mt-md-3">
+              <div class="row p-2 p-md-3 align-items-center">
+                <div class="col-1 align-items-center">
+                  <img class="checked-list" src="images/check-circle-fill.svg" alt="" />
+                </div>
+                <div class="col-11 align-items-center">
+                  <p class="mb-1 text-primary">HVIEW</p>
+                </div>
+              </div>
+            </div>
+            <div class="card text-start mt-md-3">
+              <div class="row p-2 p-md-3 align-items-center">
+                <div class="col-1 align-items-center">
+                  <img class="checked-list" src="images/check-circle-fill.svg" alt="" />
+                </div>
+                <div class="col-11 align-items-center">
+                  <p class="mb-1 text-primary">Laser Check</p>
+                </div>
+              </div>
+            </div>
+            <div class="card text-start mt-md-3">
+              <div class="row p-2 p-md-3 align-items-center">
+                <div class="col-1 align-items-center">
+                  <img class="checked-list" src="images/check-circle-fill.svg" alt="" />
+                </div>
+                <div class="col-11 align-items-center">
+                  <p class="mb-1 text-primary">OnBase</p>
+                </div>
+              </div>
+            </div>
+            <div class="card text-start mt-md-3">
+              <div class="row p-2 p-md-3 align-items-center">
+                <div class="col-1 align-items-center">
+                  <img class="checked-list" src="images/check-circle-fill.svg" alt="" />
+                </div>
+                <div class="col-11 align-items-center">
+                  <p class="mb-1 text-primary">PagoCoop</p>
+                </div>
+              </div>
+            </div>
+            <div class="card text-start mt-md-3">
+              <div class="row p-2 p-md-3 align-items-center">
+                <div class="col-1 align-items-center">
+                  <img class="checked-list" src="images/check-circle-fill.svg" alt="" />
+                </div>
+                <div class="col-11 align-items-center">
+                  <p class="mb-1 text-primary">Red de Cajeros</p>
+                </div>
+              </div>
+            </div>
+            <div class="card text-start mt-md-3">
+              <div class="row p-2 p-md-3 align-items-center">
+                <div class="col-1 align-items-center">
+                  <img class="checked-list" src="images/check-circle-fill.svg" alt="" />
+                </div>
+                <div class="col-11 align-items-center">
+                  <p class="mb-1 text-primary">Sistema Troy</p>
+                </div>
+              </div>
+            </div>
+            <div class="card text-start mt-md-3">
+              <div class="row p-2 p-md-3 align-items-center">
+                <div class="col-1 align-items-center">
+                  <img class="checked-list" src="images/check-circle-fill.svg" alt="" />
+                </div>
+                <div class="col-11 align-items-center">
+                  <p class="mb-1 text-primary">TeleCoop</p>
+                </div>
+              </div>
+            </div>
+            <div class="card text-start mt-md-3">
+              <div class="row p-2 p-md-3 align-items-center">
+                <div class="col-1 align-items-center">
+                  <img class="checked-list" src="images/check-circle-fill.svg" alt="" />
+                </div>
+                <div class="col-11 align-items-center">
+                  <p class="mb-1 text-primary">eLoans</p>
+                </div>
+              </div>
+            </div>
+            <div class="card text-start mt-md-3">
+              <div class="row p-2 p-md-3 align-items-center">
+                <div class="col-1 align-items-center">
+                  <img class="checked-list" src="images/check-circle-fill.svg" alt="" />
+                </div>
+                <div class="col-11 align-items-center">
+                  <p class="mb-1 text-primary">eNCUS</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Movil : Columna -->
+          <div id="mobile-side-scroll" class="col d-sm-none">
+
+            <div class="card text-start mt-md-3">
+              <div class="row p-2 p-md-3 align-items-top">
+                <div class="col-1 align-items-top">
+                  <img class="checked-list" src="images/check-circle-fill.svg" alt="" />
+                </div>
+                <div class="col-11 align-items-center">
+                  <p class="mb-1 text-primary">ALAS - Automated Loan Application System</p>
+                </div>
+              </div>
+            </div>
+            <div class="card text-start mt-md-3">
+              <div class="row p-2 p-md-3 align-items-top">
+                <div class="col-1 align-items-top">
+                  <img class="checked-list" src="images/check-circle-fill.svg" alt="" />
+                </div>
+                <div class="col-11 align-items-center">
+                  <p class="mb-1 text-primary">Cajeros Automáticos (ATM)</p>
+                </div>
+              </div>
+            </div>
+            <div class="card text-start mt-md-3">
+              <div class="row p-2 p-md-3 align-items-top">
+                <div class="col-1 align-items-top">
+                  <img class="checked-list" src="images/check-circle-fill.svg" alt="" />
+                </div>
+                <div class="col-11 align-items-center">
+                  <p class="mb-1 text-primary">IDM (Intelligent Depository Module)</p>
+                </div>
+              </div>
+            </div>
+            <div class="card text-start mt-md-3">
+              <div class="row p-2 p-md-3 align-items-top">
+                <div class="col-1 align-items-top">
+                  <img class="checked-list" src="images/check-circle-fill.svg" alt="" />
+                </div>
+                <div class="col-11 align-items-center">
+                  <p class="mb-1 text-primary">ENA (Enhanced Note Acceptor)</p>
+                </div>
+              </div>
+            </div>
+            <div class="card text-start mt-md-3">
+              <div class="row p-2 p-md-3 align-items-top">
+                <div class="col-1 align-items-top">
+                  <img class="checked-list" src="images/check-circle-fill.svg" alt="" />
+                </div>
+                <div class="col-11 align-items-center">
+                  <p class="mb-1 text-primary">Control de Cajeros</p>
+                </div>
+              </div>
+            </div>
+            <div class="card text-start mt-md-3">
+              <div class="row p-2 p-md-3 align-items-top">
+                <div class="col-1 align-items-top">
+                  <img class="checked-list" src="images/check-circle-fill.svg" alt="" />
+                </div>
+                <div class="col-11 align-items-center">
+                  <p class="mb-1 text-primary">Cuenta Corriente</p>
+                </div>
+              </div>
+            </div>
+            <div class="card text-start mt-md-3">
+              <div class="row p-2 p-md-3 align-items-top">
+                <div class="col-1 align-items-top">
+                  <img class="checked-list" src="images/check-circle-fill.svg" alt="" />
+                </div>
+                <div class="col-11 align-items-center">
+                  <p class="mb-1 text-primary">Home Banking</p>
+                </div>
+              </div>
+            </div>
+            <div class="card text-start mt-md-3">
+              <div class="row p-2 p-md-3 align-items-top">
+                <div class="col-1 align-items-top">
+                  <img class="checked-list" src="images/check-circle-fill.svg" alt="" />
+                </div>
+                <div class="col-11 align-items-center">
+                  <p class="mb-1 text-primary">HVIEW</p>
+                </div>
+              </div>
+            </div>
+            <div class="card text-start mt-md-3">
+              <div class="row p-2 p-md-3 align-items-top">
+                <div class="col-1 align-items-top">
+                  <img class="checked-list" src="images/check-circle-fill.svg" alt="" />
+                </div>
+                <div class="col-11 align-items-center">
+                  <p class="mb-1 text-primary">Laser Check</p>
+                </div>
+              </div>
+            </div>
+            <div class="card text-start mt-md-3">
+              <div class="row p-2 p-md-3 align-items-top">
+                <div class="col-1 align-items-top">
+                  <img class="checked-list" src="images/check-circle-fill.svg" alt="" />
+                </div>
+                <div class="col-11 align-items-center">
+                  <p class="mb-1 text-primary">OnBase</p>
+                </div>
+              </div>
+            </div>
+            <div class="card text-start mt-md-3">
+              <div class="row p-2 p-md-3 align-items-top">
+                <div class="col-1 align-items-top">
+                  <img class="checked-list" src="images/check-circle-fill.svg" alt="" />
+                </div>
+                <div class="col-11 align-items-center">
+                  <p class="mb-1 text-primary">PagoCoop</p>
+                </div>
+              </div>
+            </div>
+            <div class="card text-start mt-md-3">
+              <div class="row p-2 p-md-3 align-items-top">
+                <div class="col-1 align-items-top">
+                  <img class="checked-list" src="images/check-circle-fill.svg" alt="" />
+                </div>
+                <div class="col-11 align-items-center">
+                  <p class="mb-1 text-primary">Red de Cajeros</p>
+                </div>
+              </div>
+            </div>
+            <div class="card text-start mt-md-3">
+              <div class="row p-2 p-md-3 align-items-top">
+                <div class="col-1 align-items-top">
+                  <img class="checked-list" src="images/check-circle-fill.svg" alt="" />
+                </div>
+                <div class="col-11 align-items-center">
+                  <p class="mb-1 text-primary">Sistema Troy</p>
+                </div>
+              </div>
+            </div>
+            <div class="card text-start mt-md-3">
+              <div class="row p-2 p-md-3 align-items-top">
+                <div class="col-1 align-items-top">
+                  <img class="checked-list" src="images/check-circle-fill.svg" alt="" />
+                </div>
+                <div class="col-11 align-items-center">
+                  <p class="mb-1 text-primary">TeleCoop</p>
+                </div>
+              </div>
+            </div>
+            <div class="card text-start mt-md-3">
+              <div class="row p-2 p-md-3 align-items-top">
+                <div class="col-1 align-items-top">
+                  <img class="checked-list" src="images/check-circle-fill.svg" alt="" />
+                </div>
+                <div class="col-11 align-items-center">
+                  <p class="mb-1 text-primary">eLoans</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Fin elementos móvil -->
         </div>
     </div>
 </div>
