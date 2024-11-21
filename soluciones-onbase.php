@@ -46,7 +46,7 @@ include_once('templates/header.php'); ?>
                   <img class="checked-list" src="images/check-circle-fill.svg" alt="" />
                 </div>
                 <div class="col-11 align-items-center">
-                  <p class="mb-1 light-grey-text">Gestión Integral de Documentos</p>
+                  <p class="mb-1 text-primary">Gestión Integral de Documentos</p>
                 </div>
               </div>
             </div>
@@ -56,7 +56,7 @@ include_once('templates/header.php'); ?>
                   <img class="checked-list" src="images/check-circle-fill.svg" alt="" />
                 </div>
                 <div class="col-11 align-items-center">
-                  <p class="mb-1 light-grey-text">Ciclo de Vida Completo del Documento</p>
+                  <p class="mb-1 text-primary">Ciclo de Vida Completo del Documento</p>
                 </div>
               </div>
             </div>
@@ -66,7 +66,7 @@ include_once('templates/header.php'); ?>
                   <img class="checked-list" src="images/check-circle-fill.svg" alt="" />
                 </div>
                 <div class="col-11 align-items-center">
-                  <p class="mb-1 light-grey-text">Integración y Eficiencia</p>
+                  <p class="mb-1 text-primary">Integración y Eficiencia</p>
                 </div>
               </div>
             </div>
@@ -76,7 +76,7 @@ include_once('templates/header.php'); ?>
                   <img class="checked-list" src="images/check-circle-fill.svg" alt="" />
                 </div>
                 <div class="col-11 align-items-center">
-                  <p class="mb-1 light-grey-text">Escalabilidad y Rendimiento</p>
+                  <p class="mb-1 text-primary">Escalabilidad y Rendimiento</p>
                 </div>
               </div>
             </div>
@@ -86,7 +86,7 @@ include_once('templates/header.php'); ?>
                   <img class="checked-list" src="images/check-circle-fill.svg" alt="" />
                 </div>
                 <div class="col-11 align-items-center">
-                  <p class="mb-1 light-grey-text">Acceso Versátil</p>
+                  <p class="mb-1 text-primary">Acceso Versátil</p>
                 </div>
               </div>
             </div>
@@ -96,7 +96,7 @@ include_once('templates/header.php'); ?>
                   <img class="checked-list" src="images/check-circle-fill.svg" alt="" />
                 </div>
                 <div class="col-11 align-items-center">
-                  <p class="mb-1 light-grey-text">Configuración Sin Programación</p>
+                  <p class="mb-1 text-primary">Configuración Sin Programación</p>
                 </div>
               </div>
             </div>
@@ -111,7 +111,7 @@ include_once('templates/header.php'); ?>
                   <img class="checked-list" src="images/check-circle-fill.svg" alt="" />
                 </div>
                 <div class="col-11 align-items-center">
-                  <p class="mb-1 light-grey-text">Gestión Integral de Documentos</p>
+                  <p class="mb-1 text-primary">Gestión Integral de Documentos</p>
                 </div>
               </div>
             </div>
@@ -121,7 +121,7 @@ include_once('templates/header.php'); ?>
                   <img class="checked-list" src="images/check-circle-fill.svg" alt="" />
                 </div>
                 <div class="col-11 align-items-center">
-                  <p class="mb-1 light-grey-text">Ciclo de Vida Completo del Documento</p>
+                  <p class="mb-1 text-primary">Ciclo de Vida Completo del Documento</p>
                 </div>
               </div>
             </div>
@@ -131,7 +131,7 @@ include_once('templates/header.php'); ?>
                   <img class="checked-list" src="images/check-circle-fill.svg" alt="" />
                 </div>
                 <div class="col-11 align-items-center">
-                  <p class="mb-1 light-grey-text">Integración y Eficiencia</p>
+                  <p class="mb-1 text-primary">Integración y Eficiencia</p>
                 </div>
               </div>
             </div>
@@ -141,7 +141,7 @@ include_once('templates/header.php'); ?>
                   <img class="checked-list" src="images/check-circle-fill.svg" alt="" />
                 </div>
                 <div class="col-11 align-items-center">
-                  <p class="mb-1 light-grey-text">Escalabilidad y Rendimiento</p>
+                  <p class="mb-1 text-primary">Escalabilidad y Rendimiento</p>
                 </div>
               </div>
             </div>
@@ -151,7 +151,7 @@ include_once('templates/header.php'); ?>
                   <img class="checked-list" src="images/check-circle-fill.svg" alt="" />
                 </div>
                 <div class="col-11 align-items-center">
-                  <p class="mb-1 light-grey-text">Acceso Versátil</p>
+                  <p class="mb-1 text-primary">Acceso Versátil</p>
                 </div>
               </div>
             </div>
@@ -161,7 +161,7 @@ include_once('templates/header.php'); ?>
                   <img class="checked-list" src="images/check-circle-fill.svg" alt="" />
                 </div>
                 <div class="col-11 align-items-center">
-                  <p class="mb-1 light-grey-text">Configuración Sin Programación</p>
+                  <p class="mb-1 text-primary">Configuración Sin Programación</p>
                 </div>
               </div>
             </div>
