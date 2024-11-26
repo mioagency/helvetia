@@ -13,6 +13,9 @@ $(document).ready(function () {
     $(this).tab('show');
     console.log('hover')
   });
+
+  // Add class active to first carousel item
+  $('#carouselExampleControls .carousel-item:first-child').addClass('active');
 });
 
 var multipleCardCarousel = document.querySelector(
