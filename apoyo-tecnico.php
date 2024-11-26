@@ -69,7 +69,8 @@ include_once('templates/header.php'); ?>
 <!-- Form con margin negativo -->
 <section class="mt-n500">
   <div class="col-12 mw-930 mx-auto pt-3">
-      <img class="img-fluid" src="images/oncall-form-2.svg" alt="captura de formulario para servicio OnCall">
+      <img class="img-fluid on-desktop" src="images/Form-registrar-servicio.png" alt="captura de formulario para servicio OnCall">
+      <img class="img-fluid on-mobile" src="images/Form-registrar-servicio-movil.png" alt="captura de formulario para servicio OnCall">
     </div>
 </section>
 
@@ -96,7 +97,8 @@ include_once('templates/header.php'); ?>
     </p>
 
     <div class="col-12 mw-930 mx-auto pt-4">
-      <img class="img-fluid" src="images/oncall-form-3.svg" alt="captura de formulario para servicio OnCall">
+      <img class="img-fluid on-desktop" src="images/Form-carga-archivos.png" alt="captura de formulario para servicio OnCall">
+      <img class="img-fluid on-mobile" src="images/Form-carga-archivos-movil.png" alt="captura de formulario para servicio OnCall">
     </div>
     <p class="fs-5 fs-md-4 fw-bold text-center">De no ser necesario proceda con <span class="text-primary">Completa Solicitud.</span></p>
   </div>
@@ -110,7 +112,8 @@ include_once('templates/header.php'); ?>
       </p>
     </div>
     <div class="col-12 mw-930 mx-auto mt-3">
-      <img class="img-fluid" src="images/oncall-form-4.svg" alt="captura de formulario para servicio OnCall">
+      <img class="img-fluid on-desktop" src="images/Form-confirmacion.png" alt="captura de formulario para servicio OnCall">
+      <img class="img-fluid on-mobile" src="images/Form-confirmacion-movil.png" alt="captura de formulario para servicio OnCall">
     </div>
     <p class="fs-5 fs-md-4 fw-bold text-center mb-5 mx-auto mw-760">Si desea registrar otro servicio seleccione <span class="text-primary">Nuevo Servicio</span>, de lo contrario puede <span class="text-primary">Salir del Sistema.</span></p>
     <p class="text-center mw-760 mx-auto">Adicionalmente estará recibiendo una Confirmación al correo electrónico vinculado a su solicitud. El mismo detalla su número de caso y la descripción de su situación. 

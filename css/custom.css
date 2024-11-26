@@ -12049,6 +12049,15 @@ sup {
   color: var(--bs-primary) !important;
 }
 
+/* Resposnive */
+.on-mobile {
+  display: none;
+}
+
+.on-desktop {
+  display: block;
+}
+
 /* =========================== Páginas ============================== */
 .nav-tabs {
   gap: 20px;
@@ -12339,6 +12348,13 @@ sup {
   }
 }
 @media (max-width: 575px) {
+  /* Responsive */
+  .on-desktop {
+    display: none;
+  }
+  .on-mobile {
+    display: block;
+  }
   #mobile-side-scroll {
     display: grid !important;
     grid-auto-flow: column !important;

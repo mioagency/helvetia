@@ -183,6 +183,14 @@ sup { font-size: 40%;vertical-align: super;}
   color:var(--bs-primary) !important;
 }
 
+/* Resposnive */
+.on-mobile{
+  display: none;
+}
+.on-desktop{
+  display: block;
+}
+
 
 /* =========================== Páginas ============================== */
 // Homepage 
@@ -460,6 +468,13 @@ sup { font-size: 40%;vertical-align: super;}
 //======================= Funciones ===========================
 
 @media (max-width: 575px) {
+  /* Responsive */
+  .on-desktop{
+    display: none;
+  }
+  .on-mobile{
+    display: block;
+  }
   //  Scroll horizontsl para tarjetas en móvil*/
   #mobile-side-scroll {
     display: grid !important;
