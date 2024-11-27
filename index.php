@@ -487,6 +487,9 @@ include_once ('templates/header.php'); ?>
 <!-- Template APIs -->
 <?php include_once ('templates/apis.php'); ?>
 
+<!-- Template Clients -->
+<?php include_once ('templates/clients.php'); ?>
+
 <div class="container-fluid py-5 pr-bg">
   <div class="container">
     <div class="row py-5 mt-5 mb-5">
