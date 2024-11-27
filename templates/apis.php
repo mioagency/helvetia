@@ -1,7 +1,7 @@
 <div class="container-fluid pt-4 pb-5 px-0">
   <div class="container pt-4 pb-5 mb-5">
     <div class="row text-center py-5">
-      <h2 class="text-primary fw-bold">APIs</h2>
+      <h2 class="text-primary fw-bold">Integraciones</h2>
       <div class="col col-md-8 mx-auto">
         <p class="pt-2">Integraciones que facilitan a las cooperativas ajustar soluciones a sus necesidades
           particulares.</p>
