@@ -47,7 +47,7 @@ include_once ('templates/header.php'); ?>
       <div class="col-12 col-md-6 d-flex flex-column gap-2 pe-5">
         <h2 class="text-primary fw-bold fs-3">Para Helvetia del Caribe es un placer servirles</h2>
         <p>En Helvetia del Caribe, nuestro compromiso es ofrecer un servicio de excelencia. Nos dedicamos a satisfacer las necesidades de nuestros clientes con soluciones personalizadas y un enfoque constante en la calidad. Nos esforzamos por mejorar continuamente, buscando innovar y adaptarnos a los cambios para garantizar que nuestros clientes siempre reciban lo mejor.</p>
-        <h3 class="fs-6 text-primary fw-bold">Síguenos en las redes:</h3>
+        <!--<h3 class="fs-6 text-primary fw-bold">Síguenos en las redes:</h3>
         <ul class="list-inline">
           <li class="list-inline-item fs-10">
             <a href="#">
@@ -73,7 +73,7 @@ include_once ('templates/header.php'); ?>
               </span>
             </a>
           </li>
-        </ul>
+        </ul>-->
       </div>
       <div class="col-12 col-md-6 p-5  border rounded-3 bg-white">
         <form>
